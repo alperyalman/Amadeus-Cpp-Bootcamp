@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int CalculateDayOfYear(int month, int day, int year)
+short CalculateDayOfYear(char month, char day, short year)
 {
-    int daysInMonths[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; // Define number of days for each month
-    int dayOfYear = day;                                                   // Updated value will be return at the end
+    char daysInMonths[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; // Define number of days for each month
+    short dayOfYear = (short)day;                                           // Updated value will be return at the end
 
     // Check if the year valid
     if (year <= 0)
@@ -20,7 +20,7 @@ int CalculateDayOfYear(int month, int day, int year)
         return 0;
 
     // Calculate the day of year according to inputs
-    for (int idxMonth = 1; idxMonth < month; idxMonth++)
+    for (char idxMonth = 1; idxMonth < month; idxMonth++)
     {
         dayOfYear += daysInMonths[idxMonth - 1];
     }
@@ -30,20 +30,21 @@ int CalculateDayOfYear(int month, int day, int year)
 
 int main(int argc, char *argv[])
 {
-    int month;
-    int day;
-    int year;
+    char month;
+    char day;
+    short year;
+    short dayOfYear;
 
     printf("Enter the year: ");
-    scanf("%d", &year);
+    scanf("%hd", &year);
 
     printf("Enter the month: ");
-    scanf("%d", &month);
+    scanf("%hhd", &month);
 
     printf("Enter the day: ");
-    scanf("%d", &day);
+    scanf("%hhd", &day);
 
-    int dayOfYear = CalculateDayOfYear(month, day, year);
+    dayOfYear = CalculateDayOfYear(month, day, year);
 
     // Check if the input is invalid
     if (!dayOfYear)
@@ -52,7 +53,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("It is %d. day of %d.\n", dayOfYear, year);
+        printf("It is %hd. day of %hd.\n", dayOfYear, year);
     }
 
     return 0;
