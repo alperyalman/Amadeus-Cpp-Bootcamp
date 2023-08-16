@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.m": "matlab",
+    "iostream": "cpp"
+  }
+}
