@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <list>
 #include <vector>
 #define _USE_MATH_DEFINES
@@ -138,6 +139,45 @@ public:
         while (currentTime <= simulationTime)
         {
         }
+    }
+};
+
+// oyun durumunu kaydeden ve loglayan sınıf
+class Logger {
+private:
+    std::ofstream logFile;
+
+public:
+    Logger(const std::string& filename) {
+        logFile.open(filename);
+        if (!logFile.is_open()) {
+            std::cerr << "Error opening the log file: " << filename << std::endl;
+        }
+    }
+
+    ~Logger() {
+        if (logFile.is_open()) {
+            logFile.close();
+        }
+    }
+
+    void logGameState(int timeStep, const std::vector<Turtle>& turtles, const std::vector<Waterjet>& waterjets) {
+        logFile << "Time Step: " << timeStep << std::endl;
+        
+        // Log waterjet information
+        for (const Waterjet& waterjet : waterjets) {
+        logFile << "Waterjet Position: (" << waterjet.getX() << ", " << waterjet.getY() << ")" << std::endl;
+        logFile << "Waterjet Angle: " << waterjet.getAngle() << std::endl;
+        
+        // Log turtle information
+        for (const Turtle& turtle : turtles) {
+            logFile << "Turtle Position: (" << turtle.getX() << ", " << turtle.getY() << ")" << std::endl;
+            logFile << "Turtle Wet: " << (turtle.getIsWet() ? "Yes" : "No") << std::endl;
+        }
+
+        // Dead turtle information will be added.
+        
+        logFile << "-------------------------------" << std::endl;
     }
 };
 
