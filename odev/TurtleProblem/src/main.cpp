@@ -85,6 +85,8 @@ public:
     void UpdateAngleToGround()
     {
         angleToGround += effectiveAngle;
+        if (angleToGround >= 360)
+            angleToGround -= 360;
     }
 };
 
@@ -113,9 +115,9 @@ public:
     {
         waterjetList.push_back(waterjet);
     }
-    // check turtle is dead or not (method)
+    // check turtle is dead or not (method) - mertcevk
 
-    // check turtle is wet or not (method)
+    // check turtle is wet or not (method) - mertcevik
 
     // utku
     void runSimulation(float stepTime, float simulationTime)
@@ -146,7 +148,7 @@ public:
     MathCalculator();
     ~MathCalculator();
     float calculateTurtleToWaterjet(Waterjet &w1, Turtle &turtle);
-    float calculateTeta(Waterjet &w1, Turtle &turtle);
+    bool checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround);
 };
 
 float MathCalculator::calculateTurtleToWaterjet(Waterjet &water, Turtle &turtle)
@@ -156,8 +158,18 @@ float MathCalculator::calculateTurtleToWaterjet(Waterjet &water, Turtle &turtle)
     return sqrt(dx * dx + dy * dy);
 }
 
-float MathCalculator::calculateTeta(Waterjet &w1, Turtle &turtle)
+bool MathCalculator::checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround)
 {
+
+    float distance = calculateTurtleToWaterjet(w1, turtle);
+    if (distance > w1.effectiveDistance)
+    {
+        return false;
+    }
+    float dx = abs(w1.posX - turtle.posX);
+    float dy = abs(w1.posY - turtle.posY);
+
+    // dx, dy check 0 cases write
 }
 
 int main(int argc, const char *argv[])
