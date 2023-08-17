@@ -6,6 +6,17 @@
 #include <math.h>
 #include <string>
 
+class Environment;
+
+class Point
+{
+public:
+    float posX;
+    float posY;
+    Point(float x, float y): posX(x), posY(y) {}
+    Point(){ posX = 0; posY = 0;}
+};
+
 class Turtle
 {
 public:
@@ -121,6 +132,7 @@ public:
     ObjectInteraction();
     float calculateTurtleToWaterjet(Waterjet &w1, Turtle &turtle);
     bool checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround,float alpha);
+    bool checkEnvCollision(Turtle &turtle,Environment *env);
 };
 
 ObjectInteraction::ObjectInteraction() {}
@@ -214,21 +226,38 @@ bool ObjectInteraction::checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, flo
 }
 
 
+bool ObjectInteraction::checkEnvCollision(Turtle &turtle,Environment *env)
+{
+    // // assumed env coords given according the variable names;
+    // // assumed turtle is one pixel object at its positions
+    bool isValidForX = turtle.posX>env->leftBottom.posX && turtle.posX>env->leftTop.posX && turtle.posX<env->rightBottom.posX && turtle.posX<env->rightTop.posX;
+    bool isValidForY = turtle.posY<env->leftTop.posY && turtle.posY>env->leftBottom.posY && turtle.posY<env->rightTop.posY && turtle.posY>env->rightBottom.posY;
+    if(isValidForX && isValidForY)
+    {
+        return true;
+    }
+    return false;
+}
+
 class Environment
 {
 private:
     ObjectInteraction connector;
     // Logger logger;
 public:
-    int height;
-    int width;
+    Point leftTop;
+    Point leftBottom;
+    Point rightTop;
+    Point rightBottom;
     std::vector<Turtle> turtleList;
     std::vector<Waterjet> waterjetList;
 
-    Environment(int height, int width)
+    Environment(Point &lTop, Point &lBottom, Point &rBottom, Point &rTop)
     {
-        this->width = width;
-        this->height = height;
+        leftTop = lTop;
+        leftBottom = lBottom;
+        rightBottom = rBottom;
+        rightTop = rTop;
     }
 
     void addTurtle(Turtle turtle)
@@ -240,13 +269,28 @@ public:
     {
         waterjetList.push_back(waterjet);
     }
-    // check turtle is dead or not (method) - mertcevk
-    
+
+    // set current alive turtles
+    void setTurtlesLives();
+
+    // set current wet turtles
     void setWetInformationTurtles();
 
     void runSimulation(float stepTime, float simulationTime);
 };
 
+void Environment::setTurtlesLives()
+{
+    std::vector<Turtle> newAliveTurtles;
+    for(int i=0;i<turtleList.size();i++)
+    {
+        if(!connector.checkEnvCollision(turtleList[i],this))
+        {
+            newAliveTurtles.push_back(turtleList[i]);
+        }
+    }
+    turtleList = newAliveTurtles;
+}
 
 void Environment::setWetInformationTurtles()
 {
@@ -292,6 +336,6 @@ void Environment::runSimulation(float stepTime, float simulationTime)
 
 int main(int argc, const char *argv[])
 {
-
+    
     return 0;
 }
