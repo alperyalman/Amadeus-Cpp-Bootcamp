@@ -175,8 +175,11 @@ public:
             logFile << "Turtle Wet: " << (turtle.getIsWet() ? "Yes" : "No") << std::endl;
         }
 
-        // Dead turtle information will be added.
-        
+        // Log dead turtle information
+        for (const Turtle& turtle : deadTurtles) {
+            logFile << "Turtle Position: (" << turtle.getX() << ", " << turtle.getY() << ")" << std::endl;
+            logFile << "Turtle Wet: " << (turtle.isWet() ? "Yes" : "No") << std::endl;
+        }
         logFile << "-------------------------------" << std::endl;
     }
 };
