@@ -5,63 +5,36 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <string>
-// ahaha
-// öldüğü konumu da tutacaksın loglayacaksın
 
-/*
-
-    Initial inputs:
-        1) Turtle velocity, initial coordinate, x ekseni ile aci
-        2) Fiskiye initial coordinate, r (yaricapi degeri) , angleToGround (x eksenine gore aci), alfa (taradigi alan) acisi (birim zamandaki taramasi gereken aci)
-
-    Simulasyon ne zaman bitecek?
-        a) butun turtler oldugunde (dis areaya vurunca)
-        b) Simulasyon end time'i baslangicta verilebilir.
-
-    Simulasyon envr height ve width
-
-    - Fiskiye islatinca herhangi bir turtleyi, turtle name'ini printle
-
-
-    1- Fiskiye - Turtle arasindaki uzaklik bul. (r ile karsilastir)
-    2- Teta acisi hesaplicaz (bunu line kurma denklemindeki arctanh'dan bulmak lazim)
-
-Environmentta turtle öldü mü ölmedi mi kontrol et
-
-    Game Loop:
-        1-Init objects
-        2-Increment time, update coordinate
-        3-
-
-*/
 class Turtle
 {
 public:
     std::string turtleName;
-    bool isWet = false;
+    bool isWet;
     float posX;
     float posY;
     float direction; // Direction of the turtle, degrees
     float velocity;  // Velocity of the turtle, meters/second
 
-    Turtle(std::string turtleName, float initialX, float initialY, float initialDirection, float initialVelocity)
+    Turtle(std::string &turtleName, float initialX, float initialY, float initialDirection, float initialVelocity)
     {
         this->turtleName = turtleName;
         posX = initialX;
         posY = initialY;
+        isWet = false;
         direction = initialDirection;
         velocity = initialVelocity;
     }
 
     void updatePosition(float stepTime)
     {
-        posX += stepTime * cos(direction * M_PI / 180) * velocity;
-        posY += stepTime * sin(direction * M_PI / 180) * velocity;
+        posX += stepTime * cosf(direction * M_PI / 180) * velocity;
+        posY += stepTime * sinf(direction * M_PI / 180) * velocity;
     }
 
     void printPosition()
     {
-        std::cout << "Turtle Position: (" << posX << ", " << posY << ")" << std::endl;
+        std::cout << "Turtle Position: (" << posX << ", " << posY << ")\n" ;
     }
 };
 
@@ -83,7 +56,7 @@ public:
         this->effectiveDistance = effectiveDistance;
     }
 
-    void UpdateAngleToGround()
+    void updateAngleToGround()
     {
         angleToGround += effectiveAngle;
         if (angleToGround >= 360)
@@ -91,15 +64,165 @@ public:
     }
 };
 
+
+class Logger 
+{
+private:
+    std::ofstream logFile;
+
+public:
+    Logger(const std::string& filename);
+    ~Logger();
+    void logGameState(int timeStep, const std::vector<Turtle>& turtles, const std::vector<Waterjet>& waterjets, const std::vector<Turtle>& deadTurtles);
+};
+
+Logger::Logger(const std::string& filename)
+{
+    logFile.open(filename);
+    if (!logFile.is_open()) {
+        std::cerr << "Error opening the log file: " << filename << "\n";
+    }
+}
+
+Logger::~Logger()
+{
+    if (logFile.is_open()) {
+        logFile.close();
+    }
+}
+
+void Logger::logGameState(int timeStep, const std::vector<Turtle>& turtles, const std::vector<Waterjet>& waterjets, const std::vector<Turtle>& deadTurtles)
+{
+    logFile << "Time Step: " << timeStep << "\n";
+    
+    // Log waterjet information
+    for (const Waterjet& waterjet : waterjets) {
+        logFile << "Waterjet Position: (" << waterjet.posX << ", " << waterjet.posY << ")\n";
+        logFile << "Waterjet Angle: " << waterjet.angleToGround << "\n";
+    }
+    
+    // Log turtle information
+    for (const Turtle& turtle : turtles) {
+        logFile << "Turtle Position: (" << turtle.posX << ", " << turtle.posY << ")\n";
+        logFile << "Turtle Wet: " << (turtle.isWet ? "Yes" : "No") << "\n";
+    }
+
+    // Log dead turtle information
+    for (const Turtle& turtle : deadTurtles) {
+        logFile << "Turtle Position: (" << turtle.posX << ", " << turtle.posY << ")\n";
+        logFile << "Turtle Wet: " << (turtle.isWet ? "Yes" : "No") << "\n";
+    }
+    logFile << "-------------------------------" << std::endl;
+}
+
+class ObjectInteraction
+{
+public:
+    ObjectInteraction();
+    float calculateTurtleToWaterjet(Waterjet &w1, Turtle &turtle);
+    bool checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround,float alpha);
+};
+
+ObjectInteraction::ObjectInteraction() {}
+
+float ObjectInteraction::calculateTurtleToWaterjet(Waterjet &water, Turtle &turtle)
+{
+    float dx = water.posX - turtle.posX;
+    float dy = water.posY - turtle.posY;
+    return sqrtf(dx * dx + dy * dy);
+}
+
+bool ObjectInteraction::checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround,float alpha)
+{
+
+    float distance = calculateTurtleToWaterjet(w1,turtle);
+    // if not in r, return false
+
+    if(distance > w1.effectiveDistance)
+    {
+        return false;
+    }
+    //
+    float dx = w1.posX - turtle.posX;
+    float dy = w1.posY - turtle.posY;
+
+    if(dx == 0)
+    {
+        // invalid case for tangent
+        // same axis, same x coordinate if distance > w1.effectiveDistance not valid then it is out of area
+        return false;
+    }
+
+    float tan_value = dy/dx;
+    float current_angle_with_x = atanf(tan_value) * 180 / M_PI; // [-90,90]
+
+    float second_arch_line_angle = (static_cast<int>(angleToGround + alpha)) % 360;
+
+    if(current_angle_with_x<0)
+    {
+        // area 2 or 4
+        if(dy<=0 && dx>0)
+        {
+            // area 2
+            float concern_angle = 180 - abs(current_angle_with_x);
+            if(second_arch_line_angle>=concern_angle && concern_angle>=angleToGround)
+            {
+                return true;
+            }
+            return false;
+        }
+        else
+        {
+            // dy>=0 and dx<0 
+            // area 4
+            float concern_angle = 360 - abs(current_angle_with_x);
+            if(second_arch_line_angle>=concern_angle && concern_angle>=angleToGround)
+            {
+                return true;
+            }
+            return false;
+        }
+    } else if(current_angle_with_x>0)
+    {
+        // 1 or 3 area
+        if(dx<0 && dy<=0)
+        {
+            // area 1
+            if (second_arch_line_angle>=current_angle_with_x && current_angle_with_x>=angleToGround)
+            {
+                return true;
+            }
+            return false;
+        } else 
+        {
+            // dx > 0, dy > 0
+            // area 3
+            float concern_angle = 270 - abs(current_angle_with_x);
+            if(second_arch_line_angle>=concern_angle && concern_angle>=angleToGround)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+    if(distance<=w1.effectiveDistance)
+    {
+        return true;
+    }
+    // same axis, same y coordinate if distance > w1.effectiveDistance not valid then it is out of area
+    return false;
+}
+
+
 class Environment
 {
 private:
-    MathCalculator obj;
-
+    ObjectInteraction connector;
+    // Logger logger;
 public:
     int height;
     int width;
-    std::list<Turtle> turtleList;
+    std::vector<Turtle> turtleList;
     std::vector<Waterjet> waterjetList;
 
     Environment(int height, int width)
@@ -112,108 +235,60 @@ public:
     {
         turtleList.push_back(turtle);
     }
+
     void addWaterjet(Waterjet waterjet)
     {
         waterjetList.push_back(waterjet);
     }
     // check turtle is dead or not (method) - mertcevk
+    
+    void setWetInformationTurtles();
 
-    // check turtle is wet or not (method) - mertcevik
+    void runSimulation(float stepTime, float simulationTime);
+};
 
-    // utku
-    void runSimulation(float stepTime, float simulationTime)
+
+void Environment::setWetInformationTurtles()
+{
+    // 1 -> wet
+    // 0 -> not wet
+    std::vector<int> wetInfo;
+    for(int i=0;i<turtleList.size();i++)
     {
-        currentTime += stepTime;
-
-        // Update waterjets angle
-        // Update turtles positions
-        // Math calculations
-        // Dead check
-        // Wet check
-        // Print or log
-        // List updates
-
-        // preparing environment
-
-        float currentTime = stepTime;
-        while (currentTime <= simulationTime)
+        for(int j=0;j<waterjetList.size();j++)
         {
+            // TODO: check if turtle is already wet or not [disscuss]
+            if(connector.checkTurtleIsInWetArea(waterjetList[j],turtleList[i],waterjetList[j].angleToGround,waterjetList[j].effectiveAngle))
+            {
+                turtleList[i].isWet = true;
+                // print turtle name
+                std::cout<<"Current wet Turtle: "<<turtleList[i].turtleName<<"\n";
+                turtleList[i].printPosition();
+            }
         }
     }
-};
-
-// oyun durumunu kaydeden ve loglayan sınıf
-class Logger {
-private:
-    std::ofstream logFile;
-
-public:
-    Logger(const std::string& filename) {
-        logFile.open(filename);
-        if (!logFile.is_open()) {
-            std::cerr << "Error opening the log file: " << filename << std::endl;
-        }
-    }
-
-    ~Logger() {
-        if (logFile.is_open()) {
-            logFile.close();
-        }
-    }
-
-    void logGameState(int timeStep, const std::vector<Turtle>& turtles, const std::vector<Waterjet>& waterjets) {
-        logFile << "Time Step: " << timeStep << std::endl;
-        
-        // Log waterjet information
-        for (const Waterjet& waterjet : waterjets) {
-        logFile << "Waterjet Position: (" << waterjet.getX() << ", " << waterjet.getY() << ")" << std::endl;
-        logFile << "Waterjet Angle: " << waterjet.getAngle() << std::endl;
-        
-        // Log turtle information
-        for (const Turtle& turtle : turtles) {
-            logFile << "Turtle Position: (" << turtle.getX() << ", " << turtle.getY() << ")" << std::endl;
-            logFile << "Turtle Wet: " << (turtle.getIsWet() ? "Yes" : "No") << std::endl;
-        }
-
-        // Log dead turtle information
-        for (const Turtle& turtle : deadTurtles) {
-            logFile << "Turtle Position: (" << turtle.getX() << ", " << turtle.getY() << ")" << std::endl;
-            logFile << "Turtle Wet: " << (turtle.isWet() ? "Yes" : "No") << std::endl;
-        }
-        logFile << "-------------------------------" << std::endl;
-    }
-};
-
-class MathCalculator
-{
-private:
-public:
-    MathCalculator();
-    ~MathCalculator();
-    float calculateTurtleToWaterjet(Waterjet &w1, Turtle &turtle);
-    bool checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround);
-};
-
-float MathCalculator::calculateTurtleToWaterjet(Waterjet &water, Turtle &turtle)
-{
-    float dx = water.posX - turtle.posX;
-    float dy = water.posY - turtle.posY;
-    return sqrt(dx * dx + dy * dy);
 }
 
-bool MathCalculator::checkTurtleIsInWetArea(Waterjet &w1, Turtle &turtle, float angleToGround)
+void Environment::runSimulation(float stepTime, float simulationTime)
 {
+    // // currentTime += stepTime;
 
-    float distance = calculateTurtleToWaterjet(w1, turtle);
-    if (distance > w1.effectiveDistance)
-    {
-        return false;
-    }
-    float dx = abs(w1.posX - turtle.posX);
-    float dy = abs(w1.posY - turtle.posY);
+    // // Update waterjets angle
+    // // Update turtles positions
+    // // Math calculations
+    // // Dead check
+    // // Wet check
+    // // Print or log
+    // // List updates
 
-    // dx, dy check 0 cases write
+    // // preparing environment
+
+    // float currentTime = stepTime;
+    // while (currentTime <= simulationTime)
+    // {
+    // }
 }
+
 
 int main(int argc, const char *argv[])
 {
