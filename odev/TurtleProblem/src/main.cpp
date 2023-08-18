@@ -58,9 +58,9 @@ class Waterjet
 public:
     float posX;
     float posY;
-    float angleToGround; // Initial angle with respect to x-axis, beta.
-    float wetAreaAngle;  // Wetted area angle, alpha
-    float wetAreaRadius; // Corresponds to circle radius, r
+    float angleToGround; // Angle with respect to x-axis, beta.
+    float wetAreaAngle;  // Wet area angle, alpha
+    float wetAreaRadius; // Wet area radius, r
 
     Waterjet(float posX, float posY, float angleToGround, float wetAreaAngle, float wetAreaRadius)
     {
@@ -140,7 +140,7 @@ public:
     ObjectInteraction();
     float calculateTurtleToWaterjetDistance(Waterjet &waterjet, Turtle &turtle);
     float calculateTurtleToWaterjetAngle(Waterjet &waterjet, Turtle &turtle);
-    bool checkTurtleIsInWetArea(Waterjet &waterjet, Turtle &turtle, float angleToGround, float alpha);
+    bool checkTurtleIsInWetArea(Waterjet &waterjet, Turtle &turtle);
     bool checkEnvCollision(Turtle &turtle, Environment *env);
 };
 
@@ -153,86 +153,43 @@ float ObjectInteraction::calculateTurtleToWaterjetDistance(Waterjet &waterjet, T
     return sqrtf(dx * dx + dy * dy);
 }
 
-bool ObjectInteraction::checkTurtleIsInWetArea(Waterjet &waterjet, Turtle &turtle, float angleToGround, float alpha)
+float ObjectInteraction::calculateTurtleToWaterjetAngle(Waterjet &waterjet, Turtle &turtle)
 {
+    float turtleAngle;
+    float dx = turtle.posX - waterjet.posX;
+    float dy = turtle.posY - waterjet.posY;
 
+    turtleAngle = (atan2(dy, dx)) * 180 / M_PI;
+    if (turtleAngle < 0)
+        turtleAngle += 360;
+
+    return turtleAngle;
+}
+
+bool ObjectInteraction::checkTurtleIsInWetArea(Waterjet &waterjet, Turtle &turtle)
+{
+    // Calculate the distance between waterjet and turtle
     float distance = calculateTurtleToWaterjetDistance(waterjet, turtle);
-    // if not in r, return false
 
+    // If not in r, return false
     if (distance > waterjet.wetAreaRadius)
     {
         return false;
     }
-    //
-    float dx = waterjet.posX - turtle.posX;
-    float dy = waterjet.posY - turtle.posY;
 
-    if (dx == 0)
-    {
-        // invalid case for tangent
-        // same axis, same x coordinate if distance > waterjet.wetAreaRadius not valid then it is out of area
-        return false;
-    }
-
-    float tan_value = dy / dx;
-    float current_angle_with_x = atanf(tan_value) * 180 / M_PI; // [-90,90]
-
-    float second_arch_line_angle = (static_cast<int>(angleToGround + alpha)) % 360;
-
-    if (current_angle_with_x < 0)
-    {
-        // area 2 or 4
-        if (dy <= 0 && dx > 0)
-        {
-            // area 2
-            float concern_angle = 180 - abs(current_angle_with_x);
-            if (second_arch_line_angle >= concern_angle && concern_angle >= angleToGround)
-            {
-                return true;
-            }
-            return false;
-        }
-        else
-        {
-            // dy>=0 and dx<0
-            // area 4
-            float concern_angle = 360 - abs(current_angle_with_x);
-            if (second_arch_line_angle >= concern_angle && concern_angle >= angleToGround)
-            {
-                return true;
-            }
-            return false;
-        }
-    }
-    else if (current_angle_with_x > 0)
-    {
-        // 1 or 3 area
-        if (dx < 0 && dy <= 0)
-        {
-            // area 1
-            if (second_arch_line_angle >= current_angle_with_x && current_angle_with_x >= angleToGround)
-            {
-                return true;
-            }
-            return false;
-        }
-        else
-        {
-            // dx > 0, dy > 0
-            // area 3
-            float concern_angle = 270 - abs(current_angle_with_x);
-            if (second_arch_line_angle >= concern_angle && concern_angle >= angleToGround)
-            {
-                return true;
-            }
-            return false;
-        }
-    }
-    if (distance <= waterjet.wetAreaRadius)
+    // If the turtle is coincident with waterjet, assume that it is getting wet.
+    if (distance == 0)
     {
         return true;
     }
-    // same axis, same y coordinate if distance > w1.wetAreaRadius not valid then it is out of area
+
+    // Calculate the turtle angle with respect to waterjet position
+    float turtleAngle = calculateTurtleToWaterjetAngle(waterjet, turtle);
+
+    // Check if the turtle is in the wet area or not
+    if ((turtleAngle >= waterjet.angleToGround) && (turtleAngle <= waterjet.angleToGround + waterjet.wetAreaAngle))
+        return true;
+
     return false;
 }
 
