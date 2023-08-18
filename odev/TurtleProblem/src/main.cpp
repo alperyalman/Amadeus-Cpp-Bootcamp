@@ -261,11 +261,6 @@ public:
         return waterjet;
     }
 
-    void addWaterjet(Waterjet waterjet)
-    {
-        waterjetList.push_back(waterjet);
-    }
-
     // set current alive turtles
     void setTurtlesLives();
 
