@@ -1,0 +1,77 @@
+\doxysection{src/main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+
+
+\doxylink{class_turtle}{Turtle} problem.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+{\ttfamily \#include $<$utility$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_point}{Point}}
+\begin{DoxyCompactList}\small\item\em Generate (x,y) points in cartesian coordinate system. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_turtle}{Turtle}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_turtle}{Turtle} object with it\textquotesingle{}s specific properties. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_waterjet}{Waterjet}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_waterjet}{Waterjet} object with it\textquotesingle{}s specific properties. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_logger}{Logger}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_logger}{Logger} object to create simulation log file. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_object_interaction}{Object\+Interaction}}
+\begin{DoxyCompactList}\small\item\em Calculate and check turtle and waterjet interactions. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_environment}{Environment}}
+\begin{DoxyCompactList}\small\item\em Generate the environment with corner. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_ac0f2228420376f4db7e1274f2b41667c}{main}} (int argc, const char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Program main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{class_turtle}{Turtle} problem. 
+
+\begin{DoxyAuthor}{Author}
+Utku Selim Koçoğu, Mert Ali Tombul, Mert Çevik, Alper Yalman 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/08-\/19
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_ac0f2228420376f4db7e1274f2b41667c}\label{main_8cpp_ac0f2228420376f4db7e1274f2b41667c} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Program main function. 
+
+
+\begin{DoxyItemize}
+\item Create the environment.
+\item Number of turtles and waterjets are user inputs.
+\item Create turtles and waterjets randomly.
+\item Run the simulation. 
+\end{DoxyItemize}

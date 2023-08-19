@@ -1,0 +1,72 @@
+\doxysection{Logger Class Reference}
+\hypertarget{class_logger}{}\label{class_logger}\index{Logger@{Logger}}
+
+
+Generete \doxylink{class_logger}{Logger} object to create simulation log file.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_logger_a785b9fbb3c9ad8d6fe0c11aa156d68fb}{Logger}} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_logger}{Logger} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_logger_aee63711937b12364cf82177a9414e8d6}{log\+Game\+State}} (float time, std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ \&turtles, std\+::vector$<$ \mbox{\hyperlink{class_waterjet}{Waterjet}} $>$ \&waterjets, std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ \&dead\+Turtles)
+\begin{DoxyCompactList}\small\item\em Log all the information at the given time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_logger_acc94bd19d6a022e574a5733c87fed67a}\label{class_logger_acc94bd19d6a022e574a5733c87fed67a} 
+std\+::ofstream {\bfseries log\+File}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generete \doxylink{class_logger}{Logger} object to create simulation log file. 
+
+\doxylink{class_logger}{Logger} class is used to create log file. All the updated information related to turtles and waterjets are logged into the specified file during the simulation. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_logger_a785b9fbb3c9ad8d6fe0c11aa156d68fb}\label{class_logger_a785b9fbb3c9ad8d6fe0c11aa156d68fb} 
+\index{Logger@{Logger}!Logger@{Logger}}
+\index{Logger@{Logger}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{Logger()}{Logger()}}
+{\footnotesize\ttfamily Logger\+::\+Logger (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_logger}{Logger} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Log file name \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_logger_aee63711937b12364cf82177a9414e8d6}\label{class_logger_aee63711937b12364cf82177a9414e8d6} 
+\index{Logger@{Logger}!logGameState@{logGameState}}
+\index{logGameState@{logGameState}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{logGameState()}{logGameState()}}
+{\footnotesize\ttfamily void Logger\+::log\+Game\+State (\begin{DoxyParamCaption}\item[{float}]{time,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ \&}]{turtles,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_waterjet}{Waterjet}} $>$ \&}]{waterjets,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ \&}]{dead\+Turtles }\end{DoxyParamCaption})}
+
+
+
+Log all the information at the given time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Current time \\
+\hline
+{\em turtles} & List of active turtles \\
+\hline
+{\em waterjets} & List of waterjets \\
+\hline
+{\em dead\+Turtles} & List of dead turtles \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

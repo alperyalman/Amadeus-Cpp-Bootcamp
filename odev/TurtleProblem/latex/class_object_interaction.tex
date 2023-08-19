@@ -1,0 +1,130 @@
+\doxysection{Object\+Interaction Class Reference}
+\hypertarget{class_object_interaction}{}\label{class_object_interaction}\index{ObjectInteraction@{ObjectInteraction}}
+
+
+Calculate and check turtle and waterjet interactions.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_object_interaction_a5cdbaaebab4d3e3132b3fa7631161bb0}{Object\+Interaction}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Object Interaction\+:\+: Object Interaction object. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05}{calculate\+Turtle\+To\+Waterjet\+Distance}} (\mbox{\hyperlink{class_waterjet}{Waterjet}} \&waterjet, \mbox{\hyperlink{class_turtle}{Turtle}} \&turtle)
+\begin{DoxyCompactList}\small\item\em Calulate the distance between the turtle and the waterjet. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_object_interaction_a847a5c394f2a3347a19b02e21fb0d7ed}{calculate\+Turtle\+To\+Waterjet\+Angle}} (\mbox{\hyperlink{class_waterjet}{Waterjet}} \&waterjet, \mbox{\hyperlink{class_turtle}{Turtle}} \&turtle)
+\begin{DoxyCompactList}\small\item\em Calculate the turtle angle with respect to waterjet position. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0}{check\+Turtle\+Is\+In\+Wet\+Area}} (\mbox{\hyperlink{class_waterjet}{Waterjet}} \&waterjet, \mbox{\hyperlink{class_turtle}{Turtle}} \&turtle)
+\begin{DoxyCompactList}\small\item\em Check if the turtle is in the wet area. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0}{check\+Env\+Collision}} (\mbox{\hyperlink{class_turtle}{Turtle}} \&turtle, \mbox{\hyperlink{class_environment}{Environment}} \texorpdfstring{$\ast$}{*}env)
+\begin{DoxyCompactList}\small\item\em Check if the turtle is exceed the environment limits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Calculate and check turtle and waterjet interactions. 
+
+\doxylink{class_object_interaction}{Object\+Interaction} class is used to calculate turtle distance to waterjet, to calculate turtle angle with respect to x-\/axis, to check if the turtle is in the environment, and to check if the turtle is in wet area. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_object_interaction_a5cdbaaebab4d3e3132b3fa7631161bb0}\label{class_object_interaction_a5cdbaaebab4d3e3132b3fa7631161bb0} 
+\index{ObjectInteraction@{ObjectInteraction}!ObjectInteraction@{ObjectInteraction}}
+\index{ObjectInteraction@{ObjectInteraction}!ObjectInteraction@{ObjectInteraction}}
+\doxysubsubsection{\texorpdfstring{ObjectInteraction()}{ObjectInteraction()}}
+{\footnotesize\ttfamily Object\+Interaction\+::\+Object\+Interaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new Object Interaction\+:\+: Object Interaction object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_object_interaction_a847a5c394f2a3347a19b02e21fb0d7ed}\label{class_object_interaction_a847a5c394f2a3347a19b02e21fb0d7ed} 
+\index{ObjectInteraction@{ObjectInteraction}!calculateTurtleToWaterjetAngle@{calculateTurtleToWaterjetAngle}}
+\index{calculateTurtleToWaterjetAngle@{calculateTurtleToWaterjetAngle}!ObjectInteraction@{ObjectInteraction}}
+\doxysubsubsection{\texorpdfstring{calculateTurtleToWaterjetAngle()}{calculateTurtleToWaterjetAngle()}}
+{\footnotesize\ttfamily float Object\+Interaction\+::calculate\+Turtle\+To\+Waterjet\+Angle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_waterjet}{Waterjet}} \&}]{waterjet,  }\item[{\mbox{\hyperlink{class_turtle}{Turtle}} \&}]{turtle }\end{DoxyParamCaption})}
+
+
+
+Calculate the turtle angle with respect to waterjet position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waterjet} & \doxylink{class_waterjet}{Waterjet} object \\
+\hline
+{\em turtle} & \doxylink{class_turtle}{Turtle} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float \doxylink{class_turtle}{Turtle} angle, \mbox{[}0, 360) 
+\end{DoxyReturn}
+\Hypertarget{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05}\label{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05} 
+\index{ObjectInteraction@{ObjectInteraction}!calculateTurtleToWaterjetDistance@{calculateTurtleToWaterjetDistance}}
+\index{calculateTurtleToWaterjetDistance@{calculateTurtleToWaterjetDistance}!ObjectInteraction@{ObjectInteraction}}
+\doxysubsubsection{\texorpdfstring{calculateTurtleToWaterjetDistance()}{calculateTurtleToWaterjetDistance()}}
+{\footnotesize\ttfamily float Object\+Interaction\+::calculate\+Turtle\+To\+Waterjet\+Distance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_waterjet}{Waterjet}} \&}]{waterjet,  }\item[{\mbox{\hyperlink{class_turtle}{Turtle}} \&}]{turtle }\end{DoxyParamCaption})}
+
+
+
+Calulate the distance between the turtle and the waterjet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waterjet} & \doxylink{class_waterjet}{Waterjet} object \\
+\hline
+{\em turtle} & \doxylink{class_turtle}{Turtle} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float Distance, m 
+\end{DoxyReturn}
+\Hypertarget{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0}\label{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0} 
+\index{ObjectInteraction@{ObjectInteraction}!checkEnvCollision@{checkEnvCollision}}
+\index{checkEnvCollision@{checkEnvCollision}!ObjectInteraction@{ObjectInteraction}}
+\doxysubsubsection{\texorpdfstring{checkEnvCollision()}{checkEnvCollision()}}
+{\footnotesize\ttfamily bool Object\+Interaction\+::check\+Env\+Collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_turtle}{Turtle}} \&}]{turtle,  }\item[{\mbox{\hyperlink{class_environment}{Environment}} \texorpdfstring{$\ast$}{*}}]{env }\end{DoxyParamCaption})}
+
+
+
+Check if the turtle is exceed the environment limits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em turtle} & \doxylink{class_turtle}{Turtle} object \\
+\hline
+{\em env} & \doxylink{class_environment}{Environment} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the turtle is in the environment 
+
+false if the turtle is not in the environment 
+\end{DoxyReturn}
+\Hypertarget{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0}\label{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0} 
+\index{ObjectInteraction@{ObjectInteraction}!checkTurtleIsInWetArea@{checkTurtleIsInWetArea}}
+\index{checkTurtleIsInWetArea@{checkTurtleIsInWetArea}!ObjectInteraction@{ObjectInteraction}}
+\doxysubsubsection{\texorpdfstring{checkTurtleIsInWetArea()}{checkTurtleIsInWetArea()}}
+{\footnotesize\ttfamily bool Object\+Interaction\+::check\+Turtle\+Is\+In\+Wet\+Area (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_waterjet}{Waterjet}} \&}]{waterjet,  }\item[{\mbox{\hyperlink{class_turtle}{Turtle}} \&}]{turtle }\end{DoxyParamCaption})}
+
+
+
+Check if the turtle is in the wet area. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waterjet} & \doxylink{class_waterjet}{Waterjet} object \\
+\hline
+{\em turtle} & \doxylink{class_turtle}{Turtle} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the turtle is in wet are 
+
+false if the turtle is not in wet are 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

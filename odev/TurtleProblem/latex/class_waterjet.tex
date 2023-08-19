@@ -1,0 +1,98 @@
+\doxysection{Waterjet Class Reference}
+\hypertarget{class_waterjet}{}\label{class_waterjet}\index{Waterjet@{Waterjet}}
+
+
+Generete \doxylink{class_waterjet}{Waterjet} object with it\textquotesingle{}s specific properties.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_waterjet_a967b9154870376062c159f64812a4259}{Waterjet}} (std\+::string waterjet\+Name, float posX, float posY, float angle\+To\+Ground, float wet\+Area\+Angle, float wet\+Area\+Radius)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_waterjet}{Waterjet} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_waterjet_a8d1dae4f0d1fb0908300c1babc13167d}{update\+Angle\+To\+Ground}} ()
+\begin{DoxyCompactList}\small\item\em Update waterjet angle in each time step. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_waterjet_a52149776dff91e66af839ea86ad23490}{print\+Waterjet\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Print waterjet object information when created. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_waterjet_adae391ba9c3d6f538e8bac9a03894431}\label{class_waterjet_adae391ba9c3d6f538e8bac9a03894431} 
+std\+::string {\bfseries waterjet\+Name}
+\item 
+\Hypertarget{class_waterjet_ab507bfd69685d93380b9c8091383230f}\label{class_waterjet_ab507bfd69685d93380b9c8091383230f} 
+float {\bfseries posX}
+\item 
+\Hypertarget{class_waterjet_a2f3ca60ec95ad57bc91bb804f2869411}\label{class_waterjet_a2f3ca60ec95ad57bc91bb804f2869411} 
+float {\bfseries posY}
+\item 
+\Hypertarget{class_waterjet_a0aaeca6e5fe44a82ef4f9a8a4e349b32}\label{class_waterjet_a0aaeca6e5fe44a82ef4f9a8a4e349b32} 
+float {\bfseries angle\+To\+Ground}
+\item 
+\Hypertarget{class_waterjet_a2e158ad4f47276273225600dd50115d2}\label{class_waterjet_a2e158ad4f47276273225600dd50115d2} 
+float {\bfseries wet\+Area\+Angle}
+\item 
+\Hypertarget{class_waterjet_a9d9bdeaf62a2bb0be575fc3bfee4f98a}\label{class_waterjet_a9d9bdeaf62a2bb0be575fc3bfee4f98a} 
+float {\bfseries wet\+Area\+Radius}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generete \doxylink{class_waterjet}{Waterjet} object with it\textquotesingle{}s specific properties. 
+
+\doxylink{class_waterjet}{Waterjet} class is used to represent a water with it\textquotesingle{}s specific information such as name, position, angle with respect to x-\/axis, wet area angle and wet area radius. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_waterjet_a967b9154870376062c159f64812a4259}\label{class_waterjet_a967b9154870376062c159f64812a4259} 
+\index{Waterjet@{Waterjet}!Waterjet@{Waterjet}}
+\index{Waterjet@{Waterjet}!Waterjet@{Waterjet}}
+\doxysubsubsection{\texorpdfstring{Waterjet()}{Waterjet()}}
+{\footnotesize\ttfamily Waterjet\+::\+Waterjet (\begin{DoxyParamCaption}\item[{std\+::string}]{waterjet\+Name,  }\item[{float}]{posX,  }\item[{float}]{posY,  }\item[{float}]{angle\+To\+Ground,  }\item[{float}]{wet\+Area\+Angle,  }\item[{float}]{wet\+Area\+Radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new \doxylink{class_waterjet}{Waterjet} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em waterjet\+Name} & \doxylink{class_waterjet}{Waterjet} name \\
+\hline
+{\em posX} & x coordinate value, m \\
+\hline
+{\em posY} & y coordinate value, m \\
+\hline
+{\em angle\+To\+Ground} & \doxylink{class_waterjet}{Waterjet} angle with respect to x-\/axis, beta \\
+\hline
+{\em wet\+Area\+Angle} & Wet area angle, alpha \\
+\hline
+{\em wet\+Area\+Radius} & Wet area radius, r \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_waterjet_a52149776dff91e66af839ea86ad23490}\label{class_waterjet_a52149776dff91e66af839ea86ad23490} 
+\index{Waterjet@{Waterjet}!printWaterjetInfo@{printWaterjetInfo}}
+\index{printWaterjetInfo@{printWaterjetInfo}!Waterjet@{Waterjet}}
+\doxysubsubsection{\texorpdfstring{printWaterjetInfo()}{printWaterjetInfo()}}
+{\footnotesize\ttfamily void Waterjet\+::print\+Waterjet\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Print waterjet object information when created. 
+
+\Hypertarget{class_waterjet_a8d1dae4f0d1fb0908300c1babc13167d}\label{class_waterjet_a8d1dae4f0d1fb0908300c1babc13167d} 
+\index{Waterjet@{Waterjet}!updateAngleToGround@{updateAngleToGround}}
+\index{updateAngleToGround@{updateAngleToGround}!Waterjet@{Waterjet}}
+\doxysubsubsection{\texorpdfstring{updateAngleToGround()}{updateAngleToGround()}}
+{\footnotesize\ttfamily void Waterjet\+::update\+Angle\+To\+Ground (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Update waterjet angle in each time step. 
+
+\doxylink{class_waterjet}{Waterjet} angle with respect to x-\/axis is updated. In each time step, waterjet angle is increased as wet area angle. The output is range is \mbox{[}0,360). 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

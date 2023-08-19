@@ -1,0 +1,96 @@
+\begin{theindex}
+
+  \item {calculateTurtleToWaterjetAngle}
+    \subitem {ObjectInteraction}, \hyperpage{9}
+  \item {calculateTurtleToWaterjetDistance}
+    \subitem {ObjectInteraction}, \hyperpage{10}
+  \item {checkEnvCollision}
+    \subitem {ObjectInteraction}, \hyperpage{10}
+  \item {checkTurtleIsInWetArea}
+    \subitem {ObjectInteraction}, \hyperpage{10}
+  \item {createTurtle}
+    \subitem {Environment}, \hyperpage{6}
+  \item {createWaterjet}
+    \subitem {Environment}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Environment}, \hyperpage{5}
+    \subitem {createTurtle}, \hyperpage{6}
+    \subitem {createWaterjet}, \hyperpage{6}
+    \subitem {Environment}, \hyperpage{6}
+    \subitem {runSimulation}, \hyperpage{7}
+    \subitem {setTurtlesLives}, \hyperpage{7}
+    \subitem {setWetInformationTurtles}, \hyperpage{7}
+
+  \indexspace
+
+  \item {logGameState}
+    \subitem {Logger}, \hyperpage{8}
+  \item {Logger}, \hyperpage{8}
+    \subitem {logGameState}, \hyperpage{8}
+    \subitem {Logger}, \hyperpage{8}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{18}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{18}
+
+  \indexspace
+
+  \item {ObjectInteraction}, \hyperpage{9}
+    \subitem {calculateTurtleToWaterjetAngle}, \hyperpage{9}
+    \subitem {calculateTurtleToWaterjetDistance}, \hyperpage{10}
+    \subitem {checkEnvCollision}, \hyperpage{10}
+    \subitem {checkTurtleIsInWetArea}, \hyperpage{10}
+    \subitem {ObjectInteraction}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Point}, \hyperpage{11}
+    \subitem {Point}, \hyperpage{11}
+  \item {printPosition}
+    \subitem {Turtle}, \hyperpage{13}
+  \item {printTurtleInfo}
+    \subitem {Turtle}, \hyperpage{13}
+  \item {printWaterjetInfo}
+    \subitem {Waterjet}, \hyperpage{15}
+
+  \indexspace
+
+  \item {runSimulation}
+    \subitem {Environment}, \hyperpage{7}
+
+  \indexspace
+
+  \item {setTurtlesLives}
+    \subitem {Environment}, \hyperpage{7}
+  \item {setWetInformationTurtles}
+    \subitem {Environment}, \hyperpage{7}
+  \item {src/main.cpp}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Turtle}, \hyperpage{12}
+    \subitem {printPosition}, \hyperpage{13}
+    \subitem {printTurtleInfo}, \hyperpage{13}
+    \subitem {Turtle}, \hyperpage{12}
+    \subitem {updatePosition}, \hyperpage{13}
+
+  \indexspace
+
+  \item {updateAngleToGround}
+    \subitem {Waterjet}, \hyperpage{15}
+  \item {updatePosition}
+    \subitem {Turtle}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Waterjet}, \hyperpage{13}
+    \subitem {printWaterjetInfo}, \hyperpage{15}
+    \subitem {updateAngleToGround}, \hyperpage{15}
+    \subitem {Waterjet}, \hyperpage{14}
+
+\end{theindex}

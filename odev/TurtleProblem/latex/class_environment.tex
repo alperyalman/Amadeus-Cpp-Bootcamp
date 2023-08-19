@@ -1,0 +1,171 @@
+\doxysection{Environment Class Reference}
+\hypertarget{class_environment}{}\label{class_environment}\index{Environment@{Environment}}
+
+
+Generate the environment with corner.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_environment_a2c6e3955cd3f25a8a9411af38a73cec7}{Environment}} (\mbox{\hyperlink{class_point}{Point}} \&l\+Top, \mbox{\hyperlink{class_point}{Point}} \&l\+Bottom, \mbox{\hyperlink{class_point}{Point}} \&r\+Bottom, \mbox{\hyperlink{class_point}{Point}} \&r\+Top)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_environment}{Environment}\+:\+: \doxylink{class_environment}{Environment} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_turtle}{Turtle}} \mbox{\hyperlink{class_environment_adbd97f1dc227443e6d707d3faca909ed}{create\+Turtle}} (const std\+::string \&name, \mbox{\hyperlink{class_environment}{Environment}} \&env)
+\begin{DoxyCompactList}\small\item\em Create turtle randomly within the environment. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_waterjet}{Waterjet}} \mbox{\hyperlink{class_environment_a225d72b923a81508f8e7e4b7aef3eef5}{create\+Waterjet}} (const std\+::string \&name, \mbox{\hyperlink{class_environment}{Environment}} \&env)
+\begin{DoxyCompactList}\small\item\em Create waterjet randomly within the environment. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}{set\+Turtles\+Lives}} ()
+\begin{DoxyCompactList}\small\item\em Update alive and dead turtle lists. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}{set\+Wet\+Information\+Turtles}} ()
+\begin{DoxyCompactList}\small\item\em Update is\+Wet information of turtles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_environment_a656ff8c6066d410db3b8ae6fd0e55cee}{run\+Simulation}} (float step\+Time, float simulation\+Time)
+\begin{DoxyCompactList}\small\item\em Start simulation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_environment_ac85ccd887e54fa5dd174038046d6ea55}\label{class_environment_ac85ccd887e54fa5dd174038046d6ea55} 
+float {\bfseries current\+Time}
+\item 
+\Hypertarget{class_environment_a5be27a6346e355c8e3187657816f23d5}\label{class_environment_a5be27a6346e355c8e3187657816f23d5} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries left\+Top}
+\item 
+\Hypertarget{class_environment_abd8b7a0a079221a5f8d53ec309599c10}\label{class_environment_abd8b7a0a079221a5f8d53ec309599c10} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries left\+Bottom}
+\item 
+\Hypertarget{class_environment_a15e5dc0e0172ea69b51ad88dac2a560c}\label{class_environment_a15e5dc0e0172ea69b51ad88dac2a560c} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries right\+Top}
+\item 
+\Hypertarget{class_environment_a5329be8e6b996ff32b0e25a6c5cfa7d7}\label{class_environment_a5329be8e6b996ff32b0e25a6c5cfa7d7} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries right\+Bottom}
+\item 
+\Hypertarget{class_environment_a22d5a98d7b9bf67df67afc5cc516bed5}\label{class_environment_a22d5a98d7b9bf67df67afc5cc516bed5} 
+std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ {\bfseries turtle\+List}
+\item 
+\Hypertarget{class_environment_ab832a156d298fb9d20a8c5693aaa5a97}\label{class_environment_ab832a156d298fb9d20a8c5693aaa5a97} 
+std\+::vector$<$ \mbox{\hyperlink{class_turtle}{Turtle}} $>$ {\bfseries dead\+Turtle\+List}
+\item 
+\Hypertarget{class_environment_afc881ada9bf6951f71b67d56930dbc26}\label{class_environment_afc881ada9bf6951f71b67d56930dbc26} 
+std\+::vector$<$ \mbox{\hyperlink{class_waterjet}{Waterjet}} $>$ {\bfseries waterjet\+List}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_environment_a3e061856ee455c39d47c40fd0d37c62b}\label{class_environment_a3e061856ee455c39d47c40fd0d37c62b} 
+\mbox{\hyperlink{class_object_interaction}{Object\+Interaction}} {\bfseries connector}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generate the environment with corner. 
+
+\doxylink{class_environment}{Environment} class is used to generate the main game environment and includes functions to create turtles and waterjets, to run the simulation and to check any turtle is wet/dead. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_environment_a2c6e3955cd3f25a8a9411af38a73cec7}\label{class_environment_a2c6e3955cd3f25a8a9411af38a73cec7} 
+\index{Environment@{Environment}!Environment@{Environment}}
+\index{Environment@{Environment}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{Environment()}{Environment()}}
+{\footnotesize\ttfamily Environment\+::\+Environment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}} \&}]{l\+Top,  }\item[{\mbox{\hyperlink{class_point}{Point}} \&}]{l\+Bottom,  }\item[{\mbox{\hyperlink{class_point}{Point}} \&}]{r\+Bottom,  }\item[{\mbox{\hyperlink{class_point}{Point}} \&}]{r\+Top }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_environment}{Environment}\+:\+: \doxylink{class_environment}{Environment} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l\+Top} & Top left corner coordinates \\
+\hline
+{\em l\+Bottom} & Bottom left corner coordinates \\
+\hline
+{\em r\+Bottom} & Bottom right corner coordinates \\
+\hline
+{\em r\+Top} & Top right corner coordinates \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_environment_adbd97f1dc227443e6d707d3faca909ed}\label{class_environment_adbd97f1dc227443e6d707d3faca909ed} 
+\index{Environment@{Environment}!createTurtle@{createTurtle}}
+\index{createTurtle@{createTurtle}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{createTurtle()}{createTurtle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_turtle}{Turtle}} Environment\+::create\+Turtle (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{\mbox{\hyperlink{class_environment}{Environment}} \&}]{env }\end{DoxyParamCaption})}
+
+
+
+Create turtle randomly within the environment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \doxylink{class_turtle}{Turtle} name \\
+\hline
+{\em env} & \doxylink{class_environment}{Environment} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_turtle}{Turtle} 
+\end{DoxyReturn}
+\Hypertarget{class_environment_a225d72b923a81508f8e7e4b7aef3eef5}\label{class_environment_a225d72b923a81508f8e7e4b7aef3eef5} 
+\index{Environment@{Environment}!createWaterjet@{createWaterjet}}
+\index{createWaterjet@{createWaterjet}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{createWaterjet()}{createWaterjet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_waterjet}{Waterjet}} Environment\+::create\+Waterjet (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{\mbox{\hyperlink{class_environment}{Environment}} \&}]{env }\end{DoxyParamCaption})}
+
+
+
+Create waterjet randomly within the environment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \doxylink{class_waterjet}{Waterjet} name \\
+\hline
+{\em env} & \doxylink{class_environment}{Environment} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_waterjet}{Waterjet} 
+\end{DoxyReturn}
+\Hypertarget{class_environment_a656ff8c6066d410db3b8ae6fd0e55cee}\label{class_environment_a656ff8c6066d410db3b8ae6fd0e55cee} 
+\index{Environment@{Environment}!runSimulation@{runSimulation}}
+\index{runSimulation@{runSimulation}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{runSimulation()}{runSimulation()}}
+{\footnotesize\ttfamily void Environment\+::run\+Simulation (\begin{DoxyParamCaption}\item[{float}]{step\+Time,  }\item[{float}]{simulation\+Time }\end{DoxyParamCaption})}
+
+
+
+Start simulation. 
+
+runc\+Simulation() function starts simulation with specified step time and max simulation time. In each time step, all the dynamic states of turtles and waterjets are updated and logged into the specified log file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em step\+Time} & Step time \\
+\hline
+{\em simulation\+Time} & Maximum simulation time \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}\label{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe} 
+\index{Environment@{Environment}!setTurtlesLives@{setTurtlesLives}}
+\index{setTurtlesLives@{setTurtlesLives}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{setTurtlesLives()}{setTurtlesLives()}}
+{\footnotesize\ttfamily void Environment\+::set\+Turtles\+Lives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update alive and dead turtle lists. 
+
+\doxylink{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}{set\+Turtles\+Lives()} function checks if any turtle is out of the envrionment in each time step, and updates lists of active turtles and dead turtles accordingly. \Hypertarget{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}\label{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846} 
+\index{Environment@{Environment}!setWetInformationTurtles@{setWetInformationTurtles}}
+\index{setWetInformationTurtles@{setWetInformationTurtles}!Environment@{Environment}}
+\doxysubsubsection{\texorpdfstring{setWetInformationTurtles()}{setWetInformationTurtles()}}
+{\footnotesize\ttfamily void Environment\+::set\+Wet\+Information\+Turtles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update is\+Wet information of turtles. 
+
+\doxylink{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}{set\+Wet\+Information\+Turtles()} function checks if any turtle is in the wet area, and updates the turtle\textquotesingle{}s is\+Wet information accordingly. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

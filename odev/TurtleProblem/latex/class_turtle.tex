@@ -1,0 +1,116 @@
+\doxysection{Turtle Class Reference}
+\hypertarget{class_turtle}{}\label{class_turtle}\index{Turtle@{Turtle}}
+
+
+Generete \doxylink{class_turtle}{Turtle} object with it\textquotesingle{}s specific properties.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_turtle_a6083f9d84d7733b86eae70d2fb04974b}{Turtle}} (const std\+::string \&turtle\+Name, float initialX, float initialY, float initial\+Direction, float initial\+Velocity)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_turtle}{Turtle} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_turtle_a4be9b07d0ce19bebe6b8edd12ec05788}{update\+Position}} (float step\+Time)
+\begin{DoxyCompactList}\small\item\em Update turtle position in each time step. \end{DoxyCompactList}\item 
+std\+::stringstream \mbox{\hyperlink{class_turtle_a37345679b8b0dc8a948fbe2fd507c2fa}{print\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Get turtle position to print. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce}{print\+Turtle\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Print turtle object information when created. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_turtle_a0b95a26bf67890a7d58d46ce29a4ca0e}\label{class_turtle_a0b95a26bf67890a7d58d46ce29a4ca0e} 
+std\+::string {\bfseries turtle\+Name}
+\item 
+\Hypertarget{class_turtle_a8fdac3ad57023771b319fa976f049ba8}\label{class_turtle_a8fdac3ad57023771b319fa976f049ba8} 
+bool {\bfseries is\+Wet}
+\item 
+\Hypertarget{class_turtle_aff67c504588d43128164b1ff9a3b6196}\label{class_turtle_aff67c504588d43128164b1ff9a3b6196} 
+float {\bfseries posX}
+\item 
+\Hypertarget{class_turtle_a62c7316e19b514bd9e05799437c4f0e0}\label{class_turtle_a62c7316e19b514bd9e05799437c4f0e0} 
+float {\bfseries posY}
+\item 
+\Hypertarget{class_turtle_a2b55a0b68362cd8bb43a9fdb63af40cc}\label{class_turtle_a2b55a0b68362cd8bb43a9fdb63af40cc} 
+float {\bfseries direction}
+\item 
+\Hypertarget{class_turtle_ac55178adcadb0e46c6e63cba78a2e5a1}\label{class_turtle_ac55178adcadb0e46c6e63cba78a2e5a1} 
+float {\bfseries velocity}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generete \doxylink{class_turtle}{Turtle} object with it\textquotesingle{}s specific properties. 
+
+\doxylink{class_turtle}{Turtle} class is used to represent a turtle with it\textquotesingle{}s specific information such as name, position, direction, velocity, and is\+Wet. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_turtle_a6083f9d84d7733b86eae70d2fb04974b}\label{class_turtle_a6083f9d84d7733b86eae70d2fb04974b} 
+\index{Turtle@{Turtle}!Turtle@{Turtle}}
+\index{Turtle@{Turtle}!Turtle@{Turtle}}
+\doxysubsubsection{\texorpdfstring{Turtle()}{Turtle()}}
+{\footnotesize\ttfamily Turtle\+::\+Turtle (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{turtle\+Name,  }\item[{float}]{initialX,  }\item[{float}]{initialY,  }\item[{float}]{initial\+Direction,  }\item[{float}]{initial\+Velocity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new \doxylink{class_turtle}{Turtle} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em turtle\+Name} & \doxylink{class_turtle}{Turtle} name \\
+\hline
+{\em initialX} & Initial value of x coordinate, m \\
+\hline
+{\em initialY} & Initial value of y coordinate, m \\
+\hline
+{\em initial\+Direction} & Initial direction of the velocity with respect to x-\/axis, deg \\
+\hline
+{\em initial\+Velocity} & Initial velocity value, m/s \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_turtle_a37345679b8b0dc8a948fbe2fd507c2fa}\label{class_turtle_a37345679b8b0dc8a948fbe2fd507c2fa} 
+\index{Turtle@{Turtle}!printPosition@{printPosition}}
+\index{printPosition@{printPosition}!Turtle@{Turtle}}
+\doxysubsubsection{\texorpdfstring{printPosition()}{printPosition()}}
+{\footnotesize\ttfamily std\+::stringstream Turtle\+::print\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get turtle position to print. 
+
+\begin{DoxyReturn}{Returns}
+std\+::stringstream 
+\end{DoxyReturn}
+\Hypertarget{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce}\label{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce} 
+\index{Turtle@{Turtle}!printTurtleInfo@{printTurtleInfo}}
+\index{printTurtleInfo@{printTurtleInfo}!Turtle@{Turtle}}
+\doxysubsubsection{\texorpdfstring{printTurtleInfo()}{printTurtleInfo()}}
+{\footnotesize\ttfamily void Turtle\+::print\+Turtle\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Print turtle object information when created. 
+
+\Hypertarget{class_turtle_a4be9b07d0ce19bebe6b8edd12ec05788}\label{class_turtle_a4be9b07d0ce19bebe6b8edd12ec05788} 
+\index{Turtle@{Turtle}!updatePosition@{updatePosition}}
+\index{updatePosition@{updatePosition}!Turtle@{Turtle}}
+\doxysubsubsection{\texorpdfstring{updatePosition()}{updatePosition()}}
+{\footnotesize\ttfamily void Turtle\+::update\+Position (\begin{DoxyParamCaption}\item[{float}]{step\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Update turtle position in each time step. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em step\+Time} & Simulation step time. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
