@@ -1,7 +1,7 @@
 /**
- * @file main.cpp
+ * @file TurtleProblem.cpp
  * @author Utku Selim Koçoğu, Mert Ali Tombul, Mert Çevik, Alper Yalman
- * @brief Turtle problem
+ * @brief Turtle Problem Classes and Functions
  * @version 0.1
  * @date 2023-08-19
  *
@@ -16,12 +16,7 @@
 #include <math.h>
 #include <string>
 #include <time.h>
-#include <sstream> // for string streams
-#include <algorithm>
-#include <iterator>
-#include <cassert>
-#include <type_traits>
-#include <utility>
+#include <sstream>
 
 /**
  * @brief Generate (x,y) points in cartesian coordinate system.
@@ -60,8 +55,8 @@ public:
     bool isWet;
     float posX;
     float posY;
-    float direction; // Direction of the turtle, degrees
-    float velocity;  // Velocity of the turtle, meters/second
+    float direction;
+    float velocity;
 
     /**
      * @brief Construct a new Turtle object
@@ -263,7 +258,7 @@ void Logger::logGameState(float time, std::vector<Turtle> &turtles, std::vector<
         logFile << "Turtle Death Location: (" << turtle.posX << ", " << turtle.posY << ") | ";
         logFile << "Turtle Wet: " << (turtle.isWet ? "Yes" : "No") << "\n";
     }
-    logFile << "-------------------------------" << std::endl;
+    logFile << "----------------------------------------------" << std::endl;
 }
 
 class Environment;
@@ -310,10 +305,8 @@ public:
     Environment(Point &lTop, Point &lBottom, Point &rBottom, Point &rTop);
     Turtle createTurtle(const std::string &name, Environment &env);
     Waterjet createWaterjet(const std::string &name, Environment &env);
-    // set current alive turtles
-    void setTurtlesLives();
-    // set current wet turtles
-    void setWetInformationTurtles();
+    void setTurtlesLives();          // set current alive turtles
+    void setWetInformationTurtles(); // set current wet turtles
     void runSimulation(float stepTime, float simulationTime);
 };
 
@@ -456,12 +449,11 @@ Turtle Environment::createTurtle(const std::string &name, Environment &env)
  */
 Waterjet Environment::createWaterjet(const std::string &name, Environment &env)
 {
-    // srand(static_cast<unsigned int>(time(0)));
     float randomX = env.leftBottom.posX + static_cast<float>(rand()) / static_cast<float>(RAND_MAX) * (env.rightBottom.posX - env.leftBottom.posX);
     float randomY = env.leftBottom.posY + static_cast<float>(rand()) / static_cast<float>(RAND_MAX) * (env.leftTop.posY - env.leftBottom.posY);
     float randomAngle = static_cast<float>(rand() % 360);            // Random angle between 0 and 359 degrees
     float randomWetAreaAngle = static_cast<float>(rand() % 21) + 10; // Random angle between 10 and 30 degrees
-    float randomWetAreaRadius = static_cast<float>(rand() % 10) + 1; // Random distance between 1 and meters
+    float randomWetAreaRadius = static_cast<float>(rand() % 10) + 1; // Random distance between 1 and 10 meters
 
     Waterjet waterjet(name, randomX, randomY, randomAngle, randomWetAreaAngle, randomWetAreaRadius);
     return waterjet;
@@ -475,7 +467,6 @@ Waterjet Environment::createWaterjet(const std::string &name, Environment &env)
  */
 void Environment::setTurtlesLives()
 {
-    // std::vector<Turtle> newAliveTurtles;
     std::vector<Turtle> newDeadTurtles = deadTurtleList;
     std::vector<int> idxKilled;
 
@@ -494,9 +485,6 @@ void Environment::setTurtlesLives()
         std::vector<Turtle>::const_iterator c_itr = std::next(turtleList.cbegin(), idxKilled[i]);
         turtleList.erase(c_itr);
     }
-
-    // deadTurtleList = newDeadTurtles;
-    // turtleList = newAliveTurtles;
 }
 
 /**
@@ -544,8 +532,7 @@ void Environment::runSimulation(float stepTime, float simulationTime)
 
     Logger logger("LogFile.txt");
     currentTime = 0;
-    // Log initial states
-    logger.logGameState(currentTime, turtleList, waterjetList, deadTurtleList);
+    logger.logGameState(currentTime, turtleList, waterjetList, deadTurtleList); // Log initial states at time = 0
 
     while (!turtleList.empty() && currentTime <= simulationTime)
     {
