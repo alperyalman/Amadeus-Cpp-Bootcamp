@@ -8,7 +8,7 @@
 #include <time.h>
 #include <sstream> // for string streams
 #include <algorithm>
-
+#include <iterator>
 #include <cassert>
 #include <type_traits>
 #include <utility>
@@ -44,6 +44,7 @@ public:
         isWet = false;
         direction = initialDirection;
         velocity = initialVelocity;
+        printTurtleInfo();
     }
 
     void updatePosition(float stepTime)
@@ -52,9 +53,19 @@ public:
         posY += stepTime * sinf(direction * M_PI / 180) * velocity;
     }
 
-    void printPosition()
+    std::stringstream printPosition()
     {
-        std::cout << "Turtle Position: (" << posX << ", " << posY << ")\n";
+        std::stringstream posStr;
+        posStr << "(" << posX << ", " << posY << ")\n";
+        return posStr;
+    }
+
+    void printTurtleInfo()
+    {
+        std::cout << "Turtle Name: " << turtleName << " | ";
+        std::cout << "Turtle Position: (" << posX << ", " << posY << ") | ";
+        std::cout << "Turtle Veclocity: " << velocity << " m/s | ";
+        std::cout << "Turtle Direction: " << direction << " deg" << std::endl;
     }
 };
 
@@ -76,6 +87,7 @@ public:
         this->angleToGround = angleToGround;
         this->wetAreaAngle = wetAreaAngle;
         this->wetAreaRadius = wetAreaRadius;
+        printWaterjetInfo();
     }
 
     void updateAngleToGround()
@@ -83,6 +95,14 @@ public:
         angleToGround += wetAreaAngle;
         if (angleToGround >= 360)
             angleToGround -= 360;
+    }
+    void printWaterjetInfo()
+    {
+        std::cout << "Waterjet Name: " << waterjetName << " | ";
+        std::cout << "Waterjet Position: (" << posX << ", " << posY << ") | ";
+        std::cout << "Waterjet Initial Direction: " << angleToGround << " deg | ";
+        std::cout << "Waterjet Wet Area Angle: " << wetAreaAngle << " deg | ";
+        std::cout << "Waterjet Wet Area Radius: " << wetAreaRadius << " m" << std::endl;
     }
 };
 
@@ -122,7 +142,8 @@ void Logger::logGameState(float timeStep, std::vector<Turtle> &turtles, std::vec
     logFile << "[WATERJETS]" << std::endl;
     for (const Waterjet &waterjet : waterjets)
     {
-        logFile << "Waterjet Location: (" << waterjet.posX << ", " << waterjet.posY << ")\n";
+        logFile << "Waterjet Name: " << waterjet.waterjetName << " | ";
+        logFile << "Waterjet Location: (" << waterjet.posX << ", " << waterjet.posY << ") | ";
         logFile << "Waterjet Angle: " << waterjet.angleToGround << "\n";
     }
 
@@ -130,8 +151,9 @@ void Logger::logGameState(float timeStep, std::vector<Turtle> &turtles, std::vec
     logFile << "[ALIVE TURTLES]" << std::endl;
     for (const Turtle &turtle : turtles)
     {
-        logFile << "Turtle Location: (" << turtle.posX << ", " << turtle.posY << ") "
-                << "Turtle Speed: " << turtle.velocity << "\n";
+        logFile << "Turtle Name: " << turtle.turtleName << " | ";
+        logFile << "Turtle Location: (" << turtle.posX << ", " << turtle.posY << ") | "
+                << "Turtle Speed: " << turtle.velocity << " | ";
         logFile << "Turtle Wet: " << (turtle.isWet ? "Yes" : "No") << "\n";
     }
 
@@ -139,7 +161,8 @@ void Logger::logGameState(float timeStep, std::vector<Turtle> &turtles, std::vec
     logFile << "[DEAD TURTLES]" << std::endl;
     for (const Turtle &turtle : deadTurtles)
     {
-        logFile << "Turtle Death Location: (" << turtle.posX << ", " << turtle.posY << ")\n";
+        logFile << "Turtle Name: " << turtle.turtleName << " | ";
+        logFile << "Turtle Death Location: (" << turtle.posX << ", " << turtle.posY << ") | ";
         logFile << "Turtle Wet: " << (turtle.isWet ? "Yes" : "No") << "\n";
     }
     logFile << "-------------------------------" << std::endl;
@@ -260,7 +283,6 @@ Turtle Environment::createTurtle(const std::string &name, Environment &env)
     float randomY = env.leftBottom.posY + static_cast<float>(rand()) / static_cast<float>(RAND_MAX) * (env.leftTop.posY - env.leftBottom.posY);
     float randomDirection = static_cast<float>(rand() % 360);                                 // Random angle between 0 and 359 degrees
     float randomVelocity = static_cast<float>(rand()) / static_cast<float>(RAND_MAX) * 10.0f; // Random float between 0 and 10
-
     Turtle turtle(name, randomX, randomY, randomDirection, randomVelocity);
     return turtle;
 }
@@ -282,24 +304,32 @@ Waterjet Environment::createWaterjet(const std::string &name, Environment &env)
 // [SUGGESTION] dead or alive attribute can be set in checkEnvCollision
 void Environment::setTurtlesLives()
 {
-    std::vector<Turtle> newAliveTurtles;
+    // std::vector<Turtle> newAliveTurtles;
     std::vector<Turtle> newDeadTurtles = deadTurtleList;
+    std::vector<int> idxKilled;
 
     for (int i = 0; i < turtleList.size(); i++)
     {
-        if (connector.checkEnvCollision(turtleList[i], this))
-        {
-            newAliveTurtles.push_back(turtleList[i]);
-        }
-        else
+        // if (connector.checkEnvCollision(turtleList[i], this))
+        // {
+        //     // newAliveTurtles.push_back(turtleList[i]);
+        // }
+        if (!connector.checkEnvCollision(turtleList[i], this))
         {
             deadTurtleList.push_back(turtleList[i]);
             std::cout << "Current time: " << currentTime << " seconds. " << turtleList[i].turtleName << " killed at the position (x, y) = (" << turtleList[i].posX << ", " << turtleList[i].posY << ")" << std::endl;
+            idxKilled.push_back(i);
         }
     }
 
+    for (int i = 0; i < idxKilled.size(); i++)
+    {
+        std::vector<Turtle>::const_iterator c_itr = std::next(turtleList.cbegin(), idxKilled[i]);
+        turtleList.erase(c_itr);
+    }
+
     // deadTurtleList = newDeadTurtles;
-    turtleList = newAliveTurtles;
+    // turtleList = newAliveTurtles;
 }
 
 // [SUGGESTION] dead or alive attribute can be set in checkTurtleIsInWetArea
@@ -316,16 +346,21 @@ void Environment::setWetInformationTurtles()
             if (connector.checkTurtleIsInWetArea(waterjetList[j], turtleList[i]))
             {
                 turtleList[i].isWet = true;
-                // print turtle name
-                std::cout << "Current wet Turtle: " << turtleList[i].turtleName << "\n";
-                turtleList[i].printPosition();
+                std::cout << "Current time: " << currentTime << " seconds. " << turtleList[i].turtleName << " is wet from the position (x, y) = " << turtleList[i].printPosition().str();
             }
+            // else koşulu yazılacak mı? (isWet = false)
+            // print or log turtle current situation?
         }
     }
 }
 
 void Environment::runSimulation(float stepTime, float simulationTime)
 {
+    std::cout << "Simulation information" << std::endl;
+    std::cout << "- Step time is " << stepTime << " seconds." << std::endl;
+    std::cout << "- Maximum simulation time is " << simulationTime << " seconds.\n"
+              << std::endl;
+
     Logger logger("LogFile.txt");
     currentTime = 0;
     // Log initial states
@@ -347,21 +382,13 @@ void Environment::runSimulation(float stepTime, float simulationTime)
         setTurtlesLives();
 
         // Wet area checks
-        for (int i = 0; i < turtleList.size(); i++)
-        {
-            for (int j = 0; j < waterjetList.size(); j++)
-            {
-                if (connector.checkTurtleIsInWetArea(waterjetList[j], turtleList[i]))
-                {
-                    turtleList[i].isWet = true;
-                }
-                // else koşulu yazılacak mı? (isWet = false)
-                // print or log turtle current situation?
-            }
-        }
+        setWetInformationTurtles();
 
         logger.logGameState(currentTime, turtleList, waterjetList, deadTurtleList);
     }
+
+    std::cout << "\nSimulation is finished after " << currentTime << " seconds.\n"
+              << std::endl;
 }
 
 int main(int argc, const char *argv[])
@@ -377,33 +404,46 @@ int main(int argc, const char *argv[])
     Environment env(lTop, lBottom, rBottom, rTop);
     srand(static_cast<unsigned int>(time(0)));
 
-    // Turtles and waterjets will be generated randomly.
+    // User specified numbers of Turtles and Waterjets will be generated randomly in the environment.
     std::cout << "Enter the number of turtles: ";
     std::cin >> numOfTurtles;
 
     std::cout << "Enter the number of waterjets: ";
     std::cin >> numOfWaterjets;
+    std::cout << "\n"
+              << std::endl;
 
+    // Create random turtles and print their info.
+    std::cout << "Following turtles are created." << std::endl;
+    std::cout << "------------------------------" << std::endl;
     for (int i = 1; i <= numOfTurtles; i++)
     {
         std::ostringstream strT;
         strT << i;
         env.turtleList.push_back(env.createTurtle("Turtle " + strT.str(), env));
-        std::cout << env.turtleList[i - 1].turtleName << " : " << std::endl;
     }
 
+    std::cout << "\n"
+              << std::endl;
+
+    // Create random waterjets and print their info.
+    std::cout << "Following waterjets are created." << std::endl;
+    std::cout << "--------------------------------" << std::endl;
     for (int j = 1; j <= numOfWaterjets; j++)
     {
         std::ostringstream strW;
         strW << j;
         env.waterjetList.push_back(env.createWaterjet("Waterjet " + strW.str(), env));
-        std::cout << env.waterjetList[j - 1].waterjetName << " : " << std::endl;
     }
+
+    // Start simulation with step time and maximum simulation time.
+    std::cout << "\n***************Simulation Start***************\n"
+              << std::endl;
 
     env.runSimulation(0.1f, 100.0f);
 
-    // std::cout << t1.turtleName << " : " << t1.posX << " " << t1.posY << " " << t1.direction << " " << t1.velocity << std::endl;
-    // std::cout << w1.waterjetName << " " << w1.posX << " " << w1.posY << " " << w1.wetAreaAngle << " " << w1.wetAreaRadius << " " << w1.angleToGround << std::endl;
+    std::cout << "\n***************Simulation End***************\n"
+              << std::endl;
 
     return 0;
 }
