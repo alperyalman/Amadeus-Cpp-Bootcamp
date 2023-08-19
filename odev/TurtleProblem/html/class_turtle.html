@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Turtle Problem Project Report: Turtle Class Reference</title>
+<title>Turtle Problem Code Report: Turtle Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Turtle Problem Project Report
+   <div id="projectname">Turtle Problem Code Report
    </div>
   </td>
  </tr>
@@ -183,7 +183,17 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></t
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        this-&gt;turtleName = turtleName;</div>
+<div class="line"><span class="lineno">   73</span>        posX = initialX;</div>
+<div class="line"><span class="lineno">   74</span>        posY = initialY;</div>
+<div class="line"><span class="lineno">   75</span>        isWet = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   76</span>        direction = initialDirection;</div>
+<div class="line"><span class="lineno">   77</span>        velocity = initialVelocity;</div>
+<div class="line"><span class="lineno">   78</span>        <a class="code hl_function" href="class_turtle.html#ab13337d6ea6432df8dd9ee6707eaecce">printTurtleInfo</a>();</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+<div class="ttc" id="aclass_turtle_html_ab13337d6ea6432df8dd9ee6707eaecce"><div class="ttname"><a href="class_turtle.html#ab13337d6ea6432df8dd9ee6707eaecce">Turtle::printTurtleInfo</a></div><div class="ttdeci">void printTurtleInfo()</div><div class="ttdoc">Print turtle object information when created.</div><div class="ttdef"><b>Definition</b> TurtleProblem.cpp:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -212,7 +222,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></t
 
 <p>Get turtle position to print. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::stringstream </dd></dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>    {</div>
+<div class="line"><span class="lineno">   99</span>        std::stringstream posStr;</div>
+<div class="line"><span class="lineno">  100</span>        posStr &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; posX &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; posY &lt;&lt; <span class="stringliteral">&quot;)\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">return</span> posStr;</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab13337d6ea6432df8dd9ee6707eaecce" name="ab13337d6ea6432df8dd9ee6707eaecce"></a>
@@ -239,7 +254,13 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></t
 </div><div class="memdoc">
 
 <p>Print turtle object information when created. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Turtle Name: &quot;</span> &lt;&lt; turtleName &lt;&lt; <span class="stringliteral">&quot; | &quot;</span>;</div>
+<div class="line"><span class="lineno">  111</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Turtle Position: (&quot;</span> &lt;&lt; posX &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; posY &lt;&lt; <span class="stringliteral">&quot;) | &quot;</span>;</div>
+<div class="line"><span class="lineno">  112</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Turtle Veclocity: &quot;</span> &lt;&lt; velocity &lt;&lt; <span class="stringliteral">&quot; m/s | &quot;</span>;</div>
+<div class="line"><span class="lineno">  113</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Turtle Direction: &quot;</span> &lt;&lt; direction &lt;&lt; <span class="stringliteral">&quot; deg&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  114</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4be9b07d0ce19bebe6b8edd12ec05788" name="a4be9b07d0ce19bebe6b8edd12ec05788"></a>
@@ -273,11 +294,15 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></t
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        posX += stepTime * cosf(direction * M_PI / 180) * velocity;</div>
+<div class="line"><span class="lineno">   89</span>        posY += stepTime * sinf(direction * M_PI / 180) * velocity;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/<a class="el" href="main_8cpp.html">main.cpp</a></li>
+<li>src/<a class="el" href="_turtle_problem_8cpp.html">TurtleProblem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Turtle Problem Project Report: ObjectInteraction Class Reference</title>
+<title>Turtle Problem Code Report: ObjectInteraction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Turtle Problem Project Report
+   <div id="projectname">Turtle Problem Code Report
    </div>
   </td>
  </tr>
@@ -94,7 +94,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:addbeebe76a1d8e402951f789eb2826b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the turtle is in the wet area.  <br /></td></tr>
 <tr class="separator:addbeebe76a1d8e402951f789eb2826b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770d2bc7d593dc8f75b10b826ba2ebf0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_interaction.html#a770d2bc7d593dc8f75b10b826ba2ebf0">checkEnvCollision</a> (<a class="el" href="class_turtle.html">Turtle</a> &amp;turtle, <a class="el" href="class_environment.html">Environment</a> *env)</td></tr>
-<tr class="memdesc:a770d2bc7d593dc8f75b10b826ba2ebf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the turtle is exceed the environment limits.  <br /></td></tr>
+<tr class="memdesc:a770d2bc7d593dc8f75b10b826ba2ebf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the turtle exceeds the environment limits.  <br /></td></tr>
 <tr class="separator:a770d2bc7d593dc8f75b10b826ba2ebf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -117,7 +117,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Construct a new Object Interaction:: Object Interaction object. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  317</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -156,7 +157,18 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>float <a class="el" href="class_turtle.html" title="Generete Turtle object with it&#39;s specific properties.">Turtle</a> angle, [0, 360) </dd></dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>{</div>
+<div class="line"><span class="lineno">  342</span>    <span class="keywordtype">float</span> turtleAngle;</div>
+<div class="line"><span class="lineno">  343</span>    <span class="keywordtype">float</span> dx = turtle.posX - waterjet.posX;</div>
+<div class="line"><span class="lineno">  344</span>    <span class="keywordtype">float</span> dy = turtle.posY - waterjet.posY;</div>
+<div class="line"><span class="lineno">  345</span> </div>
+<div class="line"><span class="lineno">  346</span>    turtleAngle = (atan2(dy, dx)) * 180 / M_PI;</div>
+<div class="line"><span class="lineno">  347</span>    <span class="keywordflow">if</span> (turtleAngle &lt; 0)</div>
+<div class="line"><span class="lineno">  348</span>        turtleAngle += 360;</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>    <span class="keywordflow">return</span> turtleAngle;</div>
+<div class="line"><span class="lineno">  351</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6e0e936321e1a2c2b60967dc67c7cd05" name="a6e0e936321e1a2c2b60967dc67c7cd05"></a>
@@ -194,7 +206,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>float Distance, m </dd></dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  327</span>{</div>
+<div class="line"><span class="lineno">  328</span>    <span class="keywordtype">float</span> dx = waterjet.posX - turtle.posX;</div>
+<div class="line"><span class="lineno">  329</span>    <span class="keywordtype">float</span> dy = waterjet.posY - turtle.posY;</div>
+<div class="line"><span class="lineno">  330</span>    <span class="keywordflow">return</span> sqrtf(dx * dx + dy * dy);</div>
+<div class="line"><span class="lineno">  331</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a770d2bc7d593dc8f75b10b826ba2ebf0" name="a770d2bc7d593dc8f75b10b826ba2ebf0"></a>
@@ -223,7 +240,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check if the turtle is exceed the environment limits. </p>
+<p>Check if the turtle exceeds the environment limits. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">turtle</td><td><a class="el" href="class_turtle.html" title="Generete Turtle object with it&#39;s specific properties.">Turtle</a> object </td></tr>
@@ -234,7 +251,18 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the turtle is in the environment </dd>
 <dd>
 false if the turtle is not in the environment </dd></dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  397</span>{</div>
+<div class="line"><span class="lineno">  398</span>    <span class="comment">// assumed env coords given according the variable names;</span></div>
+<div class="line"><span class="lineno">  399</span>    <span class="comment">// assumed turtle is one pixel object at its positions</span></div>
+<div class="line"><span class="lineno">  400</span>    <span class="keywordtype">bool</span> isValidForX = (turtle.posX &gt; env-&gt;leftBottom.posX) &amp;&amp; (turtle.posX &gt; env-&gt;leftTop.posX) &amp;&amp; (turtle.posX &lt; env-&gt;rightBottom.posX) &amp;&amp; (turtle.posX &lt; env-&gt;rightTop.posX);</div>
+<div class="line"><span class="lineno">  401</span>    <span class="keywordtype">bool</span> isValidForY = turtle.posY &lt; env-&gt;leftTop.posY &amp;&amp; turtle.posY &gt; env-&gt;leftBottom.posY &amp;&amp; turtle.posY &lt; env-&gt;rightTop.posY &amp;&amp; turtle.posY &gt; env-&gt;rightBottom.posY;</div>
+<div class="line"><span class="lineno">  402</span>    <span class="keywordflow">if</span> (isValidForX &amp;&amp; isValidForY)</div>
+<div class="line"><span class="lineno">  403</span>    {</div>
+<div class="line"><span class="lineno">  404</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  405</span>    }</div>
+<div class="line"><span class="lineno">  406</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  407</span>};</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="addbeebe76a1d8e402951f789eb2826b0" name="addbeebe76a1d8e402951f789eb2826b0"></a>
@@ -274,11 +302,38 @@ false if the turtle is not in the environment </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the turtle is in wet are </dd>
 <dd>
 false if the turtle is not in wet are </dd></dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  362</span>{</div>
+<div class="line"><span class="lineno">  363</span>    <span class="comment">// Calculate the distance between waterjet and turtle</span></div>
+<div class="line"><span class="lineno">  364</span>    <span class="keywordtype">float</span> distance = <a class="code hl_function" href="class_object_interaction.html#a6e0e936321e1a2c2b60967dc67c7cd05">calculateTurtleToWaterjetDistance</a>(waterjet, turtle);</div>
+<div class="line"><span class="lineno">  365</span> </div>
+<div class="line"><span class="lineno">  366</span>    <span class="comment">// If not in r, return false</span></div>
+<div class="line"><span class="lineno">  367</span>    <span class="keywordflow">if</span> (distance &gt; waterjet.wetAreaRadius)</div>
+<div class="line"><span class="lineno">  368</span>    {</div>
+<div class="line"><span class="lineno">  369</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  370</span>    }</div>
+<div class="line"><span class="lineno">  371</span> </div>
+<div class="line"><span class="lineno">  372</span>    <span class="comment">// If the turtle is coincident with waterjet, assume that it is getting wet.</span></div>
+<div class="line"><span class="lineno">  373</span>    <span class="keywordflow">if</span> (distance == 0)</div>
+<div class="line"><span class="lineno">  374</span>    {</div>
+<div class="line"><span class="lineno">  375</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  376</span>    }</div>
+<div class="line"><span class="lineno">  377</span> </div>
+<div class="line"><span class="lineno">  378</span>    <span class="comment">// Calculate the turtle angle with respect to waterjet position</span></div>
+<div class="line"><span class="lineno">  379</span>    <span class="keywordtype">float</span> turtleAngle = <a class="code hl_function" href="class_object_interaction.html#a847a5c394f2a3347a19b02e21fb0d7ed">calculateTurtleToWaterjetAngle</a>(waterjet, turtle);</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>    <span class="comment">// Check if the turtle is in the wet area or not</span></div>
+<div class="line"><span class="lineno">  382</span>    <span class="keywordflow">if</span> ((turtleAngle &gt;= waterjet.angleToGround) &amp;&amp; (turtleAngle &lt;= waterjet.angleToGround + waterjet.wetAreaAngle))</div>
+<div class="line"><span class="lineno">  383</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  384</span> </div>
+<div class="line"><span class="lineno">  385</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  386</span>}</div>
+<div class="ttc" id="aclass_object_interaction_html_a6e0e936321e1a2c2b60967dc67c7cd05"><div class="ttname"><a href="class_object_interaction.html#a6e0e936321e1a2c2b60967dc67c7cd05">ObjectInteraction::calculateTurtleToWaterjetDistance</a></div><div class="ttdeci">float calculateTurtleToWaterjetDistance(Waterjet &amp;waterjet, Turtle &amp;turtle)</div><div class="ttdoc">Calulate the distance between the turtle and the waterjet.</div><div class="ttdef"><b>Definition</b> TurtleProblem.cpp:326</div></div>
+<div class="ttc" id="aclass_object_interaction_html_a847a5c394f2a3347a19b02e21fb0d7ed"><div class="ttname"><a href="class_object_interaction.html#a847a5c394f2a3347a19b02e21fb0d7ed">ObjectInteraction::calculateTurtleToWaterjetAngle</a></div><div class="ttdeci">float calculateTurtleToWaterjetAngle(Waterjet &amp;waterjet, Turtle &amp;turtle)</div><div class="ttdoc">Calculate the turtle angle with respect to waterjet position.</div><div class="ttdef"><b>Definition</b> TurtleProblem.cpp:340</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/<a class="el" href="main_8cpp.html">main.cpp</a></li>
+<li>src/<a class="el" href="_turtle_problem_8cpp.html">TurtleProblem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Turtle Problem Project Report: Waterjet Class Reference</title>
+<title>Turtle Problem Code Report: Waterjet Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Turtle Problem Project Report
+   <div id="projectname">Turtle Problem Code Report
    </div>
   </td>
  </tr>
@@ -187,7 +187,17 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>wetAreaRadius</b></t
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>    {</div>
+<div class="line"><span class="lineno">  146</span>        this-&gt;waterjetName = waterjetName;</div>
+<div class="line"><span class="lineno">  147</span>        this-&gt;posX = posX;</div>
+<div class="line"><span class="lineno">  148</span>        this-&gt;posY = posY;</div>
+<div class="line"><span class="lineno">  149</span>        this-&gt;angleToGround = angleToGround;</div>
+<div class="line"><span class="lineno">  150</span>        this-&gt;wetAreaAngle = wetAreaAngle;</div>
+<div class="line"><span class="lineno">  151</span>        this-&gt;wetAreaRadius = wetAreaRadius;</div>
+<div class="line"><span class="lineno">  152</span>        <a class="code hl_function" href="class_waterjet.html#a52149776dff91e66af839ea86ad23490">printWaterjetInfo</a>();</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
+<div class="ttc" id="aclass_waterjet_html_a52149776dff91e66af839ea86ad23490"><div class="ttname"><a href="class_waterjet.html#a52149776dff91e66af839ea86ad23490">Waterjet::printWaterjetInfo</a></div><div class="ttdeci">void printWaterjetInfo()</div><div class="ttdoc">Print waterjet object information when created.</div><div class="ttdef"><b>Definition</b> TurtleProblem.cpp:172</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -215,7 +225,14 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>wetAreaRadius</b></t
 </div><div class="memdoc">
 
 <p>Print waterjet object information when created. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>    {</div>
+<div class="line"><span class="lineno">  174</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Waterjet Name: &quot;</span> &lt;&lt; waterjetName &lt;&lt; <span class="stringliteral">&quot; | &quot;</span>;</div>
+<div class="line"><span class="lineno">  175</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Waterjet Position: (&quot;</span> &lt;&lt; posX &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; posY &lt;&lt; <span class="stringliteral">&quot;) | &quot;</span>;</div>
+<div class="line"><span class="lineno">  176</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Waterjet Initial Direction: &quot;</span> &lt;&lt; angleToGround &lt;&lt; <span class="stringliteral">&quot; deg | &quot;</span>;</div>
+<div class="line"><span class="lineno">  177</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Waterjet Wet Area Angle: &quot;</span> &lt;&lt; wetAreaAngle &lt;&lt; <span class="stringliteral">&quot; deg | &quot;</span>;</div>
+<div class="line"><span class="lineno">  178</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Waterjet Wet Area Radius: &quot;</span> &lt;&lt; wetAreaRadius &lt;&lt; <span class="stringliteral">&quot; m&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8d1dae4f0d1fb0908300c1babc13167d" name="a8d1dae4f0d1fb0908300c1babc13167d"></a>
@@ -243,11 +260,16 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>wetAreaRadius</b></t
 
 <p>Update waterjet angle in each time step. </p>
 <p><a class="el" href="class_waterjet.html" title="Generete Waterjet object with it&#39;s specific properties.">Waterjet</a> angle with respect to x-axis is updated. In each time step, waterjet angle is increased as wet area angle. The output is range is [0,360). </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  162</span>    {</div>
+<div class="line"><span class="lineno">  163</span>        angleToGround += wetAreaAngle;</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">if</span> (angleToGround &gt;= 360)</div>
+<div class="line"><span class="lineno">  165</span>            angleToGround -= 360;</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/<a class="el" href="main_8cpp.html">main.cpp</a></li>
+<li>src/<a class="el" href="_turtle_problem_8cpp.html">TurtleProblem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

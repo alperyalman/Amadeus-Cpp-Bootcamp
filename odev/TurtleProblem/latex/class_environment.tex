@@ -83,6 +83,16 @@ Construct a new \doxylink{class_environment}{Environment}\+:\+: \doxylink{class_
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00418\ \{}
+\DoxyCodeLine{00419\ \ \ \ \ leftTop\ =\ lTop;}
+\DoxyCodeLine{00420\ \ \ \ \ leftBottom\ =\ lBottom;}
+\DoxyCodeLine{00421\ \ \ \ \ rightBottom\ =\ rBottom;}
+\DoxyCodeLine{00422\ \ \ \ \ rightTop\ =\ rTop;}
+\DoxyCodeLine{00423\ \}}
+
+\end{DoxyCode}
+
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_environment_adbd97f1dc227443e6d707d3faca909ed}\label{class_environment_adbd97f1dc227443e6d707d3faca909ed} 
@@ -105,6 +115,19 @@ Create turtle randomly within the environment.
 \begin{DoxyReturn}{Returns}
 \doxylink{class_turtle}{Turtle} 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00433\ \{}
+\DoxyCodeLine{00434\ \ \ \ \ \textcolor{comment}{//\ srand(static\_cast<unsigned\ int>(time(0)));}}
+\DoxyCodeLine{00435\ \ \ \ \ \textcolor{keywordtype}{float}\ randomX\ =\ env.leftBottom.posX\ +\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand())\ /\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(RAND\_MAX)\ *\ (env.rightBottom.posX\ -\/\ env.leftBottom.posX);}
+\DoxyCodeLine{00436\ \ \ \ \ \textcolor{keywordtype}{float}\ randomY\ =\ env.leftBottom.posY\ +\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand())\ /\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(RAND\_MAX)\ *\ (env.leftTop.posY\ -\/\ env.leftBottom.posY);}
+\DoxyCodeLine{00437\ \ \ \ \ \textcolor{keywordtype}{float}\ randomDirection\ =\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand()\ \%\ 360);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Random\ angle\ between\ 0\ and\ 359\ degrees}}
+\DoxyCodeLine{00438\ \ \ \ \ \textcolor{keywordtype}{float}\ randomVelocity\ =\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand())\ /\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(RAND\_MAX)\ *\ 10.0f;\ \textcolor{comment}{//\ Random\ float\ between\ 0\ and\ 10}}
+\DoxyCodeLine{00439\ \ \ \ \ \mbox{\hyperlink{class_turtle}{Turtle}}\ turtle(name,\ randomX,\ randomY,\ randomDirection,\ randomVelocity);}
+\DoxyCodeLine{00440\ \ \ \ \ \textcolor{keywordflow}{return}\ turtle;}
+\DoxyCodeLine{00441\ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_environment_a225d72b923a81508f8e7e4b7aef3eef5}\label{class_environment_a225d72b923a81508f8e7e4b7aef3eef5} 
 \index{Environment@{Environment}!createWaterjet@{createWaterjet}}
 \index{createWaterjet@{createWaterjet}!Environment@{Environment}}
@@ -125,6 +148,20 @@ Create waterjet randomly within the environment.
 \begin{DoxyReturn}{Returns}
 \doxylink{class_waterjet}{Waterjet} 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00451\ \{}
+\DoxyCodeLine{00452\ \ \ \ \ \textcolor{keywordtype}{float}\ randomX\ =\ env.leftBottom.posX\ +\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand())\ /\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(RAND\_MAX)\ *\ (env.rightBottom.posX\ -\/\ env.leftBottom.posX);}
+\DoxyCodeLine{00453\ \ \ \ \ \textcolor{keywordtype}{float}\ randomY\ =\ env.leftBottom.posY\ +\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand())\ /\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(RAND\_MAX)\ *\ (env.leftTop.posY\ -\/\ env.leftBottom.posY);}
+\DoxyCodeLine{00454\ \ \ \ \ \textcolor{keywordtype}{float}\ randomAngle\ =\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand()\ \%\ 360);\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Random\ angle\ between\ 0\ and\ 359\ degrees}}
+\DoxyCodeLine{00455\ \ \ \ \ \textcolor{keywordtype}{float}\ randomWetAreaAngle\ =\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand()\ \%\ 21)\ +\ 10;\ \textcolor{comment}{//\ Random\ angle\ between\ 10\ and\ 30\ degrees}}
+\DoxyCodeLine{00456\ \ \ \ \ \textcolor{keywordtype}{float}\ randomWetAreaRadius\ =\ \textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{float}\textcolor{keyword}{>}(rand()\ \%\ 10)\ +\ 1;\ \textcolor{comment}{//\ Random\ distance\ between\ 1\ and\ 10\ meters}}
+\DoxyCodeLine{00457\ }
+\DoxyCodeLine{00458\ \ \ \ \ \mbox{\hyperlink{class_waterjet}{Waterjet}}\ waterjet(name,\ randomX,\ randomY,\ randomAngle,\ randomWetAreaAngle,\ randomWetAreaRadius);}
+\DoxyCodeLine{00459\ \ \ \ \ \textcolor{keywordflow}{return}\ waterjet;}
+\DoxyCodeLine{00460\ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_environment_a656ff8c6066d410db3b8ae6fd0e55cee}\label{class_environment_a656ff8c6066d410db3b8ae6fd0e55cee} 
 \index{Environment@{Environment}!runSimulation@{runSimulation}}
 \index{runSimulation@{runSimulation}!Environment@{Environment}}
@@ -144,6 +181,44 @@ runc\+Simulation() function starts simulation with specified step time and max s
 {\em simulation\+Time} & Maximum simulation time \\
 \hline
 \end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00525\ \{}
+\DoxyCodeLine{00526\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Simulation\ information"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00527\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/\ Step\ time\ is\ "{}}\ <<\ stepTime\ <<\ \textcolor{stringliteral}{"{}\ seconds."{}}\ <<\ std::endl;}
+\DoxyCodeLine{00528\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/\ Maximum\ simulation\ time\ is\ "{}}\ <<\ simulationTime\ <<\ \textcolor{stringliteral}{"{}\ seconds.\(\backslash\)n"{}}}
+\DoxyCodeLine{00529\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00530\ }
+\DoxyCodeLine{00531\ \ \ \ \ \mbox{\hyperlink{class_logger}{Logger}}\ logger(\textcolor{stringliteral}{"{}LogFile.txt"{}});}
+\DoxyCodeLine{00532\ \ \ \ \ currentTime\ =\ 0;}
+\DoxyCodeLine{00533\ \ \ \ \ logger.logGameState(currentTime,\ turtleList,\ waterjetList,\ deadTurtleList);\ \textcolor{comment}{//\ Log\ initial\ states\ at\ time\ =\ 0}}
+\DoxyCodeLine{00534\ }
+\DoxyCodeLine{00535\ \ \ \ \ \textcolor{keywordflow}{while}\ (!turtleList.empty()\ \&\&\ currentTime\ <=\ simulationTime)}
+\DoxyCodeLine{00536\ \ \ \ \ \{}
+\DoxyCodeLine{00537\ \ \ \ \ \ \ \ \ currentTime\ +=\ stepTime;}
+\DoxyCodeLine{00538\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ waterjetList.size();\ i++)}
+\DoxyCodeLine{00539\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00540\ \ \ \ \ \ \ \ \ \ \ \ \ waterjetList[i].updateAngleToGround();}
+\DoxyCodeLine{00541\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00542\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ turtleList.size();\ i++)}
+\DoxyCodeLine{00543\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00544\ \ \ \ \ \ \ \ \ \ \ \ \ turtleList[i].updatePosition(stepTime);}
+\DoxyCodeLine{00545\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00546\ }
+\DoxyCodeLine{00547\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Update\ turtleList\ and\ deadTurtleList.}}
+\DoxyCodeLine{00548\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}{setTurtlesLives}}();}
+\DoxyCodeLine{00549\ }
+\DoxyCodeLine{00550\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Wet\ area\ checks}}
+\DoxyCodeLine{00551\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}{setWetInformationTurtles}}();}
+\DoxyCodeLine{00552\ }
+\DoxyCodeLine{00553\ \ \ \ \ \ \ \ \ logger.logGameState(currentTime,\ turtleList,\ waterjetList,\ deadTurtleList);}
+\DoxyCodeLine{00554\ \ \ \ \ \}}
+\DoxyCodeLine{00555\ }
+\DoxyCodeLine{00556\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nSimulation\ is\ finished\ after\ "{}}\ <<\ currentTime\ <<\ \textcolor{stringliteral}{"{}\ seconds.\(\backslash\)n"{}}}
+\DoxyCodeLine{00557\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00558\ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}\label{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe} 
 \index{Environment@{Environment}!setTurtlesLives@{setTurtlesLives}}
 \index{setTurtlesLives@{setTurtlesLives}!Environment@{Environment}}
@@ -154,7 +229,31 @@ runc\+Simulation() function starts simulation with specified step time and max s
 
 Update alive and dead turtle lists. 
 
-\doxylink{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}{set\+Turtles\+Lives()} function checks if any turtle is out of the envrionment in each time step, and updates lists of active turtles and dead turtles accordingly. \Hypertarget{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}\label{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846} 
+\doxylink{class_environment_a1e765c8b0debacd5e43dad09f9b75cbe}{set\+Turtles\+Lives()} function checks if any turtle is out of the envrionment in each time step, and updates lists of active turtles and dead turtles accordingly. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00469\ \{}
+\DoxyCodeLine{00470\ \ \ \ \ std::vector<Turtle>\ newDeadTurtles\ =\ deadTurtleList;}
+\DoxyCodeLine{00471\ \ \ \ \ std::vector<int>\ idxKilled;}
+\DoxyCodeLine{00472\ }
+\DoxyCodeLine{00473\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ turtleList.size();\ i++)}
+\DoxyCodeLine{00474\ \ \ \ \ \{}
+\DoxyCodeLine{00475\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!connector.\mbox{\hyperlink{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0}{checkEnvCollision}}(turtleList[i],\ \textcolor{keyword}{this}))}
+\DoxyCodeLine{00476\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00477\ \ \ \ \ \ \ \ \ \ \ \ \ deadTurtleList.push\_back(turtleList[i]);}
+\DoxyCodeLine{00478\ \ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Current\ time:\ "{}}\ <<\ currentTime\ <<\ \textcolor{stringliteral}{"{}\ seconds.\ "{}}\ <<\ turtleList[i].turtleName\ <<\ \textcolor{stringliteral}{"{}\ killed\ at\ the\ position\ (x,\ y)\ =\ ("{}}\ <<\ turtleList[i].posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ turtleList[i].posY\ <<\ \textcolor{stringliteral}{"{})"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00479\ \ \ \ \ \ \ \ \ \ \ \ \ idxKilled.push\_back(i);}
+\DoxyCodeLine{00480\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00481\ \ \ \ \ \}}
+\DoxyCodeLine{00482\ }
+\DoxyCodeLine{00483\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ idxKilled.size();\ i++)}
+\DoxyCodeLine{00484\ \ \ \ \ \{}
+\DoxyCodeLine{00485\ \ \ \ \ \ \ \ \ std::vector<Turtle>::const\_iterator\ c\_itr\ =\ std::next(turtleList.cbegin(),\ idxKilled[i]);}
+\DoxyCodeLine{00486\ \ \ \ \ \ \ \ \ turtleList.erase(c\_itr);}
+\DoxyCodeLine{00487\ \ \ \ \ \}}
+\DoxyCodeLine{00488\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}\label{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846} 
 \index{Environment@{Environment}!setWetInformationTurtles@{setWetInformationTurtles}}
 \index{setWetInformationTurtles@{setWetInformationTurtles}!Environment@{Environment}}
 \doxysubsubsection{\texorpdfstring{setWetInformationTurtles()}{setWetInformationTurtles()}}
@@ -165,7 +264,28 @@ Update alive and dead turtle lists.
 Update is\+Wet information of turtles. 
 
 \doxylink{class_environment_a1e751e5beb1b71a9c2e2a5abf78ec846}{set\+Wet\+Information\+Turtles()} function checks if any turtle is in the wet area, and updates the turtle\textquotesingle{}s is\+Wet information accordingly. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00497\ \{}
+\DoxyCodeLine{00498\ \ \ \ \ \textcolor{comment}{//\ 1\ -\/>\ wet}}
+\DoxyCodeLine{00499\ \ \ \ \ \textcolor{comment}{//\ 0\ -\/>\ not\ wet}}
+\DoxyCodeLine{00500\ \ \ \ \ std::vector<int>\ wetInfo;}
+\DoxyCodeLine{00501\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ turtleList.size();\ i++)}
+\DoxyCodeLine{00502\ \ \ \ \ \{}
+\DoxyCodeLine{00503\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ j\ =\ 0;\ j\ <\ waterjetList.size();\ j++)}
+\DoxyCodeLine{00504\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00505\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ TODO:\ check\ if\ turtle\ is\ already\ wet\ or\ not\ [disscuss]}}
+\DoxyCodeLine{00506\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (connector.\mbox{\hyperlink{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0}{checkTurtleIsInWetArea}}(waterjetList[j],\ turtleList[i]))}
+\DoxyCodeLine{00507\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00508\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ turtleList[i].isWet\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00509\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Current\ time:\ "{}}\ <<\ currentTime\ <<\ \textcolor{stringliteral}{"{}\ seconds.\ "{}}\ <<\ turtleList[i].turtleName\ <<\ \textcolor{stringliteral}{"{}\ is\ wet\ from\ the\ position\ (x,\ y)\ =\ "{}}\ <<\ turtleList[i].printPosition().str();}
+\DoxyCodeLine{00510\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00511\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00512\ \ \ \ \ \}}
+\DoxyCodeLine{00513\ \}}
+
+\end{DoxyCode}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
+src/\mbox{\hyperlink{_turtle_problem_8cpp}{Turtle\+Problem.\+cpp}}\end{DoxyCompactItemize}

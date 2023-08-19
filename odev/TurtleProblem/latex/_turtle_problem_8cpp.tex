@@ -1,0 +1,128 @@
+\doxysection{src/\+Turtle\+Problem.cpp File Reference}
+\hypertarget{_turtle_problem_8cpp}{}\label{_turtle_problem_8cpp}\index{src/TurtleProblem.cpp@{src/TurtleProblem.cpp}}
+
+
+\doxylink{class_turtle}{Turtle} Problem Classes and Functions.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_point}{Point}}
+\begin{DoxyCompactList}\small\item\em Generate (x,y) points in cartesian coordinate system. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_turtle}{Turtle}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_turtle}{Turtle} object with it\textquotesingle{}s specific properties. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_waterjet}{Waterjet}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_waterjet}{Waterjet} object with it\textquotesingle{}s specific properties. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_logger}{Logger}}
+\begin{DoxyCompactList}\small\item\em Generete \doxylink{class_logger}{Logger} object to create simulation log file. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_object_interaction}{Object\+Interaction}}
+\begin{DoxyCompactList}\small\item\em Calculate and check turtle and waterjet interactions. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_environment}{Environment}}
+\begin{DoxyCompactList}\small\item\em Generate the environment with corner. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_turtle_problem_8cpp_ac0f2228420376f4db7e1274f2b41667c}{main}} (int argc, const char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Program main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{class_turtle}{Turtle} Problem Classes and Functions. 
+
+\begin{DoxyAuthor}{Author}
+Utku Selim Koçoğu, Mert Ali Tombul, Mert Çevik, Alper Yalman 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/08-\/19
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_turtle_problem_8cpp_ac0f2228420376f4db7e1274f2b41667c}\label{_turtle_problem_8cpp_ac0f2228420376f4db7e1274f2b41667c} 
+\index{TurtleProblem.cpp@{TurtleProblem.cpp}!main@{main}}
+\index{main@{main}!TurtleProblem.cpp@{TurtleProblem.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Program main function. 
+
+
+\begin{DoxyItemize}
+\item Create the environment.
+\item Number of turtles and waterjets are user inputs.
+\item Create turtles and waterjets randomly.
+\item Run the simulation. 
+\end{DoxyItemize}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00574\ \{}
+\DoxyCodeLine{00575\ \ \ \ \ \textcolor{keywordtype}{int}\ numOfTurtles;}
+\DoxyCodeLine{00576\ \ \ \ \ \textcolor{keywordtype}{int}\ numOfWaterjets;}
+\DoxyCodeLine{00577\ \ \ \ \ \mbox{\hyperlink{class_point}{Point}}\ lTop(0,\ 100);}
+\DoxyCodeLine{00578\ \ \ \ \ \mbox{\hyperlink{class_point}{Point}}\ lBottom(0,\ 0);}
+\DoxyCodeLine{00579\ \ \ \ \ \mbox{\hyperlink{class_point}{Point}}\ rBottom(100,\ 0);}
+\DoxyCodeLine{00580\ \ \ \ \ \mbox{\hyperlink{class_point}{Point}}\ rTop(100,\ 100);}
+\DoxyCodeLine{00581\ }
+\DoxyCodeLine{00582\ \ \ \ \ \textcolor{comment}{//\ Create\ environment}}
+\DoxyCodeLine{00583\ \ \ \ \ \mbox{\hyperlink{class_environment}{Environment}}\ env(lTop,\ lBottom,\ rBottom,\ rTop);}
+\DoxyCodeLine{00584\ \ \ \ \ srand(\textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\textcolor{keyword}{>}(time(0)));}
+\DoxyCodeLine{00585\ }
+\DoxyCodeLine{00586\ \ \ \ \ \textcolor{comment}{//\ User\ specified\ numbers\ of\ Turtles\ and\ Waterjets\ will\ be\ generated\ randomly\ in\ the\ environment.}}
+\DoxyCodeLine{00587\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Enter\ the\ number\ of\ turtles:\ "{}};}
+\DoxyCodeLine{00588\ \ \ \ \ std::cin\ >>\ numOfTurtles;}
+\DoxyCodeLine{00589\ }
+\DoxyCodeLine{00590\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Enter\ the\ number\ of\ waterjets:\ "{}};}
+\DoxyCodeLine{00591\ \ \ \ \ std::cin\ >>\ numOfWaterjets;}
+\DoxyCodeLine{00592\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00593\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00594\ }
+\DoxyCodeLine{00595\ \ \ \ \ \textcolor{comment}{//\ Create\ random\ turtles\ and\ print\ their\ info.}}
+\DoxyCodeLine{00596\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Following\ turtles\ are\ created."{}}\ <<\ std::endl;}
+\DoxyCodeLine{00597\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00598\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 1;\ i\ <=\ numOfTurtles;\ i++)}
+\DoxyCodeLine{00599\ \ \ \ \ \{}
+\DoxyCodeLine{00600\ \ \ \ \ \ \ \ \ std::ostringstream\ strT;}
+\DoxyCodeLine{00601\ \ \ \ \ \ \ \ \ strT\ <<\ i;}
+\DoxyCodeLine{00602\ \ \ \ \ \ \ \ \ env.turtleList.push\_back(env.createTurtle(\textcolor{stringliteral}{"{}Turtle\ "{}}\ +\ strT.str(),\ env));}
+\DoxyCodeLine{00603\ \ \ \ \ \}}
+\DoxyCodeLine{00604\ }
+\DoxyCodeLine{00605\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00606\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00607\ }
+\DoxyCodeLine{00608\ \ \ \ \ \textcolor{comment}{//\ Create\ random\ waterjets\ and\ print\ their\ info.}}
+\DoxyCodeLine{00609\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Following\ waterjets\ are\ created."{}}\ <<\ std::endl;}
+\DoxyCodeLine{00610\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00611\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ j\ =\ 1;\ j\ <=\ numOfWaterjets;\ j++)}
+\DoxyCodeLine{00612\ \ \ \ \ \{}
+\DoxyCodeLine{00613\ \ \ \ \ \ \ \ \ std::ostringstream\ strW;}
+\DoxyCodeLine{00614\ \ \ \ \ \ \ \ \ strW\ <<\ j;}
+\DoxyCodeLine{00615\ \ \ \ \ \ \ \ \ env.waterjetList.push\_back(env.createWaterjet(\textcolor{stringliteral}{"{}Waterjet\ "{}}\ +\ strW.str(),\ env));}
+\DoxyCodeLine{00616\ \ \ \ \ \}}
+\DoxyCodeLine{00617\ }
+\DoxyCodeLine{00618\ \ \ \ \ \textcolor{comment}{//\ Start\ simulation\ with\ step\ time\ and\ maximum\ simulation\ time.}}
+\DoxyCodeLine{00619\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n***************Simulation\ Start***************\(\backslash\)n"{}}}
+\DoxyCodeLine{00620\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00621\ }
+\DoxyCodeLine{00622\ \ \ \ \ env.runSimulation(0.1f,\ 100.0f);}
+\DoxyCodeLine{00623\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n***************Simulation\ End***************\(\backslash\)n"{}}}
+\DoxyCodeLine{00624\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00625\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00626\ \}}
+
+\end{DoxyCode}

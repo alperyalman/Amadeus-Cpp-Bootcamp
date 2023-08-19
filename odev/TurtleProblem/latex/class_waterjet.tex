@@ -69,6 +69,19 @@ Construct a new \doxylink{class_waterjet}{Waterjet} object.
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00145\ \ \ \ \ \{}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ this-\/>waterjetName\ =\ waterjetName;}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ this-\/>posX\ =\ posX;}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ this-\/>posY\ =\ posY;}
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ this-\/>angleToGround\ =\ angleToGround;}
+\DoxyCodeLine{00150\ \ \ \ \ \ \ \ \ this-\/>wetAreaAngle\ =\ wetAreaAngle;}
+\DoxyCodeLine{00151\ \ \ \ \ \ \ \ \ this-\/>wetAreaRadius\ =\ wetAreaRadius;}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_waterjet_a52149776dff91e66af839ea86ad23490}{printWaterjetInfo}}();}
+\DoxyCodeLine{00153\ \ \ \ \ \}}
+
+\end{DoxyCode}
+
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_waterjet_a52149776dff91e66af839ea86ad23490}\label{class_waterjet_a52149776dff91e66af839ea86ad23490} 
@@ -81,6 +94,17 @@ Construct a new \doxylink{class_waterjet}{Waterjet} object.
 
 Print waterjet object information when created. 
 
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00173\ \ \ \ \ \{}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Name:\ "{}}\ <<\ waterjetName\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Position:\ ("{}}\ <<\ posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ posY\ <<\ \textcolor{stringliteral}{"{})\ |\ "{}};}
+\DoxyCodeLine{00176\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Initial\ Direction:\ "{}}\ <<\ angleToGround\ <<\ \textcolor{stringliteral}{"{}\ deg\ |\ "{}};}
+\DoxyCodeLine{00177\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Wet\ Area\ Angle:\ "{}}\ <<\ wetAreaAngle\ <<\ \textcolor{stringliteral}{"{}\ deg\ |\ "{}};}
+\DoxyCodeLine{00178\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Wet\ Area\ Radius:\ "{}}\ <<\ wetAreaRadius\ <<\ \textcolor{stringliteral}{"{}\ m"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00179\ \ \ \ \ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_waterjet_a8d1dae4f0d1fb0908300c1babc13167d}\label{class_waterjet_a8d1dae4f0d1fb0908300c1babc13167d} 
 \index{Waterjet@{Waterjet}!updateAngleToGround@{updateAngleToGround}}
 \index{updateAngleToGround@{updateAngleToGround}!Waterjet@{Waterjet}}
@@ -92,7 +116,16 @@ Print waterjet object information when created.
 Update waterjet angle in each time step. 
 
 \doxylink{class_waterjet}{Waterjet} angle with respect to x-\/axis is updated. In each time step, waterjet angle is increased as wet area angle. The output is range is \mbox{[}0,360). 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00162\ \ \ \ \ \{}
+\DoxyCodeLine{00163\ \ \ \ \ \ \ \ \ angleToGround\ +=\ wetAreaAngle;}
+\DoxyCodeLine{00164\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (angleToGround\ >=\ 360)}
+\DoxyCodeLine{00165\ \ \ \ \ \ \ \ \ \ \ \ \ angleToGround\ -\/=\ 360;}
+\DoxyCodeLine{00166\ \ \ \ \ \}}
+
+\end{DoxyCode}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
+src/\mbox{\hyperlink{_turtle_problem_8cpp}{Turtle\+Problem.\+cpp}}\end{DoxyCompactItemize}

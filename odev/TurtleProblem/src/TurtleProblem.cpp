@@ -386,7 +386,7 @@ bool ObjectInteraction::checkTurtleIsInWetArea(Waterjet &waterjet, Turtle &turtl
 }
 
 /**
- * @brief Check if the turtle is exceed the environment limits
+ * @brief Check if the turtle exceeds the environment limits
  *
  * @param turtle Turtle object
  * @param env Environment object
@@ -508,8 +508,6 @@ void Environment::setWetInformationTurtles()
                 turtleList[i].isWet = true;
                 std::cout << "Current time: " << currentTime << " seconds. " << turtleList[i].turtleName << " is wet from the position (x, y) = " << turtleList[i].printPosition().str();
             }
-            // else koşulu yazılacak mı? (isWet = false)
-            // print or log turtle current situation?
         }
     }
 }
@@ -571,6 +569,7 @@ void Environment::runSimulation(float stepTime, float simulationTime)
  * - Run the simulation.
  *
  */
+
 int main(int argc, const char *argv[])
 {
     int numOfTurtles;
@@ -621,9 +620,7 @@ int main(int argc, const char *argv[])
               << std::endl;
 
     env.runSimulation(0.1f, 100.0f);
-
     std::cout << "\n***************Simulation End***************\n"
               << std::endl;
-
     return 0;
 }

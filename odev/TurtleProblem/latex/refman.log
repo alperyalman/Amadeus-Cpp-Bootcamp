@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  19 AUG 2023 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  19 AUG 2023 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,6 +866,14 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 6.29996pt on input line 204.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 204.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
+4.
+
+(C:\Users\alper\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.29996pt on input line 204.
 
@@ -915,36 +923,22 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 6.29996pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 58.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 68.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 68
-.
-
-(C:\Users\alper\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 68.
-
-[5]
-Underfull \hbox (badness 10000) detected at line 105
+ [5]
+Underfull \hbox (badness 10000) detected at line 115
 [][][]
  []
 
 [6]
-Underfull \hbox (badness 10000) detected at line 125
+Underfull \hbox (badness 10000) detected at line 148
 [][][]
  []
 
-) (class_logger.tex [7] [8]) (class_object_interaction.tex [9]
-Underfull \hbox (badness 10000) detected at line 59
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 79
+[7] [8]) (class_logger.tex [9] [10]) (class_object_interaction.tex [11]
+Underfull \hbox (badness 10000) detected at line 64
 [][][]
  []
 
@@ -953,54 +947,71 @@ Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
-[10]
-Underfull \hbox (badness 10000) detected at line 121
+[12]
+Underfull \hbox (badness 10000) detected at line 128
 [][][]
  []
 
-) (class_point.tex [11]) (class_turtle.tex [12]
-Underfull \hbox (badness 10000) detected at line 84
+
+Underfull \hbox (badness 10000) detected at line 165
 [][][]
  []
 
-) (class_waterjet.tex [13] [14]) [15] [16
+) (class_point.tex [13]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 33.
+) (class_turtle.tex [14]
+Overfull \vbox (42.41573pt too high) has occurred while \output is active []
 
-]
+
+[15]
+Underfull \hbox (badness 10000) detected at line 97
+[][][]
+ []
+
+) (class_waterjet.tex [16]
+Overfull \vbox (53.43964pt too high) has occurred while \output is active []
+
+
+[17]) [18]
 Chapter 4.
-(main_8cpp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--21
+(_turtle_problem_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
 
  []
 
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 27.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 22.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 27.
-[17]
-Underfull \hbox (badness 10000) detected at line 46
+(Font)              scaled to size 8.09995pt on input line 22.
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+[19
+
+]
+Underfull \hbox (badness 10000) detected at line 44
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 49
+Underfull \hbox (badness 10000) detected at line 47
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 52
+Underfull \hbox (badness 10000) detected at line 50
 [][][]
  []
 
+[20]) [21] [22
 
-Underfull \hbox (badness 10000) detected at line 55
-[][][]
- []
-
-) [18] (refman.ind
+] (refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [19
-
+ [23
 
 
 ]) (refman.aux)
@@ -1009,16 +1020,16 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 2BE00288DB4A7150AD1903E2F3C0D137;11440.
+(rerunfilecheck)             Checksum: 7EFE7776F92E7A8F410A36FA9E29CE3D;11873.
  ) 
 Here is how much of TeX's memory you used:
- 18094 strings out of 475550
- 294279 string characters out of 5762533
- 1935238 words of memory out of 5000000
- 38815 multiletter control sequences out of 15000+600000
- 612465 words of font info for 103 fonts, out of 8000000 for 9000
+ 18113 strings out of 475550
+ 294804 string characters out of 5762533
+ 1934238 words of memory out of 5000000
+ 38823 multiletter control sequences out of 15000+600000
+ 615018 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,469b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,497b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alper/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/alper/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/alper/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1026,15 +1037,16 @@ blic/amsfonts/cm/cmmi8.pfb><C:/Users/alper/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/alper/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/alper/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alper/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/alper/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/alper/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/alper/App
-Data/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/alper
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/al
-per/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (23 pages, 245916 bytes).
+al/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/alper/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/alper/AppData
+/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/alper/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/alper/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/alp
+er/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/
+alper/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (27 pages, 273869 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 829 PDF objects out of 1000 (max. 8388607)
+ 165 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 

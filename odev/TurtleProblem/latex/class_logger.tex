@@ -42,6 +42,33 @@ Construct a new \doxylink{class_logger}{Logger} object.
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00206\ \{}
+\DoxyCodeLine{00207\ \ \ \ \ logFile.open(filename);}
+\DoxyCodeLine{00208\ \ \ \ \ \textcolor{keywordflow}{if}\ (!logFile.is\_open())}
+\DoxyCodeLine{00209\ \ \ \ \ \{}
+\DoxyCodeLine{00210\ \ \ \ \ \ \ \ \ std::cerr\ <<\ \textcolor{stringliteral}{"{}Error\ opening\ the\ log\ file:\ "{}}\ <<\ filename\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00211\ \ \ \ \ \}}
+\DoxyCodeLine{00212\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_logger_acb668a9e186a25fbaad2e4af6d1ed00a}\label{class_logger_acb668a9e186a25fbaad2e4af6d1ed00a} 
+\index{Logger@{Logger}!````~Logger@{\texorpdfstring{$\sim$}{\string~}Logger}}
+\index{````~Logger@{\texorpdfstring{$\sim$}{\string~}Logger}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Logger()}{\string~Logger()}}
+{\footnotesize\ttfamily Logger\+::\texorpdfstring{$\sim$}{\string~}\+Logger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00215\ \{}
+\DoxyCodeLine{00216\ \ \ \ \ \textcolor{keywordflow}{if}\ (logFile.is\_open())}
+\DoxyCodeLine{00217\ \ \ \ \ \{}
+\DoxyCodeLine{00218\ \ \ \ \ \ \ \ \ logFile.close();}
+\DoxyCodeLine{00219\ \ \ \ \ \}}
+\DoxyCodeLine{00220\ \}}
+
+\end{DoxyCode}
+
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_logger_aee63711937b12364cf82177a9414e8d6}\label{class_logger_aee63711937b12364cf82177a9414e8d6} 
@@ -66,7 +93,43 @@ Log all the information at the given time.
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00231\ \{}
+\DoxyCodeLine{00232\ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Time\ Step:\ "{}}\ <<\ time\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00233\ }
+\DoxyCodeLine{00234\ \ \ \ \ \textcolor{comment}{//\ Log\ waterjet\ information}}
+\DoxyCodeLine{00235\ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}[WATERJETS]"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00236\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \mbox{\hyperlink{class_waterjet}{Waterjet}}\ \&waterjet\ :\ waterjets)}
+\DoxyCodeLine{00237\ \ \ \ \ \{}
+\DoxyCodeLine{00238\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Name:\ "{}}\ <<\ waterjet.waterjetName\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00239\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Location:\ ("{}}\ <<\ waterjet.posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ waterjet.posY\ <<\ \textcolor{stringliteral}{"{})\ |\ "{}};}
+\DoxyCodeLine{00240\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Waterjet\ Angle:\ "{}}\ <<\ waterjet.angleToGround\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00241\ \ \ \ \ \}}
+\DoxyCodeLine{00242\ }
+\DoxyCodeLine{00243\ \ \ \ \ \textcolor{comment}{//\ Log\ turtle\ information}}
+\DoxyCodeLine{00244\ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}[ALIVE\ TURTLES]"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00245\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \mbox{\hyperlink{class_turtle}{Turtle}}\ \&turtle\ :\ turtles)}
+\DoxyCodeLine{00246\ \ \ \ \ \{}
+\DoxyCodeLine{00247\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Name:\ "{}}\ <<\ turtle.turtleName\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00248\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Location:\ ("{}}\ <<\ turtle.posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ turtle.posY\ <<\ \textcolor{stringliteral}{"{})\ |\ "{}}}
+\DoxyCodeLine{00249\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{}Turtle\ Speed:\ "{}}\ <<\ turtle.velocity\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00250\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Wet:\ "{}}\ <<\ (turtle.isWet\ ?\ \textcolor{stringliteral}{"{}Yes"{}}\ :\ \textcolor{stringliteral}{"{}No"{}})\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00251\ \ \ \ \ \}}
+\DoxyCodeLine{00252\ }
+\DoxyCodeLine{00253\ \ \ \ \ \textcolor{comment}{//\ Log\ dead\ turtle\ information}}
+\DoxyCodeLine{00254\ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}[DEAD\ TURTLES]"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00255\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \mbox{\hyperlink{class_turtle}{Turtle}}\ \&turtle\ :\ deadTurtles)}
+\DoxyCodeLine{00256\ \ \ \ \ \{}
+\DoxyCodeLine{00257\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Name:\ "{}}\ <<\ turtle.turtleName\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00258\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Death\ Location:\ ("{}}\ <<\ turtle.posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ turtle.posY\ <<\ \textcolor{stringliteral}{"{})\ |\ "{}};}
+\DoxyCodeLine{00259\ \ \ \ \ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}Turtle\ Wet:\ "{}}\ <<\ (turtle.isWet\ ?\ \textcolor{stringliteral}{"{}Yes"{}}\ :\ \textcolor{stringliteral}{"{}No"{}})\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00260\ \ \ \ \ \}}
+\DoxyCodeLine{00261\ \ \ \ \ logFile\ <<\ \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00262\ \}}
+
+\end{DoxyCode}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
+src/\mbox{\hyperlink{_turtle_problem_8cpp}{Turtle\+Problem.\+cpp}}\end{DoxyCompactItemize}

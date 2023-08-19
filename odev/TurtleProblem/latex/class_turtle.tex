@@ -69,6 +69,19 @@ Construct a new \doxylink{class_turtle}{Turtle} object.
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00071\ \ \ \ \ \{}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ this-\/>turtleName\ =\ turtleName;}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ posX\ =\ initialX;}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ posY\ =\ initialY;}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ isWet\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ direction\ =\ initialDirection;}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ velocity\ =\ initialVelocity;}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce}{printTurtleInfo}}();}
+\DoxyCodeLine{00079\ \ \ \ \ \}}
+
+\end{DoxyCode}
+
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_turtle_a37345679b8b0dc8a948fbe2fd507c2fa}\label{class_turtle_a37345679b8b0dc8a948fbe2fd507c2fa} 
@@ -84,6 +97,15 @@ Get turtle position to print.
 \begin{DoxyReturn}{Returns}
 std\+::stringstream 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00098\ \ \ \ \ \{}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ std::stringstream\ posStr;}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ posStr\ <<\ \textcolor{stringliteral}{"{}("{}}\ <<\ posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ posY\ <<\ \textcolor{stringliteral}{"{})\(\backslash\)n"{}};}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ posStr;}
+\DoxyCodeLine{00102\ \ \ \ \ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce}\label{class_turtle_ab13337d6ea6432df8dd9ee6707eaecce} 
 \index{Turtle@{Turtle}!printTurtleInfo@{printTurtleInfo}}
 \index{printTurtleInfo@{printTurtleInfo}!Turtle@{Turtle}}
@@ -94,6 +116,16 @@ std\+::stringstream
 
 Print turtle object information when created. 
 
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00109\ \ \ \ \ \{}
+\DoxyCodeLine{00110\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Turtle\ Name:\ "{}}\ <<\ turtleName\ <<\ \textcolor{stringliteral}{"{}\ |\ "{}};}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Turtle\ Position:\ ("{}}\ <<\ posX\ <<\ \textcolor{stringliteral}{"{},\ "{}}\ <<\ posY\ <<\ \textcolor{stringliteral}{"{})\ |\ "{}};}
+\DoxyCodeLine{00112\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Turtle\ Veclocity:\ "{}}\ <<\ velocity\ <<\ \textcolor{stringliteral}{"{}\ m/s\ |\ "{}};}
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Turtle\ Direction:\ "{}}\ <<\ direction\ <<\ \textcolor{stringliteral}{"{}\ deg"{}}\ <<\ std::endl;}
+\DoxyCodeLine{00114\ \ \ \ \ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_turtle_a4be9b07d0ce19bebe6b8edd12ec05788}\label{class_turtle_a4be9b07d0ce19bebe6b8edd12ec05788} 
 \index{Turtle@{Turtle}!updatePosition@{updatePosition}}
 \index{updatePosition@{updatePosition}!Turtle@{Turtle}}
@@ -110,7 +142,15 @@ Update turtle position in each time step.
 \hline
 \end{DoxyParams}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00087\ \ \ \ \ \{}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ posX\ +=\ stepTime\ *\ cosf(direction\ *\ M\_PI\ /\ 180)\ *\ velocity;}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ posY\ +=\ stepTime\ *\ sinf(direction\ *\ M\_PI\ /\ 180)\ *\ velocity;}
+\DoxyCodeLine{00090\ \ \ \ \ \}}
+
+\end{DoxyCode}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
+src/\mbox{\hyperlink{_turtle_problem_8cpp}{Turtle\+Problem.\+cpp}}\end{DoxyCompactItemize}

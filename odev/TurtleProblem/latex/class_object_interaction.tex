@@ -17,7 +17,7 @@ float \mbox{\hyperlink{class_object_interaction_a847a5c394f2a3347a19b02e21fb0d7e
 bool \mbox{\hyperlink{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0}{check\+Turtle\+Is\+In\+Wet\+Area}} (\mbox{\hyperlink{class_waterjet}{Waterjet}} \&waterjet, \mbox{\hyperlink{class_turtle}{Turtle}} \&turtle)
 \begin{DoxyCompactList}\small\item\em Check if the turtle is in the wet area. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0}{check\+Env\+Collision}} (\mbox{\hyperlink{class_turtle}{Turtle}} \&turtle, \mbox{\hyperlink{class_environment}{Environment}} \texorpdfstring{$\ast$}{*}env)
-\begin{DoxyCompactList}\small\item\em Check if the turtle is exceed the environment limits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Check if the turtle exceeds the environment limits. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -36,6 +36,11 @@ Calculate and check turtle and waterjet interactions.
 
 Construct a new Object Interaction\+:\+: Object Interaction object. 
 
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00317\ \{\}}
+
+\end{DoxyCode}
 
 
 \doxysubsection{Member Function Documentation}
@@ -59,6 +64,21 @@ Calculate the turtle angle with respect to waterjet position.
 \begin{DoxyReturn}{Returns}
 float \doxylink{class_turtle}{Turtle} angle, \mbox{[}0, 360) 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00341\ \{}
+\DoxyCodeLine{00342\ \ \ \ \ \textcolor{keywordtype}{float}\ turtleAngle;}
+\DoxyCodeLine{00343\ \ \ \ \ \textcolor{keywordtype}{float}\ dx\ =\ turtle.posX\ -\/\ waterjet.posX;}
+\DoxyCodeLine{00344\ \ \ \ \ \textcolor{keywordtype}{float}\ dy\ =\ turtle.posY\ -\/\ waterjet.posY;}
+\DoxyCodeLine{00345\ }
+\DoxyCodeLine{00346\ \ \ \ \ turtleAngle\ =\ (atan2(dy,\ dx))\ *\ 180\ /\ M\_PI;}
+\DoxyCodeLine{00347\ \ \ \ \ \textcolor{keywordflow}{if}\ (turtleAngle\ <\ 0)}
+\DoxyCodeLine{00348\ \ \ \ \ \ \ \ \ turtleAngle\ +=\ 360;}
+\DoxyCodeLine{00349\ }
+\DoxyCodeLine{00350\ \ \ \ \ \textcolor{keywordflow}{return}\ turtleAngle;}
+\DoxyCodeLine{00351\ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05}\label{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05} 
 \index{ObjectInteraction@{ObjectInteraction}!calculateTurtleToWaterjetDistance@{calculateTurtleToWaterjetDistance}}
 \index{calculateTurtleToWaterjetDistance@{calculateTurtleToWaterjetDistance}!ObjectInteraction@{ObjectInteraction}}
@@ -79,6 +99,15 @@ Calulate the distance between the turtle and the waterjet.
 \begin{DoxyReturn}{Returns}
 float Distance, m 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00327\ \{}
+\DoxyCodeLine{00328\ \ \ \ \ \textcolor{keywordtype}{float}\ dx\ =\ waterjet.posX\ -\/\ turtle.posX;}
+\DoxyCodeLine{00329\ \ \ \ \ \textcolor{keywordtype}{float}\ dy\ =\ waterjet.posY\ -\/\ turtle.posY;}
+\DoxyCodeLine{00330\ \ \ \ \ \textcolor{keywordflow}{return}\ sqrtf(dx\ *\ dx\ +\ dy\ *\ dy);}
+\DoxyCodeLine{00331\ \}}
+
+\end{DoxyCode}
 \Hypertarget{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0}\label{class_object_interaction_a770d2bc7d593dc8f75b10b826ba2ebf0} 
 \index{ObjectInteraction@{ObjectInteraction}!checkEnvCollision@{checkEnvCollision}}
 \index{checkEnvCollision@{checkEnvCollision}!ObjectInteraction@{ObjectInteraction}}
@@ -87,7 +116,7 @@ float Distance, m
 
 
 
-Check if the turtle is exceed the environment limits. 
+Check if the turtle exceeds the environment limits. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -101,6 +130,21 @@ true if the turtle is in the environment
 
 false if the turtle is not in the environment 
 \end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00397\ \{}
+\DoxyCodeLine{00398\ \ \ \ \ \textcolor{comment}{//\ assumed\ env\ coords\ given\ according\ the\ variable\ names;}}
+\DoxyCodeLine{00399\ \ \ \ \ \textcolor{comment}{//\ assumed\ turtle\ is\ one\ pixel\ object\ at\ its\ positions}}
+\DoxyCodeLine{00400\ \ \ \ \ \textcolor{keywordtype}{bool}\ isValidForX\ =\ (turtle.posX\ >\ env-\/>leftBottom.posX)\ \&\&\ (turtle.posX\ >\ env-\/>leftTop.posX)\ \&\&\ (turtle.posX\ <\ env-\/>rightBottom.posX)\ \&\&\ (turtle.posX\ <\ env-\/>rightTop.posX);}
+\DoxyCodeLine{00401\ \ \ \ \ \textcolor{keywordtype}{bool}\ isValidForY\ =\ turtle.posY\ <\ env-\/>leftTop.posY\ \&\&\ turtle.posY\ >\ env-\/>leftBottom.posY\ \&\&\ turtle.posY\ <\ env-\/>rightTop.posY\ \&\&\ turtle.posY\ >\ env-\/>rightBottom.posY;}
+\DoxyCodeLine{00402\ \ \ \ \ \textcolor{keywordflow}{if}\ (isValidForX\ \&\&\ isValidForY)}
+\DoxyCodeLine{00403\ \ \ \ \ \{}
+\DoxyCodeLine{00404\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00405\ \ \ \ \ \}}
+\DoxyCodeLine{00406\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00407\ \};}
+
+\end{DoxyCode}
 \Hypertarget{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0}\label{class_object_interaction_addbeebe76a1d8e402951f789eb2826b0} 
 \index{ObjectInteraction@{ObjectInteraction}!checkTurtleIsInWetArea@{checkTurtleIsInWetArea}}
 \index{checkTurtleIsInWetArea@{checkTurtleIsInWetArea}!ObjectInteraction@{ObjectInteraction}}
@@ -124,7 +168,36 @@ true if the turtle is in wet are
 false if the turtle is not in wet are 
 \end{DoxyReturn}
 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00362\ \{}
+\DoxyCodeLine{00363\ \ \ \ \ \textcolor{comment}{//\ Calculate\ the\ distance\ between\ waterjet\ and\ turtle}}
+\DoxyCodeLine{00364\ \ \ \ \ \textcolor{keywordtype}{float}\ distance\ =\ \mbox{\hyperlink{class_object_interaction_a6e0e936321e1a2c2b60967dc67c7cd05}{calculateTurtleToWaterjetDistance}}(waterjet,\ turtle);}
+\DoxyCodeLine{00365\ }
+\DoxyCodeLine{00366\ \ \ \ \ \textcolor{comment}{//\ If\ not\ in\ r,\ return\ false}}
+\DoxyCodeLine{00367\ \ \ \ \ \textcolor{keywordflow}{if}\ (distance\ >\ waterjet.wetAreaRadius)}
+\DoxyCodeLine{00368\ \ \ \ \ \{}
+\DoxyCodeLine{00369\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00370\ \ \ \ \ \}}
+\DoxyCodeLine{00371\ }
+\DoxyCodeLine{00372\ \ \ \ \ \textcolor{comment}{//\ If\ the\ turtle\ is\ coincident\ with\ waterjet,\ assume\ that\ it\ is\ getting\ wet.}}
+\DoxyCodeLine{00373\ \ \ \ \ \textcolor{keywordflow}{if}\ (distance\ ==\ 0)}
+\DoxyCodeLine{00374\ \ \ \ \ \{}
+\DoxyCodeLine{00375\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00376\ \ \ \ \ \}}
+\DoxyCodeLine{00377\ }
+\DoxyCodeLine{00378\ \ \ \ \ \textcolor{comment}{//\ Calculate\ the\ turtle\ angle\ with\ respect\ to\ waterjet\ position}}
+\DoxyCodeLine{00379\ \ \ \ \ \textcolor{keywordtype}{float}\ turtleAngle\ =\ \mbox{\hyperlink{class_object_interaction_a847a5c394f2a3347a19b02e21fb0d7ed}{calculateTurtleToWaterjetAngle}}(waterjet,\ turtle);}
+\DoxyCodeLine{00380\ }
+\DoxyCodeLine{00381\ \ \ \ \ \textcolor{comment}{//\ Check\ if\ the\ turtle\ is\ in\ the\ wet\ area\ or\ not}}
+\DoxyCodeLine{00382\ \ \ \ \ \textcolor{keywordflow}{if}\ ((turtleAngle\ >=\ waterjet.angleToGround)\ \&\&\ (turtleAngle\ <=\ waterjet.angleToGround\ +\ waterjet.wetAreaAngle))}
+\DoxyCodeLine{00383\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00384\ }
+\DoxyCodeLine{00385\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00386\ \}}
+
+\end{DoxyCode}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
+src/\mbox{\hyperlink{_turtle_problem_8cpp}{Turtle\+Problem.\+cpp}}\end{DoxyCompactItemize}
