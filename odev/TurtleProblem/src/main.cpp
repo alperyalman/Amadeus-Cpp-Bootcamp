@@ -13,8 +13,6 @@
 #include <type_traits>
 #include <utility>
 
-class Environment;
-
 class Point
 {
 public:
@@ -147,6 +145,7 @@ void Logger::logGameState(float timeStep, std::vector<Turtle> &turtles, std::vec
     logFile << "-------------------------------" << std::endl;
 }
 
+class Environment;
 class ObjectInteraction
 {
 public:
@@ -163,6 +162,7 @@ private:
     ObjectInteraction connector;
 
 public:
+    float currentTime;
     Point leftTop;
     Point leftBottom;
     Point rightTop;
@@ -283,7 +283,7 @@ Waterjet Environment::createWaterjet(const std::string &name, Environment &env)
 void Environment::setTurtlesLives()
 {
     std::vector<Turtle> newAliveTurtles;
-    std::vector<Turtle> newDeadTurtles;
+    std::vector<Turtle> newDeadTurtles = deadTurtleList;
 
     for (int i = 0; i < turtleList.size(); i++)
     {
@@ -293,11 +293,12 @@ void Environment::setTurtlesLives()
         }
         else
         {
-            newDeadTurtles.push_back(turtleList[i]);
+            deadTurtleList.push_back(turtleList[i]);
+            std::cout << "Current time: " << currentTime << " seconds. " << turtleList[i].turtleName << " killed at the position (x, y) = (" << turtleList[i].posX << ", " << turtleList[i].posY << ")" << std::endl;
         }
     }
 
-    deadTurtleList = newDeadTurtles;
+    // deadTurtleList = newDeadTurtles;
     turtleList = newAliveTurtles;
 }
 
@@ -326,11 +327,8 @@ void Environment::setWetInformationTurtles()
 void Environment::runSimulation(float stepTime, float simulationTime)
 {
     Logger logger("LogFile.txt");
-    // bool newDead = false;
-    // int numOfNewDeads = 0;
-    // std::vector<Turtle> deadListTemp;
-
-    float currentTime = 0;
+    currentTime = 0;
+    // Log initial states
     logger.logGameState(currentTime, turtleList, waterjetList, deadTurtleList);
 
     while (!turtleList.empty() && currentTime <= simulationTime)
@@ -345,28 +343,10 @@ void Environment::runSimulation(float stepTime, float simulationTime)
             turtleList[i].updatePosition(stepTime);
         }
 
+        // Update turtleList and deadTurtleList.
         setTurtlesLives();
-        // for (int i = 0; i < turtleList.size(); i++)
-        // {
-        //     if (!connector.checkEnvCollision(turtleList[i], this))
-        //     {
-        //         deadTurtleList.push_back(turtleList[i]);
-        //         numOfNewDeads++;
-        //         // newDead = true;
-        //     }
-        //     deadListTemp = deadTurtleList;
-        // }
 
-        // while (numOfNewDeads--)
-        // {
-        //     std::vector<Turtle>::iterator it;
-        //     // static_cast<const Turtle&>(deadListTemp.back())
-        //     it = std::find(turtleList.begin(), turtleList.end(), static_cast<const Turtle>(deadListTemp.back()));
-        //     turtleList.erase(it);
-        //     deadListTemp.pop_back();
-        //     // newDead = false;
-        // }
-
+        // Wet area checks
         for (int i = 0; i < turtleList.size(); i++)
         {
             for (int j = 0; j < waterjetList.size(); j++)

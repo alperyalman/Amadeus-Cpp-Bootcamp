@@ -1,2542 +1,5100 @@
 Time Step: 0
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 350
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 319
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 144
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 223
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 49
 [ALIVE TURTLES]
-Turtle Location: (9.43632, 61.2903) Turtle Speed: 0.858486
+Turtle Location: (88.1924, 52.974) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (12.5736, 49.6811) Turtle Speed: 9.47844
+Turtle Location: (72.0511, 38.1634) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (63.7837, 1.17801) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (30.015, 71.1203) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (39.8083, 86.1507) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 17
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 333
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 173
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 249
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 75
 [ALIVE TURTLES]
-Turtle Location: (9.38347, 61.2227) Turtle Speed: 0.858486
+Turtle Location: (88.0703, 53.6665) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (13.4525, 50.0361) Turtle Speed: 9.47844
+Turtle Location: (72.1312, 37.9747) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (64.0078, 0.953865) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (29.6488, 71.1718) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (40.1472, 86.4667) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 44
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 347
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 202
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 275
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 101
 [ALIVE TURTLES]
-Turtle Location: (9.33062, 61.155) Turtle Speed: 0.858486
+Turtle Location: (87.9482, 54.359) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (14.3313, 50.3912) Turtle Speed: 9.47844
+Turtle Location: (72.2113, 37.7861) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (64.232, 0.729715) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (29.2826, 71.2233) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (40.486, 86.7826) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 71
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 1
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 231
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 301
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 127
 [ALIVE TURTLES]
-Turtle Location: (9.27776, 61.0874) Turtle Speed: 0.858486
+Turtle Location: (87.8261, 55.0515) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (15.2101, 50.7463) Turtle Speed: 9.47844
+Turtle Location: (72.2914, 37.5974) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (64.4561, 0.505565) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (28.9164, 71.2747) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (40.8249, 87.0986) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 98
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 15
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 260
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 327
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 153
 [ALIVE TURTLES]
-Turtle Location: (9.22491, 61.0197) Turtle Speed: 0.858486
+Turtle Location: (87.704, 55.744) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (16.0889, 51.1014) Turtle Speed: 9.47844
+Turtle Location: (72.3715, 37.4087) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (64.6803, 0.281415) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (28.5502, 71.3262) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (41.1637, 87.4146) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 125
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 29
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 289
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 353
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 179
 [ALIVE TURTLES]
-Turtle Location: (9.17206, 60.9521) Turtle Speed: 0.858486
+Turtle Location: (87.5818, 56.4365) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (16.9678, 51.4564) Turtle Speed: 9.47844
+Turtle Location: (72.4516, 37.2201) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (64.9044, 0.0572651) Turtle Speed: 3.16996
+Turtle Wet: No
+Turtle Location: (28.184, 71.3777) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (41.5025, 87.7306) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
 -------------------------------
 Time Step: 0.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 152
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 43
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 318
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 19
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 205
 [ALIVE TURTLES]
-Turtle Location: (9.1192, 60.8844) Turtle Speed: 0.858486
+Turtle Location: (87.4597, 57.129) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (17.8466, 51.8115) Turtle Speed: 9.47844
+Turtle Location: (72.5317, 37.0314) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (27.8178, 71.4291) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (41.8414, 88.0465) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 0.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 179
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 57
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 347
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 45
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 231
 [ALIVE TURTLES]
-Turtle Location: (9.06635, 60.8168) Turtle Speed: 0.858486
+Turtle Location: (87.3376, 57.8215) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (18.7254, 52.1666) Turtle Speed: 9.47844
+Turtle Location: (72.6117, 36.8427) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (27.4516, 71.4806) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (42.1802, 88.3625) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 0.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 206
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 71
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 16
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 71
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 257
 [ALIVE TURTLES]
-Turtle Location: (9.01349, 60.7491) Turtle Speed: 0.858486
+Turtle Location: (87.2155, 58.514) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (19.6042, 52.5216) Turtle Speed: 9.47844
+Turtle Location: (72.6918, 36.6541) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (27.0854, 71.5321) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (42.519, 88.6785) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 0.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 233
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 85
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 45
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 97
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 283
 [ALIVE TURTLES]
-Turtle Location: (8.96064, 60.6815) Turtle Speed: 0.858486
+Turtle Location: (87.0934, 59.2065) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (20.4831, 52.8767) Turtle Speed: 9.47844
+Turtle Location: (72.7719, 36.4654) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (26.7192, 71.5835) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (42.8579, 88.9944) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 260
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 99
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 210
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 74
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 123
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 309
 [ALIVE TURTLES]
-Turtle Location: (8.90779, 60.6138) Turtle Speed: 0.858486
+Turtle Location: (86.9713, 59.899) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (21.3619, 53.2318) Turtle Speed: 9.47844
+Turtle Location: (72.852, 36.2767) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (26.353, 71.635) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (43.1967, 89.3104) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 287
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 113
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 103
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 149
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 335
 [ALIVE TURTLES]
-Turtle Location: (8.85493, 60.5462) Turtle Speed: 0.858486
+Turtle Location: (86.8492, 60.5915) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (22.2407, 53.5868) Turtle Speed: 9.47844
+Turtle Location: (72.9321, 36.0881) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (25.9868, 71.6865) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (43.5355, 89.6264) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 314
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 127
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 132
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 175
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 1
 [ALIVE TURTLES]
-Turtle Location: (8.80208, 60.4785) Turtle Speed: 0.858486
+Turtle Location: (86.7271, 61.284) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (23.1195, 53.9419) Turtle Speed: 9.47844
+Turtle Location: (73.0122, 35.8994) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (25.6206, 71.7379) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (43.8744, 89.9424) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 341
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 141
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 161
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 201
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 27
 [ALIVE TURTLES]
-Turtle Location: (8.74923, 60.4109) Turtle Speed: 0.858486
+Turtle Location: (86.605, 61.9764) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (23.9984, 54.297) Turtle Speed: 9.47844
+Turtle Location: (73.0923, 35.7107) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (25.2544, 71.7894) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (44.2132, 90.2583) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 8
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 155
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 190
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 227
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 53
 [ALIVE TURTLES]
-Turtle Location: (8.69637, 60.3432) Turtle Speed: 0.858486
+Turtle Location: (86.4829, 62.6689) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (24.8772, 54.652) Turtle Speed: 9.47844
+Turtle Location: (73.1723, 35.5221) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (24.8882, 71.8409) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (44.5521, 90.5743) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 35
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 169
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 219
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 253
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 79
 [ALIVE TURTLES]
-Turtle Location: (8.64352, 60.2756) Turtle Speed: 0.858486
+Turtle Location: (86.3608, 63.3614) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (25.756, 55.0071) Turtle Speed: 9.47844
+Turtle Location: (73.2524, 35.3334) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (24.522, 71.8923) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (44.8909, 90.8903) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 62
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 183
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 248
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 279
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 105
 [ALIVE TURTLES]
-Turtle Location: (8.59067, 60.2079) Turtle Speed: 0.858486
+Turtle Location: (86.2387, 64.0539) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (26.6348, 55.3622) Turtle Speed: 9.47844
+Turtle Location: (73.3325, 35.1447) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (24.1559, 71.9438) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (45.2297, 91.2062) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 89
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 197
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 277
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 305
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 131
 [ALIVE TURTLES]
-Turtle Location: (8.53781, 60.1403) Turtle Speed: 0.858486
+Turtle Location: (86.1165, 64.7464) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (27.5137, 55.7172) Turtle Speed: 9.47844
+Turtle Location: (73.4126, 34.9561) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (23.7897, 71.9953) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (45.5686, 91.5222) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 116
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 211
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 306
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 331
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 157
 [ALIVE TURTLES]
-Turtle Location: (8.48496, 60.0726) Turtle Speed: 0.858486
+Turtle Location: (85.9944, 65.4389) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (28.3925, 56.0723) Turtle Speed: 9.47844
+Turtle Location: (73.4927, 34.7674) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (23.4235, 72.0468) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (45.9074, 91.8382) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 1.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 143
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 225
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 335
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 357
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 183
 [ALIVE TURTLES]
-Turtle Location: (8.43211, 60.005) Turtle Speed: 0.858486
+Turtle Location: (85.8723, 66.1314) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (29.2713, 56.4274) Turtle Speed: 9.47844
+Turtle Location: (73.5728, 34.5787) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (23.0573, 72.0982) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (46.2462, 92.1542) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 170
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 239
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 4
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 23
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 209
 [ALIVE TURTLES]
-Turtle Location: (8.37925, 59.9373) Turtle Speed: 0.858486
+Turtle Location: (85.7502, 66.8239) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (30.1501, 56.7824) Turtle Speed: 9.47844
+Turtle Location: (73.6529, 34.39) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (22.6911, 72.1497) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (46.5851, 92.4701) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 197
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 253
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 33
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 49
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 235
 [ALIVE TURTLES]
-Turtle Location: (8.3264, 59.8697) Turtle Speed: 0.858486
+Turtle Location: (85.6281, 67.5164) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (31.029, 57.1375) Turtle Speed: 9.47844
+Turtle Location: (73.7329, 34.2014) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (22.3249, 72.2012) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (46.9239, 92.7861) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 224
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 267
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 62
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 75
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 261
 [ALIVE TURTLES]
-Turtle Location: (8.27354, 59.802) Turtle Speed: 0.858486
+Turtle Location: (85.506, 68.2089) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (31.9078, 57.4926) Turtle Speed: 9.47844
+Turtle Location: (73.813, 34.0127) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (21.9587, 72.2526) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (47.2627, 93.1021) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 251
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 281
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 91
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 101
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 287
 [ALIVE TURTLES]
-Turtle Location: (8.22069, 59.7344) Turtle Speed: 0.858486
+Turtle Location: (85.3839, 68.9014) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (32.7866, 57.8476) Turtle Speed: 9.47844
+Turtle Location: (73.8931, 33.824) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (21.5925, 72.3041) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (47.6016, 93.418) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 278
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 295
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 350
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 120
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 127
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 313
 [ALIVE TURTLES]
-Turtle Location: (8.16784, 59.6667) Turtle Speed: 0.858486
+Turtle Location: (85.2618, 69.5939) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (33.6654, 58.2027) Turtle Speed: 9.47844
+Turtle Location: (73.9732, 33.6354) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (21.2263, 72.3556) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (47.9404, 93.734) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 305
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 309
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 0
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 149
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 153
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 339
 [ALIVE TURTLES]
-Turtle Location: (8.11498, 59.5991) Turtle Speed: 0.858486
+Turtle Location: (85.1397, 70.2864) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (34.5443, 58.5578) Turtle Speed: 9.47844
+Turtle Location: (74.0533, 33.4467) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (20.8601, 72.407) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (48.2793, 94.05) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 332
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 323
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 10
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 178
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 179
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 5
 [ALIVE TURTLES]
-Turtle Location: (8.06213, 59.5314) Turtle Speed: 0.858486
+Turtle Location: (85.0176, 70.9789) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (35.4231, 58.9129) Turtle Speed: 9.47844
+Turtle Location: (74.1334, 33.258) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (20.4939, 72.4585) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (48.6181, 94.366) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 359
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 337
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 20
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 207
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 205
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 31
 [ALIVE TURTLES]
-Turtle Location: (8.00928, 59.4638) Turtle Speed: 0.858486
+Turtle Location: (84.8955, 71.6714) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (36.3019, 59.2679) Turtle Speed: 9.47844
+Turtle Location: (74.2135, 33.0694) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (20.1277, 72.51) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (48.9569, 94.6819) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 26
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 351
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 30
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 236
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 231
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 57
 [ALIVE TURTLES]
-Turtle Location: (7.95642, 59.3961) Turtle Speed: 0.858486
+Turtle Location: (84.7734, 72.3639) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (37.1808, 59.623) Turtle Speed: 9.47844
+Turtle Location: (74.2935, 32.8807) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (19.7615, 72.5614) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (49.2958, 94.9979) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 2.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 53
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 5
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 40
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 265
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 257
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 83
 [ALIVE TURTLES]
-Turtle Location: (7.90357, 59.3285) Turtle Speed: 0.858486
+Turtle Location: (84.6512, 73.0564) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (38.0596, 59.9781) Turtle Speed: 9.47844
+Turtle Location: (74.3736, 32.692) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (19.3953, 72.6129) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (49.6346, 95.3139) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 80
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 19
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 50
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 294
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 283
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 109
 [ALIVE TURTLES]
-Turtle Location: (7.85072, 59.2608) Turtle Speed: 0.858486
+Turtle Location: (84.5291, 73.7489) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (38.9384, 60.3331) Turtle Speed: 9.47844
+Turtle Location: (74.4537, 32.5034) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (19.0291, 72.6644) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (49.9734, 95.6298) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 107
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 33
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 60
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 323
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 309
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 135
 [ALIVE TURTLES]
-Turtle Location: (7.79786, 59.1932) Turtle Speed: 0.858486
+Turtle Location: (84.407, 74.4414) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (39.8172, 60.6882) Turtle Speed: 9.47844
+Turtle Location: (74.5338, 32.3147) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (18.6629, 72.7158) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (50.3123, 95.9458) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 134
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 47
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 70
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 352
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 335
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 161
 [ALIVE TURTLES]
-Turtle Location: (7.74501, 59.1255) Turtle Speed: 0.858486
+Turtle Location: (84.2849, 75.1339) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (40.6961, 61.0433) Turtle Speed: 9.47844
+Turtle Location: (74.6139, 32.126) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (18.2968, 72.7673) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (50.6511, 96.2618) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 161
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 61
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 80
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 21
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 1
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 187
 [ALIVE TURTLES]
-Turtle Location: (7.69215, 59.0579) Turtle Speed: 0.858486
+Turtle Location: (84.1628, 75.8264) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (41.5749, 61.3983) Turtle Speed: 9.47844
+Turtle Location: (74.694, 31.9374) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (17.9306, 72.8188) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (50.99, 96.5778) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 188
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 75
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 90
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 50
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 27
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 213
 [ALIVE TURTLES]
-Turtle Location: (7.6393, 58.9902) Turtle Speed: 0.858486
+Turtle Location: (84.0407, 76.5189) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (42.4537, 61.7534) Turtle Speed: 9.47844
+Turtle Location: (74.7741, 31.7487) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (17.5644, 72.8702) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (51.3288, 96.8937) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 215
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 89
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 100
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 79
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 53
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 239
 [ALIVE TURTLES]
-Turtle Location: (7.58645, 58.9226) Turtle Speed: 0.858486
+Turtle Location: (83.9186, 77.2114) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (43.3325, 62.1085) Turtle Speed: 9.47844
+Turtle Location: (74.8541, 31.56) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (17.1982, 72.9217) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (51.6676, 97.2097) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 242
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 103
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 108
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 79
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 265
 [ALIVE TURTLES]
-Turtle Location: (7.53359, 58.8549) Turtle Speed: 0.858486
+Turtle Location: (83.7965, 77.9039) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (44.2114, 62.4635) Turtle Speed: 9.47844
+Turtle Location: (74.9342, 31.3714) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (16.832, 72.9732) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (52.0065, 97.5257) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 269
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 117
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 137
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 105
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 291
 [ALIVE TURTLES]
-Turtle Location: (7.48074, 58.7873) Turtle Speed: 0.858486
+Turtle Location: (83.6744, 78.5964) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (45.0902, 62.8186) Turtle Speed: 9.47844
+Turtle Location: (75.0143, 31.1827) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (16.4658, 73.0246) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (52.3453, 97.8416) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 296
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 131
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 166
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 131
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 317
 [ALIVE TURTLES]
-Turtle Location: (7.42789, 58.7196) Turtle Speed: 0.858486
+Turtle Location: (83.5523, 79.2889) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (45.969, 63.1737) Turtle Speed: 9.47844
+Turtle Location: (75.0944, 30.994) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (16.0996, 73.0761) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (52.6841, 98.1576) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 3.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 323
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 145
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 195
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 157
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 343
 [ALIVE TURTLES]
-Turtle Location: (7.37503, 58.652) Turtle Speed: 0.858486
+Turtle Location: (83.4302, 79.9814) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (46.8478, 63.5287) Turtle Speed: 9.47844
+Turtle Location: (75.1745, 30.8054) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (15.7334, 73.1276) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (53.023, 98.4736) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 350
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 159
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 224
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 183
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 9
 [ALIVE TURTLES]
-Turtle Location: (7.32218, 58.5843) Turtle Speed: 0.858486
+Turtle Location: (83.3081, 80.6739) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (47.7267, 63.8838) Turtle Speed: 9.47844
+Turtle Location: (75.2546, 30.6167) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (15.3672, 73.179) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (53.3618, 98.7896) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 17
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 173
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 253
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 209
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 35
 [ALIVE TURTLES]
-Turtle Location: (7.26933, 58.5167) Turtle Speed: 0.858486
+Turtle Location: (83.1859, 81.3664) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (48.6055, 64.2389) Turtle Speed: 9.47844
+Turtle Location: (75.3347, 30.428) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (15.001, 73.2305) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (53.7006, 99.1055) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 44
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 187
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 282
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 235
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 61
 [ALIVE TURTLES]
-Turtle Location: (7.21647, 58.449) Turtle Speed: 0.858486
+Turtle Location: (83.0638, 82.0589) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (49.4843, 64.5939) Turtle Speed: 9.47844
+Turtle Location: (75.4147, 30.2393) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (14.6348, 73.282) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (54.0395, 99.4215) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 71
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 201
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 311
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 261
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 87
 [ALIVE TURTLES]
-Turtle Location: (7.16362, 58.3814) Turtle Speed: 0.858486
+Turtle Location: (82.9417, 82.7514) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (50.3631, 64.949) Turtle Speed: 9.47844
+Turtle Location: (75.4948, 30.0507) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (14.2686, 73.3335) Turtle Speed: 3.69793
+Turtle Wet: No
+Turtle Location: (54.3783, 99.7375) Turtle Speed: 4.63302
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 98
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 215
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 340
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 287
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 113
 [ALIVE TURTLES]
-Turtle Location: (7.11077, 58.3137) Turtle Speed: 0.858486
+Turtle Location: (82.8196, 83.4438) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (51.242, 65.3041) Turtle Speed: 9.47844
+Turtle Location: (75.5749, 29.862) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (13.9024, 73.3849) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 125
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 229
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 9
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 313
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 139
 [ALIVE TURTLES]
-Turtle Location: (7.05791, 58.2461) Turtle Speed: 0.858486
+Turtle Location: (82.6975, 84.1363) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (52.1208, 65.6592) Turtle Speed: 9.47844
+Turtle Location: (75.655, 29.6733) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (13.5362, 73.4364) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 243
+Waterjet Location: (48.8784, 23.5725)
 Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 152
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 38
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 339
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 165
 [ALIVE TURTLES]
-Turtle Location: (7.00506, 58.1784) Turtle Speed: 0.858486
+Turtle Location: (82.5754, 84.8288) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (52.9996, 66.0142) Turtle Speed: 9.47844
+Turtle Location: (75.7351, 29.4847) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (13.17, 73.4879) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 179
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 257
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 67
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 5
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 191
 [ALIVE TURTLES]
-Turtle Location: (6.9522, 58.1108) Turtle Speed: 0.858486
+Turtle Location: (82.4533, 85.5213) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (53.8784, 66.3693) Turtle Speed: 9.47844
+Turtle Location: (75.8152, 29.296) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (12.8038, 73.5393) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 206
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 271
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 96
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 31
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 217
 [ALIVE TURTLES]
-Turtle Location: (6.89935, 58.0431) Turtle Speed: 0.858486
+Turtle Location: (82.3312, 86.2138) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (54.7573, 66.7244) Turtle Speed: 9.47844
+Turtle Location: (75.8953, 29.1073) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (12.4377, 73.5908) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 4.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 233
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 285
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 125
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 57
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 243
 [ALIVE TURTLES]
-Turtle Location: (6.8465, 57.9755) Turtle Speed: 0.858486
+Turtle Location: (82.2091, 86.9063) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (55.6361, 67.0795) Turtle Speed: 9.47844
+Turtle Location: (75.9753, 28.9187) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (12.0715, 73.6423) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 260
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 299
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 154
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 83
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 269
 [ALIVE TURTLES]
-Turtle Location: (6.79364, 57.9078) Turtle Speed: 0.858486
+Turtle Location: (82.087, 87.5988) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (56.5149, 67.4345) Turtle Speed: 9.47844
+Turtle Location: (76.0554, 28.73) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (11.7053, 73.6937) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 287
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 313
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 183
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 109
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 295
 [ALIVE TURTLES]
-Turtle Location: (6.74079, 57.8402) Turtle Speed: 0.858486
+Turtle Location: (81.9649, 88.2913) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (57.3938, 67.7896) Turtle Speed: 9.47844
+Turtle Location: (76.1355, 28.5413) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (11.3391, 73.7452) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 314
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 327
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 212
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 135
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 321
 [ALIVE TURTLES]
-Turtle Location: (6.68794, 57.7725) Turtle Speed: 0.858486
+Turtle Location: (81.8428, 88.9838) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (58.2726, 68.1447) Turtle Speed: 9.47844
+Turtle Location: (76.2156, 28.3527) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (10.9729, 73.7967) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
+Waterjet Location: (88.4152, 34.7758)
 Waterjet Angle: 341
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 241
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 161
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 347
 [ALIVE TURTLES]
-Turtle Location: (6.63508, 57.7049) Turtle Speed: 0.858486
+Turtle Location: (81.7206, 89.6763) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (59.1514, 68.4997) Turtle Speed: 9.47844
+Turtle Location: (76.2957, 28.164) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (10.6067, 73.8481) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 8
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 355
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 270
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 187
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 13
 [ALIVE TURTLES]
-Turtle Location: (6.58223, 57.6372) Turtle Speed: 0.858486
+Turtle Location: (81.5985, 90.3688) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (60.0302, 68.8548) Turtle Speed: 9.47844
+Turtle Location: (76.3758, 27.9753) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (10.2405, 73.8996) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 35
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 9
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 299
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 213
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 39
 [ALIVE TURTLES]
-Turtle Location: (6.52938, 57.5696) Turtle Speed: 0.858486
+Turtle Location: (81.4764, 91.0613) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (60.9091, 69.2099) Turtle Speed: 9.47844
+Turtle Location: (76.4559, 27.7866) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (9.8743, 73.9511) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 62
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 23
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 328
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 239
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 65
 [ALIVE TURTLES]
-Turtle Location: (6.47652, 57.5019) Turtle Speed: 0.858486
+Turtle Location: (81.3543, 91.7538) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (61.7879, 69.565) Turtle Speed: 9.47844
+Turtle Location: (76.5359, 27.598) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (9.5081, 74.0025) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 89
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 37
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 357
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 265
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 91
 [ALIVE TURTLES]
-Turtle Location: (6.42367, 57.4343) Turtle Speed: 0.858486
+Turtle Location: (81.2322, 92.4463) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (62.6667, 69.92) Turtle Speed: 9.47844
+Turtle Location: (76.616, 27.4093) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (9.14191, 74.054) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 116
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 51
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 26
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 291
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 117
 [ALIVE TURTLES]
-Turtle Location: (6.37082, 57.3666) Turtle Speed: 0.858486
+Turtle Location: (81.1101, 93.1388) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (63.5455, 70.2751) Turtle Speed: 9.47844
+Turtle Location: (76.6961, 27.2206) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (8.77571, 74.1055) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 5.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 65
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 55
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 317
+Waterjet Location: (74.1966, 98.0499)
 Waterjet Angle: 143
 [ALIVE TURTLES]
-Turtle Location: (6.31796, 57.299) Turtle Speed: 0.858486
+Turtle Location: (80.988, 93.8313) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (64.4244, 70.6302) Turtle Speed: 9.47844
+Turtle Location: (76.7762, 27.032) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (8.40952, 74.1569) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 79
+Waterjet Location: (48.8784, 23.5725)
 Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 84
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 343
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 169
 [ALIVE TURTLES]
-Turtle Location: (6.26511, 57.2313) Turtle Speed: 0.858486
+Turtle Location: (80.8659, 94.5238) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (65.3032, 70.9852) Turtle Speed: 9.47844
+Turtle Location: (76.8563, 26.8433) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (8.04333, 74.2084) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 197
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 93
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 0
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 113
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 9
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 195
 [ALIVE TURTLES]
-Turtle Location: (6.21225, 57.1637) Turtle Speed: 0.858486
+Turtle Location: (80.7438, 95.2163) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (66.182, 71.3403) Turtle Speed: 9.47844
+Turtle Location: (76.9364, 26.6546) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (7.67713, 74.2599) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 224
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 107
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 10
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 142
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 35
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 221
 [ALIVE TURTLES]
-Turtle Location: (6.1594, 57.096) Turtle Speed: 0.858486
+Turtle Location: (80.6217, 95.9088) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (67.0608, 71.6954) Turtle Speed: 9.47844
+Turtle Location: (77.0165, 26.466) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (7.31094, 74.3113) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 251
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 121
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 20
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 171
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 61
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 247
 [ALIVE TURTLES]
-Turtle Location: (6.10655, 57.0284) Turtle Speed: 0.858486
+Turtle Location: (80.4996, 96.6013) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (67.9397, 72.0505) Turtle Speed: 9.47844
+Turtle Location: (77.0965, 26.2773) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (6.94475, 74.3628) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 278
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 135
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 30
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 200
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 87
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 273
 [ALIVE TURTLES]
-Turtle Location: (6.05369, 56.9607) Turtle Speed: 0.858486
+Turtle Location: (80.3774, 97.2938) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (68.8185, 72.4055) Turtle Speed: 9.47844
+Turtle Location: (77.1766, 26.0886) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (6.57855, 74.4143) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 305
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 149
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 40
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 229
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 113
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 299
 [ALIVE TURTLES]
-Turtle Location: (6.00084, 56.8931) Turtle Speed: 0.858486
+Turtle Location: (80.2553, 97.9863) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (69.6973, 72.7606) Turtle Speed: 9.47844
+Turtle Location: (77.2567, 25.9) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (6.21236, 74.4657) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 332
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 163
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 50
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 258
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 139
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 325
 [ALIVE TURTLES]
-Turtle Location: (5.94799, 56.8254) Turtle Speed: 0.858486
+Turtle Location: (80.1332, 98.6788) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (70.5761, 73.1157) Turtle Speed: 9.47844
+Turtle Location: (77.3368, 25.7113) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (5.84616, 74.5172) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 359
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 177
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 60
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 287
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 165
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 351
 [ALIVE TURTLES]
-Turtle Location: (5.89513, 56.7578) Turtle Speed: 0.858486
+Turtle Location: (80.0111, 99.3713) Turtle Speed: 7.03177
 Turtle Wet: No
-Turtle Location: (71.4549, 73.4707) Turtle Speed: 9.47844
+Turtle Location: (77.4169, 25.5226) Turtle Speed: 2.04962
+Turtle Wet: No
+Turtle Location: (5.47997, 74.5687) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 26
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 191
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 70
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 316
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 191
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 17
 [ALIVE TURTLES]
-Turtle Location: (5.84228, 56.6901) Turtle Speed: 0.858486
+Turtle Location: (77.497, 25.334) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (72.3338, 73.8258) Turtle Speed: 9.47844
+Turtle Location: (5.11378, 74.6201) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 6.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 53
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 205
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 80
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 345
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 217
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 43
 [ALIVE TURTLES]
-Turtle Location: (5.78943, 56.6225) Turtle Speed: 0.858486
+Turtle Location: (77.5771, 25.1453) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (73.2126, 74.1809) Turtle Speed: 9.47844
+Turtle Location: (4.74758, 74.6716) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 80
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 219
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 90
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 14
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 243
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 69
 [ALIVE TURTLES]
-Turtle Location: (5.73657, 56.5548) Turtle Speed: 0.858486
+Turtle Location: (77.6572, 24.9566) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (74.0914, 74.536) Turtle Speed: 9.47844
+Turtle Location: (4.38139, 74.7231) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 107
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 233
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 100
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 43
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 269
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 95
 [ALIVE TURTLES]
-Turtle Location: (5.68372, 56.4872) Turtle Speed: 0.858486
+Turtle Location: (77.7372, 24.7679) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (74.9702, 74.891) Turtle Speed: 9.47844
+Turtle Location: (4.0152, 74.7746) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 134
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 247
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 72
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 295
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 121
 [ALIVE TURTLES]
-Turtle Location: (5.63087, 56.4195) Turtle Speed: 0.858486
+Turtle Location: (77.8173, 24.5793) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (75.8491, 75.2461) Turtle Speed: 9.47844
+Turtle Location: (3.649, 74.826) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 161
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 261
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 101
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 321
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 147
 [ALIVE TURTLES]
-Turtle Location: (5.57801, 56.3519) Turtle Speed: 0.858486
+Turtle Location: (77.8974, 24.3906) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (76.7279, 75.6012) Turtle Speed: 9.47844
+Turtle Location: (3.28281, 74.8775) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 188
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 275
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 130
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 347
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 173
 [ALIVE TURTLES]
-Turtle Location: (5.52516, 56.2842) Turtle Speed: 0.858486
+Turtle Location: (77.9775, 24.2019) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (77.6067, 75.9563) Turtle Speed: 9.47844
+Turtle Location: (2.91661, 74.929) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 215
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 289
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 159
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 13
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 199
 [ALIVE TURTLES]
-Turtle Location: (5.4723, 56.2166) Turtle Speed: 0.858486
+Turtle Location: (78.0576, 24.0133) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (78.4855, 76.3113) Turtle Speed: 9.47844
+Turtle Location: (2.55042, 74.9804) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 242
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 303
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 188
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 39
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 225
 [ALIVE TURTLES]
-Turtle Location: (5.41945, 56.1489) Turtle Speed: 0.858486
+Turtle Location: (78.1377, 23.8246) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (79.3643, 76.6664) Turtle Speed: 9.47844
+Turtle Location: (2.18423, 75.0319) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 269
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 317
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 217
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 65
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 251
 [ALIVE TURTLES]
-Turtle Location: (5.3666, 56.0813) Turtle Speed: 0.858486
+Turtle Location: (78.2178, 23.6359) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (80.2432, 77.0215) Turtle Speed: 9.47844
+Turtle Location: (1.81803, 75.0834) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.79999
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 296
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 331
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 246
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 91
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 277
 [ALIVE TURTLES]
-Turtle Location: (5.31374, 56.0136) Turtle Speed: 0.858486
+Turtle Location: (78.2978, 23.4473) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (81.122, 77.3765) Turtle Speed: 9.47844
+Turtle Location: (1.45184, 75.1348) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.89999
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 323
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 345
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 275
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 117
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 303
 [ALIVE TURTLES]
-Turtle Location: (5.26089, 55.946) Turtle Speed: 0.858486
+Turtle Location: (78.3779, 23.2586) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (82.0008, 77.7316) Turtle Speed: 9.47844
+Turtle Location: (1.08564, 75.1863) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 7.99999
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 350
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 359
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 304
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 143
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 329
 [ALIVE TURTLES]
-Turtle Location: (5.20804, 55.8783) Turtle Speed: 0.858486
+Turtle Location: (78.458, 23.0699) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (82.8796, 78.0867) Turtle Speed: 9.47844
+Turtle Location: (0.71945, 75.2378) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.09999
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 17
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 13
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 333
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 169
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 355
 [ALIVE TURTLES]
-Turtle Location: (5.15518, 55.8107) Turtle Speed: 0.858486
+Turtle Location: (78.5381, 22.8813) Turtle Speed: 2.04962
 Turtle Wet: No
-Turtle Location: (83.7585, 78.4418) Turtle Speed: 9.47844
+Turtle Location: (0.353256, 75.2892) Turtle Speed: 3.69793
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 44
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 27
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 210
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 2
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 195
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 21
 [ALIVE TURTLES]
-Turtle Location: (5.10233, 55.743) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (84.6373, 78.7968) Turtle Speed: 9.47844
+Turtle Location: (78.6182, 22.6926) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 71
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 41
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 31
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 221
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 47
 [ALIVE TURTLES]
-Turtle Location: (5.04948, 55.6754) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (85.5161, 79.1519) Turtle Speed: 9.47844
+Turtle Location: (78.6983, 22.5039) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 98
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 55
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 60
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 247
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 73
 [ALIVE TURTLES]
-Turtle Location: (4.99662, 55.6077) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (86.3949, 79.507) Turtle Speed: 9.47844
+Turtle Location: (78.7784, 22.3152) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 125
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 69
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 89
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 273
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 99
 [ALIVE TURTLES]
-Turtle Location: (4.94377, 55.5401) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (87.2737, 79.862) Turtle Speed: 9.47844
+Turtle Location: (78.8584, 22.1266) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 152
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 83
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 118
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 299
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 125
 [ALIVE TURTLES]
-Turtle Location: (4.89091, 55.4724) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (88.1526, 80.2171) Turtle Speed: 9.47844
+Turtle Location: (78.9385, 21.9379) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 179
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 97
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 147
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 325
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 151
 [ALIVE TURTLES]
-Turtle Location: (4.83806, 55.4048) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (89.0314, 80.5722) Turtle Speed: 9.47844
+Turtle Location: (79.0186, 21.7492) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 206
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 111
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 176
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 351
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 177
 [ALIVE TURTLES]
-Turtle Location: (4.78521, 55.3371) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (89.9102, 80.9273) Turtle Speed: 9.47844
+Turtle Location: (79.0987, 21.5606) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 8.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 233
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 125
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 205
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 17
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 203
 [ALIVE TURTLES]
-Turtle Location: (4.73235, 55.2695) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (90.789, 81.2823) Turtle Speed: 9.47844
+Turtle Location: (79.1788, 21.3719) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 260
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 139
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 234
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 43
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 229
 [ALIVE TURTLES]
-Turtle Location: (4.6795, 55.2018) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (91.6679, 81.6374) Turtle Speed: 9.47844
+Turtle Location: (79.2589, 21.1832) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 287
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 153
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 263
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 69
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 255
 [ALIVE TURTLES]
-Turtle Location: (4.62665, 55.1342) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (92.5467, 81.9925) Turtle Speed: 9.47844
+Turtle Location: (79.339, 20.9946) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 314
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 167
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 292
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 95
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 281
 [ALIVE TURTLES]
-Turtle Location: (4.57379, 55.0665) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (93.4255, 82.3475) Turtle Speed: 9.47844
+Turtle Location: (79.419, 20.8059) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 341
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 181
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 321
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 121
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 307
 [ALIVE TURTLES]
-Turtle Location: (4.52094, 54.9989) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (94.3043, 82.7026) Turtle Speed: 9.47844
+Turtle Location: (79.4991, 20.6172) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 8
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 195
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 350
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 147
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 333
 [ALIVE TURTLES]
-Turtle Location: (4.46809, 54.9312) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (95.1831, 83.0577) Turtle Speed: 9.47844
+Turtle Location: (79.5792, 20.4286) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 35
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 209
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 19
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 173
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 359
 [ALIVE TURTLES]
-Turtle Location: (4.41523, 54.8636) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (96.062, 83.4128) Turtle Speed: 9.47844
+Turtle Location: (79.6593, 20.2399) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 62
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 223
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 350
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 48
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 199
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 25
 [ALIVE TURTLES]
-Turtle Location: (4.36238, 54.7959) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (96.9408, 83.7678) Turtle Speed: 9.47844
+Turtle Location: (79.7394, 20.0512) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 89
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 237
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 0
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 77
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 225
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 51
 [ALIVE TURTLES]
-Turtle Location: (4.30953, 54.7283) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (97.8196, 84.1229) Turtle Speed: 9.47844
+Turtle Location: (79.8195, 19.8625) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 116
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 251
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 10
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 106
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 251
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 77
 [ALIVE TURTLES]
-Turtle Location: (4.25667, 54.6606) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (98.6984, 84.478) Turtle Speed: 9.47844
+Turtle Location: (79.8996, 19.6739) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 9.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 143
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 265
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 20
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 135
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 277
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 103
 [ALIVE TURTLES]
-Turtle Location: (4.20382, 54.593) Turtle Speed: 0.858486
-Turtle Wet: No
-Turtle Location: (99.5773, 84.8331) Turtle Speed: 9.47844
+Turtle Location: (79.9796, 19.4852) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 170
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 279
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 30
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 164
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 303
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 129
 [ALIVE TURTLES]
-Turtle Location: (4.15096, 54.5253) Turtle Speed: 0.858486
+Turtle Location: (80.0597, 19.2965) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
-Turtle Death Location: (100.456, 85.1881)
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
 Turtle Wet: No
 -------------------------------
 Time Step: 10.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 197
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 293
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 40
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 193
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 329
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 155
 [ALIVE TURTLES]
-Turtle Location: (4.09811, 54.4577) Turtle Speed: 0.858486
+Turtle Location: (80.1398, 19.1079) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 224
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 307
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 50
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 222
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 355
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 181
 [ALIVE TURTLES]
-Turtle Location: (4.04526, 54.39) Turtle Speed: 0.858486
+Turtle Location: (80.2199, 18.9192) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 321
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 60
+Waterjet Location: (74.4835, 4.76394)
 Waterjet Angle: 251
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 21
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 207
 [ALIVE TURTLES]
-Turtle Location: (3.9924, 54.3224) Turtle Speed: 0.858486
+Turtle Location: (80.3, 18.7305) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 278
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 335
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 70
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 280
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 47
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 233
 [ALIVE TURTLES]
-Turtle Location: (3.93955, 54.2547) Turtle Speed: 0.858486
+Turtle Location: (80.3801, 18.5419) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 305
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 349
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 80
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 309
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 73
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 259
 [ALIVE TURTLES]
-Turtle Location: (3.8867, 54.1871) Turtle Speed: 0.858486
+Turtle Location: (80.4602, 18.3532) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 332
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 3
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 90
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 338
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 99
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 285
 [ALIVE TURTLES]
-Turtle Location: (3.83384, 54.1194) Turtle Speed: 0.858486
+Turtle Location: (80.5402, 18.1645) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 359
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 17
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 100
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 7
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 125
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 311
 [ALIVE TURTLES]
-Turtle Location: (3.78099, 54.0518) Turtle Speed: 0.858486
+Turtle Location: (80.6203, 17.9759) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 26
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 31
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 36
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 151
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 337
 [ALIVE TURTLES]
-Turtle Location: (3.72814, 53.9841) Turtle Speed: 0.858486
+Turtle Location: (80.7004, 17.7872) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 10.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 53
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 45
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 65
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 177
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 3
 [ALIVE TURTLES]
-Turtle Location: (3.67528, 53.9165) Turtle Speed: 0.858486
+Turtle Location: (80.7805, 17.5985) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 80
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 59
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 94
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 203
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 29
 [ALIVE TURTLES]
-Turtle Location: (3.62243, 53.8488) Turtle Speed: 0.858486
+Turtle Location: (80.8606, 17.4098) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 107
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 73
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 123
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 229
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 55
 [ALIVE TURTLES]
-Turtle Location: (3.56958, 53.7812) Turtle Speed: 0.858486
+Turtle Location: (80.9407, 17.2212) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 134
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 87
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 152
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 255
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 81
 [ALIVE TURTLES]
-Turtle Location: (3.51672, 53.7135) Turtle Speed: 0.858486
+Turtle Location: (81.0208, 17.0325) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 161
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 101
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 181
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 281
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 107
 [ALIVE TURTLES]
-Turtle Location: (3.46387, 53.6459) Turtle Speed: 0.858486
+Turtle Location: (81.1008, 16.8438) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 188
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 115
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 210
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 307
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 133
 [ALIVE TURTLES]
-Turtle Location: (3.41101, 53.5782) Turtle Speed: 0.858486
+Turtle Location: (81.1809, 16.6552) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 215
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 129
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 239
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 333
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 159
 [ALIVE TURTLES]
-Turtle Location: (3.35816, 53.5106) Turtle Speed: 0.858486
+Turtle Location: (81.261, 16.4665) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 242
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 143
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 268
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 359
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 185
 [ALIVE TURTLES]
-Turtle Location: (3.30531, 53.4429) Turtle Speed: 0.858486
+Turtle Location: (81.3411, 16.2778) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 269
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 157
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 297
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 25
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 211
 [ALIVE TURTLES]
-Turtle Location: (3.25245, 53.3753) Turtle Speed: 0.858486
+Turtle Location: (81.4212, 16.0892) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 171
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 210
+Waterjet Location: (74.4835, 4.76394)
 Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 296
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 51
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 237
 [ALIVE TURTLES]
-Turtle Location: (3.1996, 53.3076) Turtle Speed: 0.858486
+Turtle Location: (81.5013, 15.9005) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 11.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 323
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 185
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 355
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 77
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 263
 [ALIVE TURTLES]
-Turtle Location: (3.14675, 53.24) Turtle Speed: 0.858486
+Turtle Location: (81.5814, 15.7118) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 350
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 199
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 24
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 103
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 289
 [ALIVE TURTLES]
-Turtle Location: (3.09389, 53.1723) Turtle Speed: 0.858486
+Turtle Location: (81.6614, 15.5232) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 17
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 213
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 53
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 129
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 315
 [ALIVE TURTLES]
-Turtle Location: (3.04104, 53.1047) Turtle Speed: 0.858486
+Turtle Location: (81.7415, 15.3345) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 44
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 227
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 82
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 155
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 341
 [ALIVE TURTLES]
-Turtle Location: (2.98819, 53.037) Turtle Speed: 0.858486
+Turtle Location: (81.8216, 15.1458) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 71
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 241
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 111
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 181
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 7
 [ALIVE TURTLES]
-Turtle Location: (2.93533, 52.9694) Turtle Speed: 0.858486
+Turtle Location: (81.9017, 14.9571) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 98
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 255
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 140
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 207
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 33
 [ALIVE TURTLES]
-Turtle Location: (2.88248, 52.9017) Turtle Speed: 0.858486
+Turtle Location: (81.9818, 14.7685) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 125
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 269
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 169
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 233
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 59
 [ALIVE TURTLES]
-Turtle Location: (2.82963, 52.8341) Turtle Speed: 0.858486
+Turtle Location: (82.0619, 14.5798) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 152
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 283
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 198
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 259
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 85
 [ALIVE TURTLES]
-Turtle Location: (2.77677, 52.7664) Turtle Speed: 0.858486
+Turtle Location: (82.142, 14.3911) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 179
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 297
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 227
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 285
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 111
 [ALIVE TURTLES]
-Turtle Location: (2.72392, 52.6988) Turtle Speed: 0.858486
+Turtle Location: (82.222, 14.2025) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 206
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 311
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 256
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 311
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 137
 [ALIVE TURTLES]
-Turtle Location: (2.67106, 52.6311) Turtle Speed: 0.858486
+Turtle Location: (82.3021, 14.0138) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 12.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 233
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 325
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 285
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 337
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 163
 [ALIVE TURTLES]
-Turtle Location: (2.61821, 52.5635) Turtle Speed: 0.858486
+Turtle Location: (82.3822, 13.8251) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 260
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 339
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 314
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 3
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 189
 [ALIVE TURTLES]
-Turtle Location: (2.56536, 52.4958) Turtle Speed: 0.858486
+Turtle Location: (82.4623, 13.6365) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 287
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 353
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 343
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 29
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 215
 [ALIVE TURTLES]
-Turtle Location: (2.5125, 52.4282) Turtle Speed: 0.858486
+Turtle Location: (82.5424, 13.4478) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 314
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 7
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 350
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 12
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 55
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 241
 [ALIVE TURTLES]
-Turtle Location: (2.45965, 52.3605) Turtle Speed: 0.858486
+Turtle Location: (82.6225, 13.2591) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 341
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 21
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 0
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 41
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 81
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 267
 [ALIVE TURTLES]
-Turtle Location: (2.4068, 52.2929) Turtle Speed: 0.858486
+Turtle Location: (82.7026, 13.0705) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 8
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 35
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 10
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 70
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 107
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 293
 [ALIVE TURTLES]
-Turtle Location: (2.35394, 52.2252) Turtle Speed: 0.858486
+Turtle Location: (82.7826, 12.8818) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 35
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 49
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 20
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 99
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 133
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 319
 [ALIVE TURTLES]
-Turtle Location: (2.30109, 52.1576) Turtle Speed: 0.858486
+Turtle Location: (82.8627, 12.6931) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 62
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 63
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 30
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 128
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 159
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 345
 [ALIVE TURTLES]
-Turtle Location: (2.24824, 52.0899) Turtle Speed: 0.858486
+Turtle Location: (82.9428, 12.5044) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 89
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 77
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 40
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 157
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 185
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 11
 [ALIVE TURTLES]
-Turtle Location: (2.19538, 52.0223) Turtle Speed: 0.858486
+Turtle Location: (83.0229, 12.3158) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 116
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 91
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 50
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 186
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 211
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 37
 [ALIVE TURTLES]
-Turtle Location: (2.14253, 51.9546) Turtle Speed: 0.858486
+Turtle Location: (83.103, 12.1271) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 13.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 143
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 105
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 60
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 215
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 237
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 63
 [ALIVE TURTLES]
-Turtle Location: (2.08967, 51.887) Turtle Speed: 0.858486
+Turtle Location: (83.1831, 11.9384) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 170
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 119
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 70
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 244
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 263
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 89
 [ALIVE TURTLES]
-Turtle Location: (2.03682, 51.8193) Turtle Speed: 0.858486
+Turtle Location: (83.2632, 11.7498) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 197
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 133
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 80
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 273
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 289
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 115
 [ALIVE TURTLES]
-Turtle Location: (1.98397, 51.7517) Turtle Speed: 0.858486
+Turtle Location: (83.3432, 11.5611) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 224
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 147
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 90
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 302
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 315
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 141
 [ALIVE TURTLES]
-Turtle Location: (1.93111, 51.684) Turtle Speed: 0.858486
+Turtle Location: (83.4233, 11.3724) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 251
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 161
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 100
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 331
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 341
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 167
 [ALIVE TURTLES]
-Turtle Location: (1.87826, 51.6164) Turtle Speed: 0.858486
+Turtle Location: (83.5034, 11.1838) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 278
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 175
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 0
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 7
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 193
 [ALIVE TURTLES]
-Turtle Location: (1.82541, 51.5487) Turtle Speed: 0.858486
+Turtle Location: (83.5835, 10.9951) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 305
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 189
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 29
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 33
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 219
 [ALIVE TURTLES]
-Turtle Location: (1.77255, 51.4811) Turtle Speed: 0.858486
+Turtle Location: (83.6636, 10.8064) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 332
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 203
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 58
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 59
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 245
 [ALIVE TURTLES]
-Turtle Location: (1.7197, 51.4134) Turtle Speed: 0.858486
+Turtle Location: (83.7437, 10.6178) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 359
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 217
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 87
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 85
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 271
 [ALIVE TURTLES]
-Turtle Location: (1.66685, 51.3458) Turtle Speed: 0.858486
+Turtle Location: (83.8238, 10.4291) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 26
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 231
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 116
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 111
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 297
 [ALIVE TURTLES]
-Turtle Location: (1.61399, 51.2781) Turtle Speed: 0.858486
+Turtle Location: (83.9038, 10.2404) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 14.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 53
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 245
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 145
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 137
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 323
 [ALIVE TURTLES]
-Turtle Location: (1.56114, 51.2105) Turtle Speed: 0.858486
+Turtle Location: (83.9839, 10.0517) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 350
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 18
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 80
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 259
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 174
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 163
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 349
 [ALIVE TURTLES]
-Turtle Location: (1.50828, 51.1428) Turtle Speed: 0.858486
+Turtle Location: (84.064, 9.86308) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 2
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 30
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 107
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 273
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 203
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 189
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 15
 [ALIVE TURTLES]
-Turtle Location: (1.45543, 51.0752) Turtle Speed: 0.858486
+Turtle Location: (84.1441, 9.67441) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 14
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 42
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 134
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 287
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 232
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 215
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 41
 [ALIVE TURTLES]
-Turtle Location: (1.40258, 51.0075) Turtle Speed: 0.858486
+Turtle Location: (84.2242, 9.48574) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 26
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 54
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 161
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 301
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 261
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 241
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 67
 [ALIVE TURTLES]
-Turtle Location: (1.34972, 50.9399) Turtle Speed: 0.858486
+Turtle Location: (84.3043, 9.29707) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 38
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 66
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 188
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 315
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 210
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 290
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 267
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 93
 [ALIVE TURTLES]
-Turtle Location: (1.29687, 50.8722) Turtle Speed: 0.858486
+Turtle Location: (84.3844, 9.1084) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 50
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 78
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 215
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 329
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 319
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 293
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 119
 [ALIVE TURTLES]
-Turtle Location: (1.24402, 50.8046) Turtle Speed: 0.858486
+Turtle Location: (84.4644, 8.91973) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 62
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 90
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 242
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 343
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 348
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 319
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 145
 [ALIVE TURTLES]
-Turtle Location: (1.19116, 50.7369) Turtle Speed: 0.858486
+Turtle Location: (84.5445, 8.73106) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 74
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 102
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 269
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 357
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 17
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 345
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 171
 [ALIVE TURTLES]
-Turtle Location: (1.13831, 50.6693) Turtle Speed: 0.858486
+Turtle Location: (84.6246, 8.54239) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 86
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 114
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 296
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 11
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 46
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 11
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 197
 [ALIVE TURTLES]
-Turtle Location: (1.08545, 50.6016) Turtle Speed: 0.858486
+Turtle Location: (84.7047, 8.35372) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 15.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 98
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 126
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 323
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 25
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 75
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 37
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 223
 [ALIVE TURTLES]
-Turtle Location: (1.0326, 50.534) Turtle Speed: 0.858486
+Turtle Location: (84.7848, 8.16505) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 110
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 138
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 350
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 39
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 104
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 63
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 249
 [ALIVE TURTLES]
-Turtle Location: (0.979747, 50.4663) Turtle Speed: 0.858486
+Turtle Location: (84.8649, 7.97638) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 122
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 150
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 17
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 53
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 133
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 89
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 275
 [ALIVE TURTLES]
-Turtle Location: (0.926894, 50.3987) Turtle Speed: 0.858486
+Turtle Location: (84.945, 7.78771) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 134
-Waterjet Location: (64.8518, 84.6858)
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 67
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
 Waterjet Angle: 162
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 44
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 115
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 301
 [ALIVE TURTLES]
-Turtle Location: (0.87404, 50.331) Turtle Speed: 0.858486
+Turtle Location: (85.025, 7.59905) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 146
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 174
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 71
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 81
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 191
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 141
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 327
 [ALIVE TURTLES]
-Turtle Location: (0.821186, 50.2634) Turtle Speed: 0.858486
+Turtle Location: (85.1051, 7.41038) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 158
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 186
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 98
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 95
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 220
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 167
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 353
 [ALIVE TURTLES]
-Turtle Location: (0.768333, 50.1957) Turtle Speed: 0.858486
+Turtle Location: (85.1852, 7.22171) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 170
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 198
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 125
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 109
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 249
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 193
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 19
 [ALIVE TURTLES]
-Turtle Location: (0.715479, 50.1281) Turtle Speed: 0.858486
+Turtle Location: (85.2653, 7.03304) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 182
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 210
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 152
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 123
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 278
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 219
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 45
 [ALIVE TURTLES]
-Turtle Location: (0.662625, 50.0604) Turtle Speed: 0.858486
+Turtle Location: (85.3454, 6.84437) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 194
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 222
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 179
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 137
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 307
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 245
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 71
 [ALIVE TURTLES]
-Turtle Location: (0.609772, 49.9928) Turtle Speed: 0.858486
+Turtle Location: (85.4255, 6.6557) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 206
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 234
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 206
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 151
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 350
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 336
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 271
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 97
 [ALIVE TURTLES]
-Turtle Location: (0.556918, 49.9251) Turtle Speed: 0.858486
+Turtle Location: (85.5056, 6.46703) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 16.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 218
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 246
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 233
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 165
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 0
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 5
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 297
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 123
 [ALIVE TURTLES]
-Turtle Location: (0.504065, 49.8575) Turtle Speed: 0.858486
+Turtle Location: (85.5856, 6.27837) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 230
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 258
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 260
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 179
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 10
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 34
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 323
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 149
 [ALIVE TURTLES]
-Turtle Location: (0.451211, 49.7898) Turtle Speed: 0.858486
+Turtle Location: (85.6657, 6.0897) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.1
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 242
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 270
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 287
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 193
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 20
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 63
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 349
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 175
 [ALIVE TURTLES]
-Turtle Location: (0.398357, 49.7222) Turtle Speed: 0.858486
+Turtle Location: (85.7458, 5.90103) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.2
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 254
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 282
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 314
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 207
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 30
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 92
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 15
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 201
 [ALIVE TURTLES]
-Turtle Location: (0.345504, 49.6545) Turtle Speed: 0.858486
+Turtle Location: (85.8259, 5.71236) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.3
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 266
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 294
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 341
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 221
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 40
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 121
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 41
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 227
 [ALIVE TURTLES]
-Turtle Location: (0.29265, 49.5869) Turtle Speed: 0.858486
+Turtle Location: (85.906, 5.52369) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.4
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 278
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 306
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 8
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 235
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 50
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 150
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 67
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 253
 [ALIVE TURTLES]
-Turtle Location: (0.239796, 49.5192) Turtle Speed: 0.858486
+Turtle Location: (85.9861, 5.33502) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.5
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 290
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 318
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 35
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 249
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 60
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 179
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 93
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 279
 [ALIVE TURTLES]
-Turtle Location: (0.186943, 49.4516) Turtle Speed: 0.858486
+Turtle Location: (86.0662, 5.14635) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.6
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 302
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 330
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 62
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 263
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 70
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 208
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 119
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 305
 [ALIVE TURTLES]
-Turtle Location: (0.134089, 49.3839) Turtle Speed: 0.858486
+Turtle Location: (86.1462, 4.95768) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.7
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 314
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 342
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 89
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 277
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 80
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 237
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 145
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 331
 [ALIVE TURTLES]
-Turtle Location: (0.0812352, 49.3163) Turtle Speed: 0.858486
+Turtle Location: (86.2263, 4.76902) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.8
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 326
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 354
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 116
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 291
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 90
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 266
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 171
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 357
 [ALIVE TURTLES]
-Turtle Location: (0.0283816, 49.2486) Turtle Speed: 0.858486
+Turtle Location: (86.3064, 4.58035) Turtle Speed: 2.04962
 Turtle Wet: No
 [DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
 -------------------------------
 Time Step: 17.9
 [WATERJETS]
-Waterjet Location: (22.5837, 4.65407)
-Waterjet Angle: 338
-Waterjet Location: (64.8518, 84.6858)
-Waterjet Angle: 6
-Waterjet Location: (9.91546, 63.5975)
-Waterjet Angle: 143
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 305
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 100
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 295
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 197
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 23
+[ALIVE TURTLES]
+Turtle Location: (86.3865, 4.39168) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 319
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 110
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 324
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 223
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 49
+[ALIVE TURTLES]
+Turtle Location: (86.4666, 4.20301) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.1
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 333
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 120
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 353
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 249
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 75
+[ALIVE TURTLES]
+Turtle Location: (86.5467, 4.01434) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.2
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 347
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 130
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 22
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 275
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 101
+[ALIVE TURTLES]
+Turtle Location: (86.6268, 3.82567) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.3
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 1
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 140
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 51
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 301
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 127
+[ALIVE TURTLES]
+Turtle Location: (86.7068, 3.637) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.4
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 15
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 150
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 80
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 327
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 153
+[ALIVE TURTLES]
+Turtle Location: (86.7869, 3.44833) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.5
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 29
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 160
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 109
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 353
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 179
+[ALIVE TURTLES]
+Turtle Location: (86.867, 3.25967) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.6
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 43
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 170
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 138
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 19
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 205
+[ALIVE TURTLES]
+Turtle Location: (86.9471, 3.071) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.7
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 57
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 180
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 167
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 45
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 231
+[ALIVE TURTLES]
+Turtle Location: (87.0272, 2.88233) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.8
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 71
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 190
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 196
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 71
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 257
+[ALIVE TURTLES]
+Turtle Location: (87.1073, 2.69366) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 18.9
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 85
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 200
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 225
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 97
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 283
+[ALIVE TURTLES]
+Turtle Location: (87.1874, 2.50499) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 99
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 210
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 254
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 123
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 309
+[ALIVE TURTLES]
+Turtle Location: (87.2674, 2.31632) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.1
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 113
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 220
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 283
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 149
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 335
+[ALIVE TURTLES]
+Turtle Location: (87.3475, 2.12765) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.2
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 127
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 230
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 312
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 175
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 1
+[ALIVE TURTLES]
+Turtle Location: (87.4276, 1.93898) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.3
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 141
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 240
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 341
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 201
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 27
+[ALIVE TURTLES]
+Turtle Location: (87.5077, 1.75032) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.4
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 155
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 250
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 10
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 227
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 53
+[ALIVE TURTLES]
+Turtle Location: (87.5878, 1.56165) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.5
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 169
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 260
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 39
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 253
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 79
+[ALIVE TURTLES]
+Turtle Location: (87.6679, 1.37298) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.6
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 183
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 270
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 68
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 279
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 105
+[ALIVE TURTLES]
+Turtle Location: (87.748, 1.18431) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.7
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 197
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 280
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 97
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 305
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 131
+[ALIVE TURTLES]
+Turtle Location: (87.828, 0.995641) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.8
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 211
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 290
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 126
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 331
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 157
+[ALIVE TURTLES]
+Turtle Location: (87.9081, 0.806972) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 19.9
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 225
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 300
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 155
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 357
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 183
+[ALIVE TURTLES]
+Turtle Location: (87.9882, 0.618303) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 20
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 239
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 310
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 184
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 23
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 209
+[ALIVE TURTLES]
+Turtle Location: (88.0683, 0.429634) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 20.1
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 253
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 320
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 213
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 49
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 235
+[ALIVE TURTLES]
+Turtle Location: (88.1484, 0.240966) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 20.2
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 267
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 330
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 242
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 75
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 261
+[ALIVE TURTLES]
+Turtle Location: (88.2285, 0.0522968) Turtle Speed: 2.04962
+Turtle Wet: No
+[DEAD TURTLES]
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+-------------------------------
+Time Step: 20.3
+[WATERJETS]
+Waterjet Location: (88.4152, 34.7758)
+Waterjet Angle: 281
+Waterjet Location: (48.8784, 23.5725)
+Waterjet Angle: 340
+Waterjet Location: (74.4835, 4.76394)
+Waterjet Angle: 271
+Waterjet Location: (36.6008, 35.4869)
+Waterjet Angle: 101
+Waterjet Location: (74.1966, 98.0499)
+Waterjet Angle: 287
 [ALIVE TURTLES]
 [DEAD TURTLES]
-Turtle Death Location: (-0.0244721, 49.181)
+Turtle Death Location: (65.1286, -0.166885)
+Turtle Wet: No
+Turtle Death Location: (54.7172, 100.053)
+Turtle Wet: No
+Turtle Death Location: (79.889, 100.064)
+Turtle Wet: No
+Turtle Death Location: (-0.0129381, 75.3407)
+Turtle Wet: No
+Turtle Death Location: (88.3086, -0.136372)
 Turtle Wet: No
 -------------------------------
