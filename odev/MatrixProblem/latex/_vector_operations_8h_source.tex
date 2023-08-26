@@ -1,0 +1,226 @@
+\doxysection{Vector\+Operations.\+h}
+\hypertarget{_vector_operations_8h_source}{}\label{_vector_operations_8h_source}\index{src/VectorOperations.h@{src/VectorOperations.h}}
+\mbox{\hyperlink{_vector_operations_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#include\ <cstdlib>}}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#include\ <time.h>}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_vector_operations}{VectorOperations}}}
+\DoxyCodeLine{00037\ \{}
+\DoxyCodeLine{00038\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{class_vector_operations_a7ecaaf86b7b14e41170b8d8147231114}{VectorOperations}}();}
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{class_vector_operations_aefbabd7883b6a7d22ff35b8957c532c6}{\string~VectorOperations}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00043\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b}{sumVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00046\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{substractVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00049\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{multiplyVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00052\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a2dea04c0f2381a514658623466279296}{multiplyVectorByConstant}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ T\ \&c1);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00055\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{eraseVectorVal}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ T\ \&c1);}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00058\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1}{getMatrixRow}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keywordtype}{int}\ rowNumber);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00061\ \ \ \ \ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{getMatrixColumn}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keywordtype}{int}\ columnNumber);}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00064\ \ \ \ \ std::vector<std::vector<T>>\ \mbox{\hyperlink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{eraseMatrixRowAndColumn}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \&eraseNum);}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}{CalculateNewMatrices}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&A,\ \textcolor{keyword}{const}\ std::vector<T>\ \&b,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \&k,\ \textcolor{keyword}{const}\ T\ x\_k,\ std::vector<std::vector<T>>\ \&A\_new,\ std::vector<T>\ \&b\_new);}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_acf43c52e5e90d662a77c55d3d072152f}{printMatrix}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_a9a8308cea4762222e4f71842dbc3898e}{printVector}}(\textcolor{keyword}{const}\ std::vector<T>\ \&vec);}
+\DoxyCodeLine{00074\ \};}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00080\ \mbox{\hyperlink{class_vector_operations_a7ecaaf86b7b14e41170b8d8147231114}{VectorOperations::VectorOperations}}()}
+\DoxyCodeLine{00081\ \{}
+\DoxyCodeLine{00082\ \}}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00089\ \mbox{\hyperlink{class_vector_operations_aefbabd7883b6a7d22ff35b8957c532c6}{VectorOperations::\string~VectorOperations}}()}
+\DoxyCodeLine{00090\ \{}
+\DoxyCodeLine{00091\ \}}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00103\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00104\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b}{VectorOperations::sumVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2)}
+\DoxyCodeLine{00105\ \{}
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00108\ \ \ \ \ \{}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00110\ \ \ \ \ \}}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00113\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ +\ b;\ \});}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00120\ \}}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00132\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00133\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{VectorOperations::substractVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2)}
+\DoxyCodeLine{00134\ \{}
+\DoxyCodeLine{00135\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00136\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00137\ \ \ \ \ \{}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00139\ \ \ \ \ \}}
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00141\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00142\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00143\ }
+\DoxyCodeLine{00144\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ -\/\ b;\ \});}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00149\ \}}
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00161\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00162\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{VectorOperations::multiplyVectors}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ std::vector<T>\ \&v2)}
+\DoxyCodeLine{00163\ \{}
+\DoxyCodeLine{00164\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00166\ \ \ \ \ \{}
+\DoxyCodeLine{00167\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00168\ \ \ \ \ \}}
+\DoxyCodeLine{00169\ }
+\DoxyCodeLine{00170\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00171\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00172\ }
+\DoxyCodeLine{00173\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ *\ b;\ \});}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00177\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00178\ \}}
+\DoxyCodeLine{00179\ }
+\DoxyCodeLine{00190\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00191\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a2dea04c0f2381a514658623466279296}{VectorOperations::multiplyVectorByConstant}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ T\ \&c1)}
+\DoxyCodeLine{00192\ \{}
+\DoxyCodeLine{00193\ \ \ \ \ std::vector<T>\ result\ =\ v1;}
+\DoxyCodeLine{00194\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00195\ }
+\DoxyCodeLine{00196\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ result)}
+\DoxyCodeLine{00197\ \ \ \ \ \ \ \ \ val\ *=\ c1;}
+\DoxyCodeLine{00198\ }
+\DoxyCodeLine{00199\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00200\ \}}
+\DoxyCodeLine{00201\ }
+\DoxyCodeLine{00213\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00214\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{VectorOperations::eraseVectorVal}}(\textcolor{keyword}{const}\ std::vector<T>\ \&v1,\ \textcolor{keyword}{const}\ T\ \&k)}
+\DoxyCodeLine{00215\ \{}
+\DoxyCodeLine{00216\ \ \ \ \ \textcolor{comment}{//\ Erase\ column}}
+\DoxyCodeLine{00217\ \ \ \ \ std::vector<T>\ result\ =\ v1;}
+\DoxyCodeLine{00218\ \ \ \ \ result.erase(result.begin()\ +\ k\ -\/\ 1);}
+\DoxyCodeLine{00219\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00220\ \}}
+\DoxyCodeLine{00221\ }
+\DoxyCodeLine{00233\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00234\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1}{VectorOperations::getMatrixRow}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keywordtype}{int}\ rowNumber)}
+\DoxyCodeLine{00235\ \{}
+\DoxyCodeLine{00236\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00237\ \ \ \ \ \textcolor{keywordflow}{if}\ (rowNumber\ >\ matrix.size())}
+\DoxyCodeLine{00238\ \ \ \ \ \{}
+\DoxyCodeLine{00239\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Row\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00240\ \ \ \ \ \}}
+\DoxyCodeLine{00241\ }
+\DoxyCodeLine{00242\ \ \ \ \ \textcolor{keywordflow}{return}\ matrix[rowNumber\ -\/\ 1];}
+\DoxyCodeLine{00243\ \}}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00255\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00256\ std::vector<T>\ \mbox{\hyperlink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{VectorOperations::getMatrixColumn}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keywordtype}{int}\ columnNumber)}
+\DoxyCodeLine{00257\ \{}
+\DoxyCodeLine{00258\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00259\ \ \ \ \ \textcolor{keywordflow}{if}\ (columnNumber\ >\ matrix.size())}
+\DoxyCodeLine{00260\ \ \ \ \ \{}
+\DoxyCodeLine{00261\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Column\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00262\ \ \ \ \ \}}
+\DoxyCodeLine{00263\ }
+\DoxyCodeLine{00264\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00265\ \ \ \ \ result.reserve(matrix.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00266\ }
+\DoxyCodeLine{00267\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ matrix.size();\ i++)}
+\DoxyCodeLine{00268\ \ \ \ \ \ \ \ \ result.push\_back(matrix[i][columnNumber\ -\/\ 1]);}
+\DoxyCodeLine{00269\ }
+\DoxyCodeLine{00270\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00271\ \}}
+\DoxyCodeLine{00272\ }
+\DoxyCodeLine{00283\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00284\ std::vector<std::vector<T>>\ \mbox{\hyperlink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{VectorOperations::eraseMatrixRowAndColumn}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \&eraseNum)}
+\DoxyCodeLine{00285\ \{}
+\DoxyCodeLine{00286\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00287\ \ \ \ \ \textcolor{keywordflow}{if}\ (eraseNum\ >\ matrix.size()\ -\/\ 1)}
+\DoxyCodeLine{00288\ \ \ \ \ \{}
+\DoxyCodeLine{00289\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Erase\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00290\ \ \ \ \ \}}
+\DoxyCodeLine{00291\ }
+\DoxyCodeLine{00292\ \ \ \ \ \textcolor{comment}{//\ Erase\ line}}
+\DoxyCodeLine{00293\ \ \ \ \ std::vector<std::vector<T>>\ result\ =\ matrix;}
+\DoxyCodeLine{00294\ \ \ \ \ result.erase(result.begin()\ +\ eraseNum\ -\/\ 1);}
+\DoxyCodeLine{00295\ }
+\DoxyCodeLine{00296\ \ \ \ \ \textcolor{comment}{//\ Erase\ column}}
+\DoxyCodeLine{00297\ \ \ \ \ \textcolor{keywordflow}{for}\ (std::vector<T>\ \&vect\ :\ result)}
+\DoxyCodeLine{00298\ \ \ \ \ \{}
+\DoxyCodeLine{00299\ \ \ \ \ \ \ \ \ vect.erase(vect.begin()\ +\ eraseNum\ -\/\ 1);}
+\DoxyCodeLine{00300\ \ \ \ \ \}}
+\DoxyCodeLine{00301\ }
+\DoxyCodeLine{00302\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00303\ \}}
+\DoxyCodeLine{00304\ }
+\DoxyCodeLine{00319\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00320\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}{VectorOperations::CalculateNewMatrices}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&A,\ \textcolor{keyword}{const}\ std::vector<T>\ \&b,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \&k,\ \textcolor{keyword}{const}\ T\ x\_k,\ std::vector<std::vector<T>>\ \&A\_new,\ std::vector<T>\ \&b\_new)}
+\DoxyCodeLine{00321\ \{}
+\DoxyCodeLine{00322\ \ \ \ \ \textcolor{comment}{//\ Calculate\ new\ A\ matrix}}
+\DoxyCodeLine{00323\ \ \ \ \ A\_new\ =\ \mbox{\hyperlink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{eraseMatrixRowAndColumn}}(A,\ k);}
+\DoxyCodeLine{00324\ }
+\DoxyCodeLine{00325\ \ \ \ \ \textcolor{comment}{//\ Calculate\ new\ b\ matrix}}
+\DoxyCodeLine{00326\ \ \ \ \ std::vector<T>\ removedColumn\ =\ \mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{eraseVectorVal}}(\mbox{\hyperlink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{getMatrixColumn}}(A,\ k),\ k);}
+\DoxyCodeLine{00327\ \ \ \ \ b\_new\ =\ \mbox{\hyperlink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{substractVectors}}(\mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{eraseVectorVal}}(b,\ k),\ \mbox{\hyperlink{class_vector_operations_a2dea04c0f2381a514658623466279296}{multiplyVectorByConstant}}(removedColumn,\ x\_k));}
+\DoxyCodeLine{00328\ \}}
+\DoxyCodeLine{00329\ }
+\DoxyCodeLine{00336\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00337\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_acf43c52e5e90d662a77c55d3d072152f}{VectorOperations::printMatrix}}(\textcolor{keyword}{const}\ std::vector<std::vector<T>>\ \&matrix)}
+\DoxyCodeLine{00338\ \{}
+\DoxyCodeLine{00339\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&vect\ :\ matrix)}
+\DoxyCodeLine{00340\ \ \ \ \ \{}
+\DoxyCodeLine{00341\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ vect)}
+\DoxyCodeLine{00342\ \ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ val\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{00343\ }
+\DoxyCodeLine{00344\ \ \ \ \ \ \ \ \ std::cout\ <<\ std::endl}
+\DoxyCodeLine{00345\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00346\ \ \ \ \ \}}
+\DoxyCodeLine{00347\ \}}
+\DoxyCodeLine{00348\ }
+\DoxyCodeLine{00355\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00356\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vector_operations_a9a8308cea4762222e4f71842dbc3898e}{VectorOperations::printVector}}(\textcolor{keyword}{const}\ std::vector<T>\ \&vec)}
+\DoxyCodeLine{00357\ \{}
+\DoxyCodeLine{00358\ }
+\DoxyCodeLine{00359\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ vec)}
+\DoxyCodeLine{00360\ \ \ \ \ \ \ \ \ std::cout\ <<\ val\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00361\ \ \ \ \ std::cout\ <<\ std::endl}
+\DoxyCodeLine{00362\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00363\ \}}
+
+\end{DoxyCode}

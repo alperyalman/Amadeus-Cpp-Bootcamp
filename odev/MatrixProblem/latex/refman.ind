@@ -1,0 +1,65 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}VectorOperations}
+    \subitem {VectorOperations}, \hyperpage{6}
+
+  \indexspace
+
+  \item {CalculateNewMatrices}
+    \subitem {VectorOperations}, \hyperpage{6}
+
+  \indexspace
+
+  \item {eraseMatrixRowAndColumn}
+    \subitem {VectorOperations}, \hyperpage{7}
+  \item {eraseVectorVal}
+    \subitem {VectorOperations}, \hyperpage{8}
+
+  \indexspace
+
+  \item {getMatrixColumn}
+    \subitem {VectorOperations}, \hyperpage{8}
+  \item {getMatrixRow}
+    \subitem {VectorOperations}, \hyperpage{9}
+
+  \indexspace
+
+  \item {multiplyVectorByConstant}
+    \subitem {VectorOperations}, \hyperpage{9}
+  \item {multiplyVectors}
+    \subitem {VectorOperations}, \hyperpage{10}
+
+  \indexspace
+
+  \item {printMatrix}
+    \subitem {VectorOperations}, \hyperpage{11}
+  \item {printVector}
+    \subitem {VectorOperations}, \hyperpage{11}
+
+  \indexspace
+
+  \item {src/VectorOperations.h}, \hyperpage{15, 16}
+  \item {substractVectors}
+    \subitem {VectorOperations}, \hyperpage{12}
+  \item {sumVectors}
+    \subitem {VectorOperations}, \hyperpage{12}
+
+  \indexspace
+
+  \item {VectorOperations}, \hyperpage{5}
+    \subitem {\texorpdfstring{$\sim$}{\string~}VectorOperations}, 
+		\hyperpage{6}
+    \subitem {CalculateNewMatrices}, \hyperpage{6}
+    \subitem {eraseMatrixRowAndColumn}, \hyperpage{7}
+    \subitem {eraseVectorVal}, \hyperpage{8}
+    \subitem {getMatrixColumn}, \hyperpage{8}
+    \subitem {getMatrixRow}, \hyperpage{9}
+    \subitem {multiplyVectorByConstant}, \hyperpage{9}
+    \subitem {multiplyVectors}, \hyperpage{10}
+    \subitem {printMatrix}, \hyperpage{11}
+    \subitem {printVector}, \hyperpage{11}
+    \subitem {substractVectors}, \hyperpage{12}
+    \subitem {sumVectors}, \hyperpage{12}
+    \subitem {VectorOperations}, \hyperpage{6}
+
+\end{theindex}

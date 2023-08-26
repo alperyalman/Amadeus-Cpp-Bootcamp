@@ -1,0 +1,560 @@
+\doxysection{Vector\+Operations Class Reference}
+\hypertarget{class_vector_operations}{}\label{class_vector_operations}\index{VectorOperations@{VectorOperations}}
+
+
+Mathematical operations for vectors and matrices created using 2D vectors.  
+
+
+
+
+{\ttfamily \#include $<$Vector\+Operations.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vector_operations_a7ecaaf86b7b14e41170b8d8147231114}{Vector\+Operations}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Vector Operations\+:\+: Vector Operations object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vector_operations_aefbabd7883b6a7d22ff35b8957c532c6}{\texorpdfstring{$\sim$}{\string~}\+Vector\+Operations}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Vector Operations\+:\+: Vector Operations object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b}{sum\+Vectors}} (const std\+::vector$<$ T $>$ \&v1, const std\+::vector$<$ T $>$ \&v2)
+\begin{DoxyCompactList}\small\item\em Get sum of two vectors. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{substract\+Vectors}} (const std\+::vector$<$ T $>$ \&v1, const std\+::vector$<$ T $>$ \&v2)
+\begin{DoxyCompactList}\small\item\em Get substraction of two vectors. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{multiply\+Vectors}} (const std\+::vector$<$ T $>$ \&v1, const std\+::vector$<$ T $>$ \&v2)
+\begin{DoxyCompactList}\small\item\em Get multiplication of two vectors. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_a2dea04c0f2381a514658623466279296}{multiply\+Vector\+By\+Constant}} (const std\+::vector$<$ T $>$ \&v1, const T \&c1)
+\begin{DoxyCompactList}\small\item\em Get multiplication of two vectors. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{erase\+Vector\+Val}} (const std\+::vector$<$ T $>$ \&v1, const T \&c1)
+\begin{DoxyCompactList}\small\item\em Erase specified row in a vector. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1}{get\+Matrix\+Row}} (const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&matrix, int row\+Number)
+\begin{DoxyCompactList}\small\item\em Get specified row in a matrix. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{get\+Matrix\+Column}} (const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&matrix, int column\+Number)
+\begin{DoxyCompactList}\small\item\em Get specified column in a matrix. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \mbox{\hyperlink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{erase\+Matrix\+Row\+And\+Column}} (const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&matrix, const int \&erase\+Num)
+\begin{DoxyCompactList}\small\item\em Erase the specified row and column from the matrix. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}{Calculate\+New\+Matrices}} (const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&A, const std\+::vector$<$ T $>$ \&b, const int \&k, const T x\+\_\+k, std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&A\+\_\+new, std\+::vector$<$ T $>$ \&b\+\_\+new)
+\begin{DoxyCompactList}\small\item\em \doxylink{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}{Calculate\+New\+Matrices()} function takes the (nxn) and (nx1) input matrices A and b, and calculates (n-\/1)x(n-\/1) and (n-\/1)x1 output matrices, A\+\_\+new and b\+\_\+new. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{class_vector_operations_acf43c52e5e90d662a77c55d3d072152f}{print\+Matrix}} (const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Print matrix elements. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{class_vector_operations_a9a8308cea4762222e4f71842dbc3898e}{print\+Vector}} (const std\+::vector$<$ T $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em Print vector elements. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Mathematical operations for vectors and matrices created using 2D vectors. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vector_operations_a7ecaaf86b7b14e41170b8d8147231114}\label{class_vector_operations_a7ecaaf86b7b14e41170b8d8147231114} 
+\index{VectorOperations@{VectorOperations}!VectorOperations@{VectorOperations}}
+\index{VectorOperations@{VectorOperations}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{VectorOperations()}{VectorOperations()}}
+{\footnotesize\ttfamily Vector\+Operations\+::\+Vector\+Operations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new Vector Operations\+:\+: Vector Operations object. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00081\ \{}
+\DoxyCodeLine{00082\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_aefbabd7883b6a7d22ff35b8957c532c6}\label{class_vector_operations_aefbabd7883b6a7d22ff35b8957c532c6} 
+\index{VectorOperations@{VectorOperations}!````~VectorOperations@{\texorpdfstring{$\sim$}{\string~}VectorOperations}}
+\index{````~VectorOperations@{\texorpdfstring{$\sim$}{\string~}VectorOperations}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}VectorOperations()}{\string~VectorOperations()}}
+{\footnotesize\ttfamily Vector\+Operations\+::\texorpdfstring{$\sim$}{\string~}\+Vector\+Operations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Vector Operations\+:\+: Vector Operations object. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00090\ \{}
+\DoxyCodeLine{00091\ \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}\label{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3} 
+\index{VectorOperations@{VectorOperations}!CalculateNewMatrices@{CalculateNewMatrices}}
+\index{CalculateNewMatrices@{CalculateNewMatrices}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{CalculateNewMatrices()}{CalculateNewMatrices()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Vector\+Operations\+::\+Calculate\+New\+Matrices (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{A,  }\item[{const std\+::vector$<$ T $>$ \&}]{b,  }\item[{const int \&}]{k,  }\item[{const T}]{x\+\_\+k,  }\item[{std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{A\+\_\+new,  }\item[{std\+::vector$<$ T $>$ \&}]{b\+\_\+new }\end{DoxyParamCaption})}
+
+
+
+\doxylink{class_vector_operations_a95055c9a91c3d6c88098a68c69fff6b3}{Calculate\+New\+Matrices()} function takes the (nxn) and (nx1) input matrices A and b, and calculates (n-\/1)x(n-\/1) and (n-\/1)x1 output matrices, A\+\_\+new and b\+\_\+new. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em A} & (nxn) Input matrix A \\
+\hline
+{\em b} & (nx1) Input matrix b \\
+\hline
+{\em k} & Row and column number to be deleted \\
+\hline
+{\em x\+\_\+k} & Known x\+\_\+k value \\
+\hline
+{\em A\+\_\+new} & (n-\/1)x(n-\/1) output matrix A\+\_\+new \\
+\hline
+{\em b\+\_\+new} & (n-\/1)x1 output matrix b\+\_\+new \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00321\ \{}
+\DoxyCodeLine{00322\ \ \ \ \ \textcolor{comment}{//\ Calculate\ new\ A\ matrix}}
+\DoxyCodeLine{00323\ \ \ \ \ A\_new\ =\ \mbox{\hyperlink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{eraseMatrixRowAndColumn}}(A,\ k);}
+\DoxyCodeLine{00324\ }
+\DoxyCodeLine{00325\ \ \ \ \ \textcolor{comment}{//\ Calculate\ new\ b\ matrix}}
+\DoxyCodeLine{00326\ \ \ \ \ std::vector<T>\ removedColumn\ =\ \mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{eraseVectorVal}}(\mbox{\hyperlink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{getMatrixColumn}}(A,\ k),\ k);}
+\DoxyCodeLine{00327\ \ \ \ \ b\_new\ =\ \mbox{\hyperlink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{substractVectors}}(\mbox{\hyperlink{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}{eraseVectorVal}}(b,\ k),\ \mbox{\hyperlink{class_vector_operations_a2dea04c0f2381a514658623466279296}{multiplyVectorByConstant}}(removedColumn,\ x\_k));}
+\DoxyCodeLine{00328\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}\label{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1} 
+\index{VectorOperations@{VectorOperations}!eraseMatrixRowAndColumn@{eraseMatrixRowAndColumn}}
+\index{eraseMatrixRowAndColumn@{eraseMatrixRowAndColumn}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{eraseMatrixRowAndColumn()}{eraseMatrixRowAndColumn()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ std\+::vector$<$ T $>$ $>$ Vector\+Operations\+::erase\+Matrix\+Row\+And\+Column (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{matrix,  }\item[{const int \&}]{erase\+Num }\end{DoxyParamCaption})}
+
+
+
+Erase the specified row and column from the matrix. 
+
+\doxylink{class_vector_operations_a110ea8ded98b62a0f9bfbc7d0c324ad1}{erase\+Matrix\+Row\+And\+Column()} erases specified column and row from the (nxn) input matrix and returns (n-\/1)x(n-\/1) matrix.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Input Matrix \\
+\hline
+{\em erase\+Num} & Column and row number to be erased \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$\+T$>$$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00285\ \{}
+\DoxyCodeLine{00286\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00287\ \ \ \ \ \textcolor{keywordflow}{if}\ (eraseNum\ >\ matrix.size()\ -\/\ 1)}
+\DoxyCodeLine{00288\ \ \ \ \ \{}
+\DoxyCodeLine{00289\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Erase\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00290\ \ \ \ \ \}}
+\DoxyCodeLine{00291\ }
+\DoxyCodeLine{00292\ \ \ \ \ \textcolor{comment}{//\ Erase\ line}}
+\DoxyCodeLine{00293\ \ \ \ \ std::vector<std::vector<T>>\ result\ =\ matrix;}
+\DoxyCodeLine{00294\ \ \ \ \ result.erase(result.begin()\ +\ eraseNum\ -\/\ 1);}
+\DoxyCodeLine{00295\ }
+\DoxyCodeLine{00296\ \ \ \ \ \textcolor{comment}{//\ Erase\ column}}
+\DoxyCodeLine{00297\ \ \ \ \ \textcolor{keywordflow}{for}\ (std::vector<T>\ \&vect\ :\ result)}
+\DoxyCodeLine{00298\ \ \ \ \ \{}
+\DoxyCodeLine{00299\ \ \ \ \ \ \ \ \ vect.erase(vect.begin()\ +\ eraseNum\ -\/\ 1);}
+\DoxyCodeLine{00300\ \ \ \ \ \}}
+\DoxyCodeLine{00301\ }
+\DoxyCodeLine{00302\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00303\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f}\label{class_vector_operations_a9c214d055035d69c59dac0dd0346b83f} 
+\index{VectorOperations@{VectorOperations}!eraseVectorVal@{eraseVectorVal}}
+\index{eraseVectorVal@{eraseVectorVal}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{eraseVectorVal()}{eraseVectorVal()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::erase\+Vector\+Val (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{v1,  }\item[{const T \&}]{k }\end{DoxyParamCaption})}
+
+
+
+Erase specified row in a vector. 
+
+\doxylink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{multiply\+Vectors()} function erases specified row from the input vector and returns the result.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & Vector 1 \\
+\hline
+{\em k} & Row number to be deleted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00215\ \{}
+\DoxyCodeLine{00216\ \ \ \ \ \textcolor{comment}{//\ Erase\ column}}
+\DoxyCodeLine{00217\ \ \ \ \ std::vector<T>\ result\ =\ v1;}
+\DoxyCodeLine{00218\ \ \ \ \ result.erase(result.begin()\ +\ k\ -\/\ 1);}
+\DoxyCodeLine{00219\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00220\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}\label{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d} 
+\index{VectorOperations@{VectorOperations}!getMatrixColumn@{getMatrixColumn}}
+\index{getMatrixColumn@{getMatrixColumn}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{getMatrixColumn()}{getMatrixColumn()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::get\+Matrix\+Column (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{matrix,  }\item[{int}]{column\+Number }\end{DoxyParamCaption})}
+
+
+
+Get specified column in a matrix. 
+
+\doxylink{class_vector_operations_aa2456bbfffd25af5904b586f0f5ce16d}{get\+Matrix\+Column()} function returns specified column of the input matrix.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & \\
+\hline
+{\em column\+Number} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00257\ \{}
+\DoxyCodeLine{00258\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00259\ \ \ \ \ \textcolor{keywordflow}{if}\ (columnNumber\ >\ matrix.size())}
+\DoxyCodeLine{00260\ \ \ \ \ \{}
+\DoxyCodeLine{00261\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Column\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00262\ \ \ \ \ \}}
+\DoxyCodeLine{00263\ }
+\DoxyCodeLine{00264\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00265\ \ \ \ \ result.reserve(matrix.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00266\ }
+\DoxyCodeLine{00267\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ matrix.size();\ i++)}
+\DoxyCodeLine{00268\ \ \ \ \ \ \ \ \ result.push\_back(matrix[i][columnNumber\ -\/\ 1]);}
+\DoxyCodeLine{00269\ }
+\DoxyCodeLine{00270\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00271\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1}\label{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1} 
+\index{VectorOperations@{VectorOperations}!getMatrixRow@{getMatrixRow}}
+\index{getMatrixRow@{getMatrixRow}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{getMatrixRow()}{getMatrixRow()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::get\+Matrix\+Row (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{matrix,  }\item[{int}]{row\+Number }\end{DoxyParamCaption})}
+
+
+
+Get specified row in a matrix. 
+
+\doxylink{class_vector_operations_ad2063f4aecc06cd8e8bd6e120ed08ab1}{get\+Matrix\+Row()} function returns specified row of the input matrix.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Input matrix \\
+\hline
+{\em row\+Number} & Row number to be deleted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00235\ \{}
+\DoxyCodeLine{00236\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00237\ \ \ \ \ \textcolor{keywordflow}{if}\ (rowNumber\ >\ matrix.size())}
+\DoxyCodeLine{00238\ \ \ \ \ \{}
+\DoxyCodeLine{00239\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Row\ number\ exceeds\ the\ size."{}});}
+\DoxyCodeLine{00240\ \ \ \ \ \}}
+\DoxyCodeLine{00241\ }
+\DoxyCodeLine{00242\ \ \ \ \ \textcolor{keywordflow}{return}\ matrix[rowNumber\ -\/\ 1];}
+\DoxyCodeLine{00243\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a2dea04c0f2381a514658623466279296}\label{class_vector_operations_a2dea04c0f2381a514658623466279296} 
+\index{VectorOperations@{VectorOperations}!multiplyVectorByConstant@{multiplyVectorByConstant}}
+\index{multiplyVectorByConstant@{multiplyVectorByConstant}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{multiplyVectorByConstant()}{multiplyVectorByConstant()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::multiply\+Vector\+By\+Constant (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{v1,  }\item[{const T \&}]{c1 }\end{DoxyParamCaption})}
+
+
+
+Get multiplication of two vectors. 
+
+\doxylink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{multiply\+Vectors()} function multiplies a vector by a constant number, and returns the result\+: v1\texorpdfstring{$\ast$}{*}c1
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & Vector 1 \\
+\hline
+{\em c1} & Constant value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00192\ \{}
+\DoxyCodeLine{00193\ \ \ \ \ std::vector<T>\ result\ =\ v1;}
+\DoxyCodeLine{00194\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00195\ }
+\DoxyCodeLine{00196\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ result)}
+\DoxyCodeLine{00197\ \ \ \ \ \ \ \ \ val\ *=\ c1;}
+\DoxyCodeLine{00198\ }
+\DoxyCodeLine{00199\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00200\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}\label{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885} 
+\index{VectorOperations@{VectorOperations}!multiplyVectors@{multiplyVectors}}
+\index{multiplyVectors@{multiplyVectors}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{multiplyVectors()}{multiplyVectors()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::multiply\+Vectors (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{v1,  }\item[{const std\+::vector$<$ T $>$ \&}]{v2 }\end{DoxyParamCaption})}
+
+
+
+Get multiplication of two vectors. 
+
+\doxylink{class_vector_operations_a5a2b2de3d08c09a83e3f69216f9c7885}{multiply\+Vectors()} function returns multiplication of two vectors\+: v1\texorpdfstring{$\ast$}{*}v2
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & Vector 1 \\
+\hline
+{\em v2} & Vector 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00163\ \{}
+\DoxyCodeLine{00164\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00166\ \ \ \ \ \{}
+\DoxyCodeLine{00167\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00168\ \ \ \ \ \}}
+\DoxyCodeLine{00169\ }
+\DoxyCodeLine{00170\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00171\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00172\ }
+\DoxyCodeLine{00173\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ *\ b;\ \});}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00177\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00178\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_acf43c52e5e90d662a77c55d3d072152f}\label{class_vector_operations_acf43c52e5e90d662a77c55d3d072152f} 
+\index{VectorOperations@{VectorOperations}!printMatrix@{printMatrix}}
+\index{printMatrix@{printMatrix}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{printMatrix()}{printMatrix()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Vector\+Operations\+::print\+Matrix (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ T $>$ $>$ \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Print matrix elements. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Input matrix \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00338\ \{}
+\DoxyCodeLine{00339\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&vect\ :\ matrix)}
+\DoxyCodeLine{00340\ \ \ \ \ \{}
+\DoxyCodeLine{00341\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ vect)}
+\DoxyCodeLine{00342\ \ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ val\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{00343\ }
+\DoxyCodeLine{00344\ \ \ \ \ \ \ \ \ std::cout\ <<\ std::endl}
+\DoxyCodeLine{00345\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00346\ \ \ \ \ \}}
+\DoxyCodeLine{00347\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a9a8308cea4762222e4f71842dbc3898e}\label{class_vector_operations_a9a8308cea4762222e4f71842dbc3898e} 
+\index{VectorOperations@{VectorOperations}!printVector@{printVector}}
+\index{printVector@{printVector}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{printVector()}{printVector()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Vector\+Operations\+::print\+Vector (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{vec }\end{DoxyParamCaption})}
+
+
+
+Print vector elements. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & Input vector \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00357\ \{}
+\DoxyCodeLine{00358\ }
+\DoxyCodeLine{00359\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ \&val\ :\ vec)}
+\DoxyCodeLine{00360\ \ \ \ \ \ \ \ \ std::cout\ <<\ val\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{00361\ \ \ \ \ std::cout\ <<\ std::endl}
+\DoxyCodeLine{00362\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <<\ std::endl;}
+\DoxyCodeLine{00363\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_ad70e401583c7cf156022dc116993679e}\label{class_vector_operations_ad70e401583c7cf156022dc116993679e} 
+\index{VectorOperations@{VectorOperations}!substractVectors@{substractVectors}}
+\index{substractVectors@{substractVectors}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{substractVectors()}{substractVectors()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::substract\+Vectors (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{v1,  }\item[{const std\+::vector$<$ T $>$ \&}]{v2 }\end{DoxyParamCaption})}
+
+
+
+Get substraction of two vectors. 
+
+\doxylink{class_vector_operations_ad70e401583c7cf156022dc116993679e}{substract\+Vectors()} function returns substraction of two vectors\+: v1 -\/ v2
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data Type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & Vector 1 \\
+\hline
+{\em v2} & Vector 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00134\ \{}
+\DoxyCodeLine{00135\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00136\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00137\ \ \ \ \ \{}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00139\ \ \ \ \ \}}
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00141\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00142\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00143\ }
+\DoxyCodeLine{00144\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ -\/\ b;\ \});}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00149\ \}}
+
+\end{DoxyCode}
+\Hypertarget{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b}\label{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b} 
+\index{VectorOperations@{VectorOperations}!sumVectors@{sumVectors}}
+\index{sumVectors@{sumVectors}!VectorOperations@{VectorOperations}}
+\doxysubsubsection{\texorpdfstring{sumVectors()}{sumVectors()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::vector$<$ T $>$ Vector\+Operations\+::sum\+Vectors (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ T $>$ \&}]{v1,  }\item[{const std\+::vector$<$ T $>$ \&}]{v2 }\end{DoxyParamCaption})}
+
+
+
+Get sum of two vectors. 
+
+\doxylink{class_vector_operations_a5fbc2f8b25d7e97dac57abcbc55c208b}{sum\+Vectors()} function returns sum of two vectors\+: v1 + v2
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Data type \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em v1} & Vector 1 \\
+\hline
+{\em v2} & Vector 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+T$>$ 
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00105\ \{}
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{comment}{//\ Make\ sure\ both\ vectors\ are\ of\ the\ same\ size}}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordflow}{if}\ (v1.size()\ !=\ v2.size())}
+\DoxyCodeLine{00108\ \ \ \ \ \{}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Vector\ sizes\ must\ be\ equal."{}});}
+\DoxyCodeLine{00110\ \ \ \ \ \}}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \ \ \ \ std::vector<T>\ result;}
+\DoxyCodeLine{00113\ \ \ \ \ result.reserve(v1.size());\ \textcolor{comment}{//\ Reserve\ space\ to\ avoid\ reallocations}}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ \ \ \ \ std::transform(v1.begin(),\ v1.end(),\ v2.begin(),\ std::back\_inserter(result),}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [](T\ a,\ T\ b)}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{\ return\ a\ +\ b;\ \});}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00120\ \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_vector_operations_8h}{Vector\+Operations.\+h}}\end{DoxyCompactItemize}
